@@ -1,0 +1,10 @@
+{
+  "total_restaurants": 20,
+  "total_items": 400,
+  "model": "gemini-3.5-flash-lite",
+  "items_per_menu_min": 20,
+  "items_per_menu_max": 20,
+  "missing_descriptions": 70,
+  "uppercase_item_names": 10,
+  "likely_ambiguous_item_names": 44
+}
