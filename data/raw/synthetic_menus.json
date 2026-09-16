@@ -1,6 +1,7 @@
 [
   {
     "restaurant": "Bombay Street Bites & Chai",
+    "cuisine": "Indian",
     "items": [
       {
         "item_name": "samosa",
@@ -106,6 +107,7 @@
   },
   {
     "restaurant": "Royal Tandoori & Curry House",
+    "cuisine": "Indian",
     "items": [
       {
         "item_name": "GARLIC NAAN",
@@ -169,7 +171,7 @@
       },
       {
         "item_name": "Aloo Gobi",
-        "description": "potatoes & cauliflower saut\u00e9ed w/ turmeric & ginger",
+        "description": "potatoes & cauliflower sautéed w/ turmeric & ginger",
         "price": 12.99
       },
       {
@@ -211,6 +213,7 @@
   },
   {
     "restaurant": "El Agave Loco Taqueria",
+    "cuisine": "Mexican",
     "items": [
       {
         "item_name": "street taco",
@@ -316,6 +319,7 @@
   },
   {
     "restaurant": "Baja Fusion & Cantina",
+    "cuisine": "Mexican",
     "items": [
       {
         "item_name": "Korean BBQ Tacos",
@@ -339,7 +343,7 @@
       },
       {
         "item_name": "Loaded Nachos",
-        "description": "queso blanco, jalape\u00f1os, black beans, pico, crema",
+        "description": "queso blanco, jalapeños, black beans, pico, crema",
         "price": 10.5
       },
       {
@@ -421,6 +425,7 @@
   },
   {
     "restaurant": "Bangkok Nights Thai Kitchen",
+    "cuisine": "Thai",
     "items": [
       {
         "item_name": "pad thai",
@@ -526,6 +531,7 @@
   },
   {
     "restaurant": "Siam Corner Express",
+    "cuisine": "Thai",
     "items": [
       {
         "item_name": "Pad See Ew",
@@ -594,7 +600,7 @@
       },
       {
         "item_name": "Cashew Nut Stir-Fry",
-        "description": "saut\u00e9ed w/ bell peppers, onions, water chestnuts, chili jam",
+        "description": "sautéed w/ bell peppers, onions, water chestnuts, chili jam",
         "price": 15.0
       },
       {
@@ -631,6 +637,7 @@
   },
   {
     "restaurant": "Tokyo Drift Ramen & Izakaya",
+    "cuisine": "Japanese",
     "items": [
       {
         "item_name": "tonkotsu",
@@ -736,6 +743,7 @@
   },
   {
     "restaurant": "Sakura Sushi & Bento Box",
+    "cuisine": "Japanese",
     "items": [
       {
         "item_name": "miso soup",
@@ -841,6 +849,7 @@
   },
   {
     "restaurant": "Grand Dragon Dim Sum & Seafood",
+    "cuisine": "Chinese",
     "items": [
       {
         "item_name": "steamed pork siu mai",
@@ -946,6 +955,7 @@
   },
   {
     "restaurant": "Red Lantern Szechuan House",
+    "cuisine": "Chinese",
     "items": [
       {
         "item_name": "mapo tofu",
@@ -1051,6 +1061,7 @@
   },
   {
     "restaurant": "Bella Napoli Ristorante",
+    "cuisine": "Italian",
     "items": [
       {
         "item_name": "Garlic bread",
@@ -1156,6 +1167,7 @@
   },
   {
     "restaurant": "Trattoria Della Nonna",
+    "cuisine": "Italian",
     "items": [
       {
         "item_name": "Arancini",
@@ -1261,6 +1273,7 @@
   },
   {
     "restaurant": "Zaytouna Grill & Wrap",
+    "cuisine": "Mediterranean",
     "items": [
       {
         "item_name": "chix shwarma wrap",
@@ -1366,6 +1379,7 @@
   },
   {
     "restaurant": "Aegean Blue Tavern",
+    "cuisine": "Mediterranean",
     "items": [
       {
         "item_name": "Spanakopita",
@@ -1471,6 +1485,7 @@
   },
   {
     "restaurant": "Greasy Spoon Diner",
+    "cuisine": "American diner",
     "items": [
       {
         "item_name": "Eggz n Toast",
@@ -1576,6 +1591,7 @@
   },
   {
     "restaurant": "Highway 66 Diner",
+    "cuisine": "American diner",
     "items": [
       {
         "item_name": "BIG BREAKFAST",
@@ -1681,6 +1697,7 @@
   },
   {
     "restaurant": "SeoulMate Urban Pocha",
+    "cuisine": "Korean",
     "items": [
       {
         "item_name": "Kimchi Fried Rice",
@@ -1786,6 +1803,7 @@
   },
   {
     "restaurant": "Han River BBQ & Grille",
+    "cuisine": "Korean",
     "items": [
       {
         "item_name": "Galbi",
@@ -1891,6 +1909,7 @@
   },
   {
     "restaurant": "Al-Amir Shawarma & Bakery",
+    "cuisine": "Middle Eastern",
     "items": [
       {
         "item_name": "Beef Shawarma wrap",
@@ -1996,6 +2015,7 @@
   },
   {
     "restaurant": "Babylon Kebab & Falafel",
+    "cuisine": "Middle Eastern",
     "items": [
       {
         "item_name": "Chicken Kebab plate",

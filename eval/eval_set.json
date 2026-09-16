@@ -1,5 +1,30 @@
 [
   {
+    "item_id": "r001_i001",
+    "restaurant_id": "r001",
+    "restaurant": "Bombay Street Bites & Chai",
+    "raw_item_index": 0,
+    "item_name": "samosa",
+    "description": "crispy pastry stuffed w/ potatoes & peas",
+    "price": 5.99,
+    "source_cuisine": "Indian",
+    "normalized_name": "Samosa",
+    "normalized_description": "Crispy pastry stuffed with potatoes and peas.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Indian"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "pastry",
+      "potatoes",
+      "peas"
+    ]
+  },
+  {
     "item_id": "r001_i004",
     "restaurant_id": "r001",
     "restaurant": "Bombay Street Bites & Chai",
@@ -9,178 +34,155 @@
     "price": 14.5,
     "source_cuisine": "Indian",
     "normalized_name": "Chicken Tikka Pizza",
+    "normalized_description": "Fusion crust topped with makhani sauce, chicken chunks, and mozzarella cheese.",
     "category": "Pizza",
     "cuisine_tags": [
       "Indian",
-      "Italian",
       "Fusion"
     ],
     "dietary_tags": [
       "contains_dairy",
-      "contains_meat",
-      "spicy"
+      "contains_meat"
     ],
     "ingredients": [
-      "chicken",
+      "pizza crust",
       "makhani sauce",
-      "mozzarella",
-      "pizza crust"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chicken",
+      "mozzarella"
+    ]
   },
   {
-    "item_id": "r001_i007",
+    "item_id": "r001_i008",
     "restaurant_id": "r001",
     "restaurant": "Bombay Street Bites & Chai",
-    "raw_item_index": 6,
-    "item_name": "Chole Bhature",
-    "description": "",
-    "price": 11.0,
+    "raw_item_index": 7,
+    "item_name": "Bombay Sandwich",
+    "description": "green chutney, potato, cucumber, beets & cheese",
+    "price": 8.5,
     "source_cuisine": "Indian",
-    "normalized_name": "Chole Bhature",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Indian"
-    ],
-    "dietary_tags": [
-      "vegetarian"
-    ],
-    "ingredients": [
-      "chickpeas",
-      "flour",
-      "spices"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r001_i010",
-    "restaurant_id": "r001",
-    "restaurant": "Bombay Street Bites & Chai",
-    "raw_item_index": 9,
-    "item_name": "Masala Fries",
-    "description": "crispy fries tossed in chat masala",
-    "price": 5.0,
-    "source_cuisine": "Indian",
-    "normalized_name": "Masala Fries",
-    "category": "Appetizer",
+    "normalized_name": "Bombay Sandwich",
+    "normalized_description": "A classic layered sandwich featuring green chutney, potato, cucumber, beets, and cheese.",
+    "category": "Sandwich",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
       "vegetarian",
-      "spicy"
+      "contains_dairy"
     ],
     "ingredients": [
-      "chat masala",
-      "oil",
-      "potatoes"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "bread",
+      "green chutney",
+      "potato",
+      "cucumber",
+      "beets",
+      "cheese"
+    ]
   },
   {
-    "item_id": "r001_i011",
+    "item_id": "r001_i009",
     "restaurant_id": "r001",
     "restaurant": "Bombay Street Bites & Chai",
-    "raw_item_index": 10,
-    "item_name": "Chef's Special",
-    "description": "ask counter for today's secret street creation",
-    "price": 13.99,
+    "raw_item_index": 8,
+    "item_name": "Paneer Roll",
+    "description": "wrapped in paratha w/ onions and mint sauce",
+    "price": 9.25,
     "source_cuisine": "Indian",
-    "normalized_name": "Chef's Special",
-    "category": "Entree",
+    "normalized_name": "Paneer Roll",
+    "normalized_description": "Paneer wrapped in paratha with onions and mint sauce.",
+    "category": "Sandwich",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
-      "unknown"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
-  },
-  {
-    "item_id": "r001_i013",
-    "restaurant_id": "r001",
-    "restaurant": "Bombay Street Bites & Chai",
-    "raw_item_index": 12,
-    "item_name": "Sev Puri",
-    "description": "",
-    "price": 6.75,
-    "source_cuisine": "Indian",
-    "normalized_name": "Sev Puri",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Indian"
-    ],
-    "dietary_tags": [
-      "vegetarian"
-    ],
-    "ingredients": [
-      "chutney",
+      "paneer",
+      "paratha",
       "onions",
-      "potatoes",
-      "puri",
-      "sev"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "mint sauce"
+    ]
   },
   {
-    "item_id": "r002_i001",
+    "item_id": "r001_i017",
+    "restaurant_id": "r001",
+    "restaurant": "Bombay Street Bites & Chai",
+    "raw_item_index": 16,
+    "item_name": "Rose Falooda",
+    "description": "vermicelli, rose syrup, basil seeds, ice cream",
+    "price": 6.99,
+    "source_cuisine": "Indian",
+    "normalized_name": "Rose Falooda",
+    "normalized_description": "A sweet dessert beverage made with vermicelli, rose syrup, basil seeds, and ice cream.",
+    "category": "Dessert",
+    "cuisine_tags": [
+      "Indian"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "contains_dairy",
+      "contains_nuts"
+    ],
+    "ingredients": [
+      "vermicelli",
+      "rose syrup",
+      "basil seeds",
+      "ice cream"
+    ]
+  },
+  {
+    "item_id": "r002_i003",
     "restaurant_id": "r002",
     "restaurant": "Royal Tandoori & Curry House",
-    "raw_item_index": 0,
-    "item_name": "GARLIC NAAN",
-    "description": "tandoor baked flatbread topped w/ garlic & cilantro",
-    "price": 3.99,
+    "raw_item_index": 2,
+    "item_name": "Chicken Tikka Masala",
+    "description": "grilled chkn chunks in rich tomato cream sauce",
+    "price": 16.99,
     "source_cuisine": "Indian",
-    "normalized_name": "Garlic Naan",
-    "category": "Appetizer",
+    "normalized_name": "Chicken Tikka Masala",
+    "normalized_description": "Grilled chicken chunks simmered in a rich tomato cream sauce.",
+    "category": "Curry",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
       "contains_dairy",
-      "vegetarian"
+      "contains_meat"
     ],
     "ingredients": [
-      "butter",
-      "cilantro",
-      "flour",
-      "garlic"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chicken",
+      "tomato",
+      "cream",
+      "spices"
+    ]
   },
   {
-    "item_id": "r002_i002",
+    "item_id": "r002_i004",
     "restaurant_id": "r002",
     "restaurant": "Royal Tandoori & Curry House",
-    "raw_item_index": 1,
-    "item_name": "Plain Naan",
-    "description": "",
-    "price": 2.99,
+    "raw_item_index": 3,
+    "item_name": "Butter Chicken",
+    "description": "tender dark meat in velvety makhani gravy",
+    "price": 17.5,
     "source_cuisine": "Indian",
-    "normalized_name": "Plain Naan",
-    "category": "Appetizer",
+    "normalized_name": "Butter Chicken",
+    "normalized_description": "Tender dark meat chicken in a velvety makhani gravy.",
+    "category": "Curry",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
       "contains_dairy",
-      "vegetarian"
+      "contains_meat"
     ],
     "ingredients": [
+      "chicken",
       "butter",
-      "flour"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "tomato",
+      "cream"
+    ]
   },
   {
     "item_id": "r002_i005",
@@ -192,74 +194,100 @@
     "price": 13.99,
     "source_cuisine": "Indian",
     "normalized_name": "Dal Makhani",
+    "normalized_description": "Slow-cooked black lentils prepared with butter and cream.",
     "category": "Curry",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
       "black lentils",
       "butter",
-      "cream",
-      "spices"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "cream"
+    ]
   },
   {
-    "item_id": "r002_i011",
+    "item_id": "r002_i014",
     "restaurant_id": "r002",
     "restaurant": "Royal Tandoori & Curry House",
-    "raw_item_index": 10,
-    "item_name": "Combo Plate",
-    "description": "chef choice of 2 curries, rice, naan & dessert",
-    "price": 21.99,
+    "raw_item_index": 13,
+    "item_name": "Malai Kofta",
+    "description": "",
+    "price": 14.25,
     "source_cuisine": "Indian",
-    "normalized_name": "Combo Plate",
-    "category": "Entree",
+    "normalized_name": "Malai Kofta",
+    "normalized_description": "Vegetable and paneer dumplings served in a rich, creamy sauce.",
+    "category": "Curry",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
+      "vegetarian",
       "contains_dairy",
-      "vegetarian"
+      "contains_nuts"
     ],
     "ingredients": [
-      "curry",
-      "dessert",
-      "naan",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "paneer",
+      "potatoes",
+      "cream",
+      "cashews",
+      "vegetables"
+    ]
   },
   {
-    "item_id": "r002_i017",
+    "item_id": "r002_i018",
     "restaurant_id": "r002",
     "restaurant": "Royal Tandoori & Curry House",
-    "raw_item_index": 16,
-    "item_name": "House Bowl",
-    "description": "rice topped w/ choice of curry & salad",
-    "price": 12.99,
+    "raw_item_index": 17,
+    "item_name": "Samosa Chaat",
+    "description": "crushed samosa topped w/ chole, yogurt & chutneys",
+    "price": 8.99,
     "source_cuisine": "Indian",
-    "normalized_name": "House Bowl",
-    "category": "Bowl",
+    "normalized_name": "Samosa Chaat",
+    "normalized_description": "Crushed samosa topped with chole, yogurt, and chutneys.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Indian"
     ],
     "dietary_tags": [
-      "vegetarian"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "curry",
-      "rice",
-      "salad"
+      "samosa",
+      "chickpeas",
+      "yogurt",
+      "chutneys"
+    ]
+  },
+  {
+    "item_id": "r003_i001",
+    "restaurant_id": "r003",
+    "restaurant": "El Agave Loco Taqueria",
+    "raw_item_index": 0,
+    "item_name": "street taco",
+    "description": "choice of meat, onions, cilantro, fresh corn tortilla",
+    "price": 3.25,
+    "source_cuisine": "Mexican",
+    "normalized_name": "Street Taco",
+    "normalized_description": "Choice of meat with onions and cilantro served on a fresh corn tortilla.",
+    "category": "Taco",
+    "cuisine_tags": [
+      "Mexican"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "gluten_free",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "tortilla",
+      "meat",
+      "onions",
+      "cilantro"
+    ]
   },
   {
     "item_id": "r003_i002",
@@ -271,7 +299,8 @@
     "price": 11.5,
     "source_cuisine": "Mexican",
     "normalized_name": "Carne Asada Burrito",
-    "category": "Sandwich",
+    "normalized_description": "A flour tortilla stuffed with grilled carne asada, rice, beans, and traditional toppings.",
+    "category": "Entree",
     "cuisine_tags": [
       "Mexican"
     ],
@@ -279,13 +308,61 @@
       "contains_meat"
     ],
     "ingredients": [
-      "beans",
+      "tortilla",
+      "carne asada",
       "rice",
-      "steak",
-      "tortilla"
+      "beans"
+    ]
+  },
+  {
+    "item_id": "r003_i003",
+    "restaurant_id": "r003",
+    "restaurant": "El Agave Loco Taqueria",
+    "raw_item_index": 2,
+    "item_name": "Quesabirria Plate",
+    "description": "3 cheesy birria tacos w/ consome for dippin'",
+    "price": 14.99,
+    "source_cuisine": "Mexican",
+    "normalized_name": "Quesabirria Plate",
+    "normalized_description": "Three cheesy birria tacos served with consomle for dipping.",
+    "category": "Taco",
+    "cuisine_tags": [
+      "Mexican"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "contains_dairy",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "tortilla",
+      "beef",
+      "cheese",
+      "consome"
+    ]
+  },
+  {
+    "item_id": "r003_i007",
+    "restaurant_id": "r003",
+    "restaurant": "El Agave Loco Taqueria",
+    "raw_item_index": 6,
+    "item_name": "fish taco",
+    "description": "battered cod, chipotle slaw, pico",
+    "price": 4.5,
+    "source_cuisine": "Mexican",
+    "normalized_name": "Fish Taco",
+    "normalized_description": "Battered cod topped with chipotle slaw and pico de gallo.",
+    "category": "Taco",
+    "cuisine_tags": [
+      "Mexican"
+    ],
+    "dietary_tags": [],
+    "ingredients": [
+      "tortilla",
+      "cod",
+      "cabbage",
+      "chipotle",
+      "pico de gallo"
+    ]
   },
   {
     "item_id": "r003_i008",
@@ -297,118 +374,65 @@
     "price": 5.25,
     "source_cuisine": "Mexican",
     "normalized_name": "Elote",
+    "normalized_description": "Street corn off the cob seasoned with mayo, cotija cheese, and chili powder.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Mexican"
     ],
     "dietary_tags": [
-      "contains_dairy",
       "vegetarian",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "corn",
+      "mayo",
+      "cotija cheese",
+      "chili powder"
+    ]
+  },
+  {
+    "item_id": "r004_i001",
+    "restaurant_id": "r004",
+    "restaurant": "Baja Fusion & Cantina",
+    "raw_item_index": 0,
+    "item_name": "Korean BBQ Tacos",
+    "description": "bulgogi beef, kimchi slaw, sriracha crema on corn",
+    "price": 12.99,
+    "source_cuisine": "Mexican",
+    "normalized_name": "Korean BBQ Tacos",
+    "normalized_description": "Bulgogi beef, kimchi slaw, and sriracha crema served on corn tortillas.",
+    "category": "Taco",
+    "cuisine_tags": [
+      "Mexican",
+      "Korean",
+      "Fusion"
+    ],
+    "dietary_tags": [
+      "contains_dairy",
+      "contains_meat",
       "spicy"
     ],
     "ingredients": [
-      "chili powder",
-      "corn",
-      "cotija cheese",
-      "mayo"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "tortilla",
+      "beef",
+      "kimchi",
+      "sriracha",
+      "crema"
+    ]
   },
   {
-    "item_id": "r003_i009",
-    "restaurant_id": "r003",
-    "restaurant": "El Agave Loco Taqueria",
-    "raw_item_index": 8,
-    "item_name": "combo plate",
-    "description": "rice, beans, 2 tacos, drink included",
-    "price": 13.5,
-    "source_cuisine": "Mexican",
-    "normalized_name": "Combo Plate",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Mexican"
-    ],
-    "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "beans",
-      "drink",
-      "rice",
-      "tacos"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r003_i017",
-    "restaurant_id": "r003",
-    "restaurant": "El Agave Loco Taqueria",
-    "raw_item_index": 16,
-    "item_name": "carne asada fries",
-    "description": "fries topped with steak, cheese, guac, crema",
-    "price": 13.75,
-    "source_cuisine": "Mexican",
-    "normalized_name": "Carne Asada Fries",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Mexican"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat"
-    ],
-    "ingredients": [
-      "cheese",
-      "crema",
-      "fries",
-      "guacamole",
-      "steak"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r003_i018",
-    "restaurant_id": "r003",
-    "restaurant": "El Agave Loco Taqueria",
-    "raw_item_index": 17,
-    "item_name": "flan",
-    "description": "",
-    "price": 5.5,
-    "source_cuisine": "Mexican",
-    "normalized_name": "Flan",
-    "category": "Dessert",
-    "cuisine_tags": [
-      "Mexican"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "caramel",
-      "eggs",
-      "milk",
-      "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r004_i002",
+    "item_id": "r004_i007",
     "restaurant_id": "r004",
     "restaurant": "Baja Fusion & Cantina",
-    "raw_item_index": 1,
-    "item_name": "sushi burrito",
-    "description": "spicy tuna, avocado, tempura flakes wrapped in nori and rice, served w/ chipotle mayo",
-    "price": 14.5,
+    "raw_item_index": 6,
+    "item_name": "chicken wings",
+    "description": "tossed in mango habanero glaze",
+    "price": 12.0,
     "source_cuisine": "Mexican",
-    "normalized_name": "Sushi Burrito",
-    "category": "Sandwich",
+    "normalized_name": "Chicken Wings",
+    "normalized_description": "Crispy chicken wings tossed in a sweet and spicy mango habanero glaze.",
+    "category": "Appetizer",
     "cuisine_tags": [
-      "Japanese",
       "Mexican",
       "Fusion"
     ],
@@ -417,91 +441,64 @@
       "spicy"
     ],
     "ingredients": [
-      "avocado",
-      "chipotle mayo",
-      "nori",
-      "rice",
-      "tempura flakes",
-      "tuna"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chicken wings",
+      "mango",
+      "habanero"
+    ]
   },
   {
-    "item_id": "r004_i003",
+    "item_id": "r004_i014",
     "restaurant_id": "r004",
     "restaurant": "Baja Fusion & Cantina",
-    "raw_item_index": 2,
-    "item_name": "house bowl",
-    "description": "cilantro lime rice, black beans, choice of protein, veggies",
-    "price": 11.0,
+    "raw_item_index": 13,
+    "item_name": "agua fresca",
+    "description": "jamaica hibiscus flavor",
+    "price": 4.0,
     "source_cuisine": "Mexican",
-    "normalized_name": "House Bowl",
-    "category": "Bowl",
+    "normalized_name": "Agua Fresca",
+    "normalized_description": "Refreshing traditional drink featuring jamaica hibiscus flavor.",
+    "category": "Beverage",
     "cuisine_tags": [
       "Mexican"
     ],
     "dietary_tags": [
-      "gluten_free",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "black beans",
-      "protein",
-      "rice",
-      "vegetables"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r004_i006",
-    "restaurant_id": "r004",
-    "restaurant": "Baja Fusion & Cantina",
-    "raw_item_index": 5,
-    "item_name": "Chef's Special",
-    "description": "",
-    "price": 16.99,
-    "source_cuisine": "Mexican",
-    "normalized_name": "Chef's Special",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Mexican"
-    ],
-    "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
-  },
-  {
-    "item_id": "r004_i011",
-    "restaurant_id": "r004",
-    "restaurant": "Baja Fusion & Cantina",
-    "raw_item_index": 10,
-    "item_name": "sweet potato fries",
-    "description": "",
-    "price": 6.0,
-    "source_cuisine": "Mexican",
-    "normalized_name": "Sweet Potato Fries",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Mexican"
-    ],
-    "dietary_tags": [
-      "gluten_free",
+      "vegetarian",
       "vegan",
-      "vegetarian"
+      "gluten_free"
     ],
     "ingredients": [
-      "oil",
-      "sweet potatoes"
+      "hibiscus",
+      "water",
+      "sugar"
+    ]
+  },
+  {
+    "item_id": "r004_i017",
+    "restaurant_id": "r004",
+    "restaurant": "Baja Fusion & Cantina",
+    "raw_item_index": 16,
+    "item_name": "Asada Pizza",
+    "description": "thin crust, refried bean base, carne asada, mozzarella, cilantro",
+    "price": 15.99,
+    "source_cuisine": "Mexican",
+    "normalized_name": "Asada Pizza",
+    "normalized_description": "Thin crust pizza with a refried bean base, topped with carne asada, mozzarella, and cilantro.",
+    "category": "Pizza",
+    "cuisine_tags": [
+      "Mexican",
+      "Fusion"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "contains_dairy",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "pizza crust",
+      "refried beans",
+      "carne asada",
+      "mozzarella",
+      "cilantro"
+    ]
   },
   {
     "item_id": "r004_i018",
@@ -512,25 +509,24 @@
     "description": "",
     "price": 3.5,
     "source_cuisine": "Mexican",
-    "normalized_name": "Side Guac",
+    "normalized_name": "Side Guacamole",
+    "normalized_description": "Freshly prepared side of creamy guacamole.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Mexican"
     ],
     "dietary_tags": [
-      "gluten_free",
+      "vegetarian",
       "vegan",
-      "vegetarian"
+      "gluten_free"
     ],
     "ingredients": [
       "avocado",
-      "cilantro",
       "lime",
-      "onion",
-      "tomato"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "onions",
+      "cilantro",
+      "tomatoes"
+    ]
   },
   {
     "item_id": "r005_i001",
@@ -542,6 +538,7 @@
     "price": 14.5,
     "source_cuisine": "Thai",
     "normalized_name": "Pad Thai",
+    "normalized_description": "Stir-fried rice noodles with egg, bean sprouts, green onion, and peanuts.",
     "category": "Noodles",
     "cuisine_tags": [
       "Thai"
@@ -550,38 +547,37 @@
       "contains_nuts"
     ],
     "ingredients": [
-      "bean sprouts",
+      "rice noodles",
       "egg",
+      "bean sprouts",
       "green onion",
-      "peanuts",
-      "rice noodles"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "peanuts"
+    ]
   },
   {
-    "item_id": "r005_i003",
+    "item_id": "r005_i006",
     "restaurant_id": "r005",
     "restaurant": "Bangkok Nights Thai Kitchen",
-    "raw_item_index": 2,
-    "item_name": "spring rolls",
-    "description": "",
-    "price": 7.25,
+    "raw_item_index": 5,
+    "item_name": "Drunken Noodles",
+    "description": "wide rice noodles, basil, bell peppers, chili garlic sauce",
+    "price": 15.5,
     "source_cuisine": "Thai",
-    "normalized_name": "Spring Rolls",
-    "category": "Appetizer",
+    "normalized_name": "Drunken Noodles",
+    "normalized_description": "Wide rice noodles stir-fried with basil, bell peppers, and chili garlic sauce.",
+    "category": "Noodles",
     "cuisine_tags": [
       "Thai"
     ],
     "dietary_tags": [
-      "unknown"
+      "spicy"
     ],
     "ingredients": [
-      "spring roll wrapper",
-      "vegetables"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "wide rice noodles",
+      "basil",
+      "bell peppers",
+      "chili garlic sauce"
+    ]
   },
   {
     "item_id": "r005_i008",
@@ -593,6 +589,7 @@
     "price": 4.5,
     "source_cuisine": "Thai",
     "normalized_name": "Thai Iced Tea",
+    "normalized_description": "Traditional sweet and creamy Thai iced tea.",
     "category": "Beverage",
     "cuisine_tags": [
       "Thai"
@@ -602,63 +599,60 @@
     ],
     "ingredients": [
       "black tea",
-      "milk",
+      "condensed milk",
       "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
-    "item_id": "r005_i014",
+    "item_id": "r005_i009",
     "restaurant_id": "r005",
     "restaurant": "Bangkok Nights Thai Kitchen",
-    "raw_item_index": 13,
-    "item_name": "Combo Plate",
-    "description": "Assortment of appies and small mains",
-    "price": 22.0,
+    "raw_item_index": 8,
+    "item_name": "papaya salad",
+    "description": "som tum - shredded green papaya, tomatoes, peanuts, lime dressing",
+    "price": 11.0,
     "source_cuisine": "Thai",
-    "normalized_name": "Combo Plate",
+    "normalized_name": "Papaya Salad",
+    "normalized_description": "Som Tum shredded green papaya salad with tomatoes, peanuts, and lime dressing.",
+    "category": "Salad",
+    "cuisine_tags": [
+      "Thai"
+    ],
+    "dietary_tags": [
+      "contains_nuts",
+      "spicy"
+    ],
+    "ingredients": [
+      "green papaya",
+      "tomatoes",
+      "peanuts",
+      "lime"
+    ]
+  },
+  {
+    "item_id": "r005_i015",
+    "restaurant_id": "r005",
+    "restaurant": "Bangkok Nights Thai Kitchen",
+    "raw_item_index": 14,
+    "item_name": "Garlic Shrimp",
+    "description": "",
+    "price": 17.5,
+    "source_cuisine": "Thai",
+    "normalized_name": "Garlic Shrimp",
+    "normalized_description": "Savory garlic shrimp stir-fried with Thai seasonings.",
     "category": "Entree",
     "cuisine_tags": [
       "Thai"
     ],
     "dietary_tags": [
-      "unknown"
+      "contains_shellfish"
     ],
     "ingredients": [
-      "appetizers",
-      "mains"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r005_i017",
-    "restaurant_id": "r005",
-    "restaurant": "Bangkok Nights Thai Kitchen",
-    "raw_item_index": 16,
-    "item_name": "pot stickers",
-    "description": "crispy pork dumplings w/ ginger soy dip",
-    "price": 9.5,
-    "source_cuisine": "Thai",
-    "normalized_name": "Pot Stickers",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Thai",
-      "Chinese"
-    ],
-    "dietary_tags": [
-      "contains_meat",
-      "contains_pork"
-    ],
-    "ingredients": [
-      "dumpling wrapper",
-      "ginger",
-      "pork",
+      "shrimp",
+      "garlic",
+      "oil",
       "soy sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
     "item_id": "r006_i005",
@@ -670,50 +664,47 @@
     "price": 15.0,
     "source_cuisine": "Thai",
     "normalized_name": "Pineapple Fried Rice",
+    "normalized_description": "Stir-fried rice with chunks of pineapple, cashews, raisins, and curry powder.",
     "category": "Rice Dish",
     "cuisine_tags": [
       "Thai"
     ],
     "dietary_tags": [
-      "contains_nuts",
-      "vegetarian"
+      "contains_nuts"
     ],
     "ingredients": [
-      "cashews",
-      "curry powder",
+      "rice",
       "pineapple",
+      "cashews",
       "raisins",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "curry powder"
+    ]
   },
   {
-    "item_id": "r006_i006",
+    "item_id": "r006_i007",
     "restaurant_id": "r006",
     "restaurant": "Siam Corner Express",
-    "raw_item_index": 5,
-    "item_name": "Crab Rangoons",
-    "description": "crispy wonton skins filled w/ cream cheese & imitation crab",
-    "price": 9.0,
+    "raw_item_index": 6,
+    "item_name": "Yellow Curry",
+    "description": "mild yellow curry w/ potatoes and carrots",
+    "price": 15.5,
     "source_cuisine": "Thai",
-    "normalized_name": "Crab Rangoons",
-    "category": "Appetizer",
+    "normalized_name": "Yellow Curry",
+    "normalized_description": "Mild yellow curry with potatoes and carrots.",
+    "category": "Curry",
     "cuisine_tags": [
-      "Thai",
-      "American-Chinese"
+      "Thai"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "contains_shellfish"
+      "vegetarian",
+      "vegan"
     ],
     "ingredients": [
-      "cream cheese",
-      "imitation crab",
-      "wonton skin"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "yellow curry paste",
+      "coconut milk",
+      "potatoes",
+      "carrots"
+    ]
   },
   {
     "item_id": "r006_i009",
@@ -725,20 +716,19 @@
     "price": 8.0,
     "source_cuisine": "Thai",
     "normalized_name": "Crispy Tofu",
+    "normalized_description": "Crispy golden-fried tofu served with a dipping sauce.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Thai"
     ],
     "dietary_tags": [
-      "vegan",
       "vegetarian",
-      "gluten_free"
+      "vegan"
     ],
     "ingredients": [
-      "tofu"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "tofu",
+      "oil"
+    ]
   },
   {
     "item_id": "r006_i011",
@@ -750,6 +740,7 @@
     "price": 14.0,
     "source_cuisine": "Thai",
     "normalized_name": "Pad Woon Sen",
+    "normalized_description": "Glass noodles stir-fried with egg and assorted vegetables.",
     "category": "Noodles",
     "cuisine_tags": [
       "Thai"
@@ -758,65 +749,37 @@
       "vegetarian"
     ],
     "ingredients": [
-      "egg",
       "glass noodles",
+      "egg",
       "vegetables"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
-    "item_id": "r006_i019",
+    "item_id": "r006_i014",
     "restaurant_id": "r006",
     "restaurant": "Siam Corner Express",
-    "raw_item_index": 18,
-    "item_name": "Chef's Special",
-    "description": "",
-    "price": 21.0,
+    "raw_item_index": 13,
+    "item_name": "Cashew Nut Stir-Fry",
+    "description": "saut\u00e9ed w/ bell peppers, onions, water chestnuts, chili jam",
+    "price": 15.0,
     "source_cuisine": "Thai",
-    "normalized_name": "Chef's Special",
+    "normalized_name": "Cashew Nut Stir-Fry",
+    "normalized_description": "Saut\u00e9ed with bell peppers, onions, water chestnuts, and chili jam.",
     "category": "Entree",
     "cuisine_tags": [
       "Thai"
     ],
     "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
-  },
-  {
-    "item_id": "r007_i002",
-    "restaurant_id": "r007",
-    "restaurant": "Tokyo Drift Ramen & Izakaya",
-    "raw_item_index": 1,
-    "item_name": "SPICY MISO RAMEN",
-    "description": "ground pork, chili oil, corn, green onion",
-    "price": 17.0,
-    "source_cuisine": "Japanese",
-    "normalized_name": "Spicy Miso Ramen",
-    "category": "Ramen",
-    "cuisine_tags": [
-      "Japanese"
-    ],
-    "dietary_tags": [
-      "contains_meat",
-      "contains_pork",
+      "contains_nuts",
       "spicy"
     ],
     "ingredients": [
-      "chili oil",
-      "corn",
-      "green onion",
-      "ground pork",
-      "miso broth",
-      "ramen noodles"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "cashews",
+      "bell peppers",
+      "onions",
+      "water chestnuts",
+      "chili jam"
+    ]
   },
   {
     "item_id": "r007_i003",
@@ -828,21 +791,20 @@
     "price": 15.0,
     "source_cuisine": "Japanese",
     "normalized_name": "Veggie Ramen",
+    "normalized_description": "Vegetarian ramen noodle soup with savory broth and fresh vegetables.",
     "category": "Ramen",
     "cuisine_tags": [
       "Japanese"
     ],
     "dietary_tags": [
-      "vegan",
-      "vegetarian"
+      "vegetarian",
+      "vegan"
     ],
     "ingredients": [
       "ramen noodles",
       "vegetable broth",
       "vegetables"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
     "item_id": "r007_i004",
@@ -854,6 +816,7 @@
     "price": 8.5,
     "source_cuisine": "Japanese",
     "normalized_name": "Chicken Gyoza",
+    "normalized_description": "Pan-fried chicken dumplings served with ponzu dipping sauce.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Japanese"
@@ -864,88 +827,110 @@
     "ingredients": [
       "chicken",
       "dumpling wrapper",
-      "ponzu sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "cabbage",
+      "garlic",
+      "ginger"
+    ]
   },
   {
-    "item_id": "r007_i010",
+    "item_id": "r007_i011",
     "restaurant_id": "r007",
     "restaurant": "Tokyo Drift Ramen & Izakaya",
-    "raw_item_index": 9,
-    "item_name": "Chef's Special",
-    "description": "ask your server for today's secret creation",
-    "price": 22.0,
+    "raw_item_index": 10,
+    "item_name": "Salmon Sashimi (5pc)",
+    "description": "fresh atlantic salmon sliced thick",
+    "price": 15.0,
     "source_cuisine": "Japanese",
-    "normalized_name": "Chef's Special",
+    "normalized_name": "Salmon Sashimi",
+    "normalized_description": "Fresh Atlantic salmon sliced thick.",
     "category": "Entree",
     "cuisine_tags": [
       "Japanese"
     ],
     "dietary_tags": [
-      "unknown"
+      "gluten_free"
     ],
     "ingredients": [
-      "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
+      "salmon"
+    ]
   },
   {
-    "item_id": "r007_i017",
+    "item_id": "r007_i013",
     "restaurant_id": "r007",
     "restaurant": "Tokyo Drift Ramen & Izakaya",
-    "raw_item_index": 16,
-    "item_name": "Mochi Ice Cream",
-    "description": "mango, strawberry, and green tea mochi",
+    "raw_item_index": 12,
+    "item_name": "avocado roll",
+    "description": "",
     "price": 7.0,
     "source_cuisine": "Japanese",
-    "normalized_name": "Mochi Ice Cream",
-    "category": "Dessert",
+    "normalized_name": "Avocado Roll",
+    "normalized_description": "Fresh avocado rolled in seasoned rice and seaweed.",
+    "category": "Entree",
     "cuisine_tags": [
       "Japanese"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
+      "vegetarian",
+      "vegan",
+      "gluten_free"
     ],
     "ingredients": [
-      "green tea",
-      "ice cream",
-      "mango",
-      "rice flour",
-      "strawberry"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "avocado",
+      "rice",
+      "seaweed"
+    ]
   },
   {
-    "item_id": "r008_i003",
+    "item_id": "r007_i019",
+    "restaurant_id": "r007",
+    "restaurant": "Tokyo Drift Ramen & Izakaya",
+    "raw_item_index": 18,
+    "item_name": "Ramune",
+    "description": "japanese marble soda (original flavor)",
+    "price": 4.0,
+    "source_cuisine": "Japanese",
+    "normalized_name": "Ramune",
+    "normalized_description": "Japanese marble soda in original flavor.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Japanese"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "carbonated water",
+      "sugar",
+      "flavoring"
+    ]
+  },
+  {
+    "item_id": "r008_i002",
     "restaurant_id": "r008",
     "restaurant": "Sakura Sushi & Bento Box",
-    "raw_item_index": 2,
-    "item_name": "Seaweed Salad",
-    "description": "",
-    "price": 6.5,
+    "raw_item_index": 1,
+    "item_name": "Sunomono Salad",
+    "description": "cucumber salad in sweet rice vinegar dressing",
+    "price": 6.0,
     "source_cuisine": "Japanese",
-    "normalized_name": "Seaweed Salad",
+    "normalized_name": "Sunomono Salad",
+    "normalized_description": "Cucumber salad in sweet rice vinegar dressing.",
     "category": "Salad",
     "cuisine_tags": [
       "Japanese"
     ],
     "dietary_tags": [
-      "vegan",
       "vegetarian",
+      "vegan",
       "gluten_free"
     ],
     "ingredients": [
-      "seaweed",
-      "sesame oil",
-      "sesame seeds"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "cucumber",
+      "rice vinegar",
+      "sugar"
+    ]
   },
   {
     "item_id": "r008_i009",
@@ -956,7 +941,8 @@
     "description": "quick-seved box with choice of protein and miso",
     "price": 14.5,
     "source_cuisine": "Japanese",
-    "normalized_name": "Lunch Special",
+    "normalized_name": "Lunch Special Bento",
+    "normalized_description": "Quick-served bento box with choice of protein and miso soup.",
     "category": "Entree",
     "cuisine_tags": [
       "Japanese"
@@ -965,52 +951,51 @@
       "unknown"
     ],
     "ingredients": [
-      "miso soup",
+      "rice",
       "protein",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "miso soup",
+      "salad"
+    ]
   },
   {
-    "item_id": "r008_i011",
+    "item_id": "r008_i012",
     "restaurant_id": "r008",
     "restaurant": "Sakura Sushi & Bento Box",
-    "raw_item_index": 10,
-    "item_name": "California Roll",
-    "description": "krab, avocado, cucumber",
-    "price": 9.0,
+    "raw_item_index": 11,
+    "item_name": "philly roll",
+    "description": "smoked salmon, cream cheese, avocado",
+    "price": 10.5,
     "source_cuisine": "Japanese",
-    "normalized_name": "California Roll",
-    "category": "Appetizer",
+    "normalized_name": "Philly Roll",
+    "normalized_description": "Sushi roll featuring smoked salmon, cream cheese, and avocado.",
+    "category": "Entree",
     "cuisine_tags": [
-      "Japanese",
-      "American-Japanese"
+      "Japanese"
     ],
     "dietary_tags": [
-      "contains_shellfish"
+      "contains_dairy",
+      "gluten_free"
     ],
     "ingredients": [
+      "smoked salmon",
+      "cream cheese",
       "avocado",
-      "cucumber",
-      "imitation crab",
-      "nori",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "rice",
+      "seaweed"
+    ]
   },
   {
-    "item_id": "r008_i014",
+    "item_id": "r008_i015",
     "restaurant_id": "r008",
     "restaurant": "Sakura Sushi & Bento Box",
-    "raw_item_index": 13,
-    "item_name": "Nigiri Combo",
-    "description": "7 pieces of nigiri sushi and tuna roll",
-    "price": 24.0,
+    "raw_item_index": 14,
+    "item_name": "Unagi Don",
+    "description": "grilled eel glazed with sweet soy sauce over a bed of rice",
+    "price": 21.0,
     "source_cuisine": "Japanese",
-    "normalized_name": "Nigiri Combo",
-    "category": "Entree",
+    "normalized_name": "Unagi Don",
+    "normalized_description": "Grilled eel glazed with sweet soy sauce over a bed of rice.",
+    "category": "Rice Dish",
     "cuisine_tags": [
       "Japanese"
     ],
@@ -1018,13 +1003,10 @@
       "contains_meat"
     ],
     "ingredients": [
-      "fish",
-      "nori",
-      "sushi rice",
-      "tuna"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "eel",
+      "sweet soy sauce",
+      "rice"
+    ]
   },
   {
     "item_id": "r008_i020",
@@ -1036,138 +1018,81 @@
     "price": 6.0,
     "source_cuisine": "Japanese",
     "normalized_name": "Taiyaki",
+    "normalized_description": "Fish-shaped waffle stuffed with sweet red bean paste.",
     "category": "Dessert",
     "cuisine_tags": [
       "Japanese"
     ],
     "dietary_tags": [
-      "vegetarian"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "red bean paste",
-      "waffle batter"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "waffle batter",
+      "red bean paste"
+    ]
   },
   {
-    "item_id": "r009_i002",
+    "item_id": "r009_i003",
     "restaurant_id": "r009",
     "restaurant": "Grand Dragon Dim Sum & Seafood",
-    "raw_item_index": 1,
-    "item_name": "Har Gow",
-    "description": "",
-    "price": 7.0,
+    "raw_item_index": 2,
+    "item_name": "BBQ pork pastry",
+    "description": "flaky crust w/ sweet char siu filling",
+    "price": 6.0,
     "source_cuisine": "Chinese",
-    "normalized_name": "Har Gow",
+    "normalized_name": "BBQ Pork Pastry",
+    "normalized_description": "Flaky crust pastry with a sweet char siu pork filling.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Chinese"
     ],
     "dietary_tags": [
-      "contains_shellfish",
+      "contains_pork",
       "contains_meat"
     ],
     "ingredients": [
       "pork",
-      "shrimp",
-      "tapioca starch",
-      "wheat starch"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r009_i005",
-    "restaurant_id": "r009",
-    "restaurant": "Grand Dragon Dim Sum & Seafood",
-    "raw_item_index": 4,
-    "item_name": "Egg Tarts",
-    "description": "flaky pastry shell with silky sweet egg custard",
-    "price": 5.0,
-    "source_cuisine": "Chinese",
-    "normalized_name": "Egg Tarts",
-    "category": "Dessert",
-    "cuisine_tags": [
-      "Chinese"
-    ],
-    "dietary_tags": [
-      "contains_dairy"
-    ],
-    "ingredients": [
-      "butter",
-      "egg",
       "flour",
       "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
-    "item_id": "r009_i011",
+    "item_id": "r009_i004",
     "restaurant_id": "r009",
     "restaurant": "Grand Dragon Dim Sum & Seafood",
-    "raw_item_index": 10,
-    "item_name": "pork rib w/ garlic",
-    "description": "steamed spare ribs tossed in fermented black beans and lots of garlic",
-    "price": 6.5,
+    "raw_item_index": 3,
+    "item_name": "chk feet w/ black bean",
+    "description": "braised tender chicken feet in spicy bean sauce",
+    "price": 5.5,
     "source_cuisine": "Chinese",
-    "normalized_name": "Pork Rib W/ Garlic",
-    "category": "Entree",
+    "normalized_name": "Chicken Feet with Black Bean Sauce",
+    "normalized_description": "Braised tender chicken feet in a spicy black bean sauce.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Chinese"
     ],
     "dietary_tags": [
-      "contains_meat",
-      "contains_pork",
-      "spicy"
-    ],
-    "ingredients": [
-      "fermented black beans",
-      "garlic",
-      "pork ribs"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r009_i016",
-    "restaurant_id": "r009",
-    "restaurant": "Grand Dragon Dim Sum & Seafood",
-    "raw_item_index": 15,
-    "item_name": "Peking Duck Taco",
-    "description": "crispy duck skin, scallion, hoisin sauce in a flour tortilla fusion wrap",
-    "price": 12.0,
-    "source_cuisine": "Chinese",
-    "normalized_name": "Peking Duck Taco",
-    "category": "Taco",
-    "cuisine_tags": [
-      "Chinese",
-      "Mexican",
-      "Fusion"
-    ],
-    "dietary_tags": [
+      "spicy",
       "contains_meat"
     ],
     "ingredients": [
-      "duck skin",
-      "flour tortilla",
-      "hoisin sauce",
-      "scallion"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chicken feet",
+      "black beans",
+      "chili"
+    ]
   },
   {
-    "item_id": "r009_i020",
+    "item_id": "r009_i010",
     "restaurant_id": "r009",
     "restaurant": "Grand Dragon Dim Sum & Seafood",
-    "raw_item_index": 19,
-    "item_name": "Chef's Special",
-    "description": "ask your server for today's market catch prepared Cantonese style",
-    "price": 28.0,
+    "raw_item_index": 9,
+    "item_name": "Combo Plate",
+    "description": "chef's selection of 4 popular dim sum items",
+    "price": 18.99,
     "source_cuisine": "Chinese",
-    "normalized_name": "Chef's Special",
+    "normalized_name": "Dim Sum Combo Plate",
+    "normalized_description": "Chef's selection of four popular dim sum items.",
     "category": "Entree",
     "cuisine_tags": [
       "Chinese"
@@ -1176,11 +1101,118 @@
       "unknown"
     ],
     "ingredients": [
-      "fish",
-      "seafood"
+      "assorted meats",
+      "seafood",
+      "dumpling wrappers"
+    ]
+  },
+  {
+    "item_id": "r009_i013",
+    "restaurant_id": "r009",
+    "restaurant": "Grand Dragon Dim Sum & Seafood",
+    "raw_item_index": 12,
+    "item_name": "mango pudding",
+    "description": "",
+    "price": 5.5,
+    "source_cuisine": "Chinese",
+    "normalized_name": "Mango Pudding",
+    "normalized_description": "Refreshing and sweet mango-flavored dessert pudding.",
+    "category": "Dessert",
+    "cuisine_tags": [
+      "Chinese"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "vegetarian",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "mango",
+      "milk",
+      "sugar",
+      "gelatin"
+    ]
+  },
+  {
+    "item_id": "r009_i018",
+    "restaurant_id": "r009",
+    "restaurant": "Grand Dragon Dim Sum & Seafood",
+    "raw_item_index": 17,
+    "item_name": "hot & sour soup",
+    "description": "traditional tangy and spicy soup with tofu and bamboo shoots",
+    "price": 4.5,
+    "source_cuisine": "Chinese",
+    "normalized_name": "Hot and Sour Soup",
+    "normalized_description": "Traditional tangy and spicy soup with tofu and bamboo shoots.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Chinese"
+    ],
+    "dietary_tags": [
+      "spicy",
+      "vegetarian"
+    ],
+    "ingredients": [
+      "tofu",
+      "bamboo shoots",
+      "mushroom",
+      "vinegar",
+      "chili"
+    ]
+  },
+  {
+    "item_id": "r010_i002",
+    "restaurant_id": "r010",
+    "restaurant": "Red Lantern Szechuan House",
+    "raw_item_index": 1,
+    "item_name": "Kung Pao Chicken",
+    "description": "diced chicken wok-tossed with peanuts, chili peppers, and scallions",
+    "price": 15.5,
+    "source_cuisine": "Chinese",
+    "normalized_name": "Kung Pao Chicken",
+    "normalized_description": "Diced chicken wok-tossed with peanuts, chili peppers, and scallions.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Chinese"
+    ],
+    "dietary_tags": [
+      "spicy",
+      "contains_nuts",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "chicken",
+      "peanuts",
+      "chili peppers",
+      "scallions"
+    ]
+  },
+  {
+    "item_id": "r010_i003",
+    "restaurant_id": "r010",
+    "restaurant": "Red Lantern Szechuan House",
+    "raw_item_index": 2,
+    "item_name": "dan dan noodles",
+    "description": "wheat noodles in a rich sesame and chili oil broth with pork",
+    "price": 11.0,
+    "source_cuisine": "Chinese",
+    "normalized_name": "Dan Dan Noodles",
+    "normalized_description": "Wheat noodles in a rich sesame and chili oil broth with pork.",
+    "category": "Noodles",
+    "cuisine_tags": [
+      "Chinese"
+    ],
+    "dietary_tags": [
+      "spicy",
+      "contains_nuts",
+      "contains_pork",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "wheat noodles",
+      "sesame",
+      "chili oil",
+      "pork"
+    ]
   },
   {
     "item_id": "r010_i007",
@@ -1192,49 +1224,21 @@
     "price": 16.0,
     "source_cuisine": "Chinese",
     "normalized_name": "Twice Cooked Pork",
+    "normalized_description": "Sliced pork belly simmered, then stir-fried with leeks and broad bean paste.",
     "category": "Entree",
     "cuisine_tags": [
       "Chinese"
     ],
     "dietary_tags": [
-      "contains_meat",
+      "spicy",
       "contains_pork",
-      "spicy"
+      "contains_meat"
     ],
     "ingredients": [
-      "broad bean paste",
+      "pork belly",
       "leeks",
-      "pork belly"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r010_i009",
-    "restaurant_id": "r010",
-    "restaurant": "Red Lantern Szechuan House",
-    "raw_item_index": 8,
-    "item_name": "House Bowl",
-    "description": "rice bowl topped with spicy minced pork and pickled vegetables",
-    "price": 10.99,
-    "source_cuisine": "Chinese",
-    "normalized_name": "House Bowl",
-    "category": "Bowl",
-    "cuisine_tags": [
-      "Chinese"
-    ],
-    "dietary_tags": [
-      "contains_meat",
-      "contains_pork",
-      "spicy"
-    ],
-    "ingredients": [
-      "pickled vegetables",
-      "pork",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "bean paste"
+    ]
   },
   {
     "item_id": "r010_i012",
@@ -1245,82 +1249,45 @@
     "description": "",
     "price": 13.0,
     "source_cuisine": "Chinese",
-    "normalized_name": "Eggplant W/ Garlic Sauce",
+    "normalized_name": "Eggplant in Garlic Sauce",
+    "normalized_description": "Tender eggplant stir-fried in a savory and aromatic garlic sauce.",
     "category": "Entree",
     "cuisine_tags": [
       "Chinese"
     ],
     "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "spicy"
+      "vegetarian"
     ],
     "ingredients": [
       "eggplant",
       "garlic",
-      "garlic sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "soy sauce"
+    ]
   },
   {
-    "item_id": "r010_i013",
+    "item_id": "r010_i020",
     "restaurant_id": "r010",
     "restaurant": "Red Lantern Szechuan House",
-    "raw_item_index": 12,
-    "item_name": "Szechuan Pizza",
-    "description": "crispy crust topped with mapo tofu sauce, mozzarella, and sliced peppers",
-    "price": 15.0,
+    "raw_item_index": 19,
+    "item_name": "Chef's Special",
+    "description": "extra spicy dry pot featuring a secret mix of meats and mushrooms",
+    "price": 24.5,
     "source_cuisine": "Chinese",
-    "normalized_name": "Szechuan Pizza",
-    "category": "Pizza",
-    "cuisine_tags": [
-      "Chinese",
-      "Italian",
-      "Fusion"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat",
-      "contains_pork",
-      "spicy",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "mapo tofu sauce",
-      "mozzarella",
-      "peppers",
-      "pizza crust",
-      "pork",
-      "tofu"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r010_i015",
-    "restaurant_id": "r010",
-    "restaurant": "Red Lantern Szechuan House",
-    "raw_item_index": 14,
-    "item_name": "sour cabbage fish soup",
-    "description": "",
-    "price": 18.0,
-    "source_cuisine": "Chinese",
-    "normalized_name": "Sour Cabbage Fish Soup",
+    "normalized_name": "Chef's Special Dry Pot",
+    "normalized_description": "Extra spicy dry pot featuring a secret mix of meats and mushrooms.",
     "category": "Entree",
     "cuisine_tags": [
       "Chinese"
     ],
     "dietary_tags": [
-      "spicy"
+      "spicy",
+      "contains_meat"
     ],
     "ingredients": [
-      "broth",
-      "fish",
-      "sour cabbage"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "assorted meats",
+      "mushrooms",
+      "chili peppers"
+    ]
   },
   {
     "item_id": "r011_i003",
@@ -1332,215 +1299,178 @@
     "price": 9.5,
     "source_cuisine": "Italian",
     "normalized_name": "Caesar Salad",
+    "normalized_description": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and parmesan cheese.",
     "category": "Salad",
     "cuisine_tags": [
       "Italian"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
+      "contains_dairy"
     ],
     "ingredients": [
-      "caesar dressing",
+      "romaine lettuce",
       "croutons",
       "parmesan cheese",
-      "romaine lettuce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "caesar dressing"
+    ]
   },
   {
-    "item_id": "r011_i011",
+    "item_id": "r011_i004",
     "restaurant_id": "r011",
     "restaurant": "Bella Napoli Ristorante",
-    "raw_item_index": 10,
-    "item_name": "Chicken Parm",
-    "description": "breaded cutlet topped w/ marinara & melted cheese over spag",
-    "price": 18.0,
+    "raw_item_index": 3,
+    "item_name": "Minestrone",
+    "description": "hearty veg soup",
+    "price": 7.0,
     "source_cuisine": "Italian",
-    "normalized_name": "Chicken Parm",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Italian"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat"
-    ],
-    "ingredients": [
-      "breadcrumbs",
-      "cheese",
-      "chicken cutlet",
-      "marinara sauce",
-      "spaghetti"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r011_i012",
-    "restaurant_id": "r011",
-    "restaurant": "Bella Napoli Ristorante",
-    "raw_item_index": 11,
-    "item_name": "Veal Marsala",
-    "description": "tender veal w/ mushrooms & marsala wine sauce",
-    "price": 22.0,
-    "source_cuisine": "Italian",
-    "normalized_name": "Veal Marsala",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Italian"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat"
-    ],
-    "ingredients": [
-      "butter",
-      "marsala wine",
-      "mushrooms",
-      "veal"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r011_i014",
-    "restaurant_id": "r011",
-    "restaurant": "Bella Napoli Ristorante",
-    "raw_item_index": 13,
-    "item_name": "Lunch Special",
-    "description": "chef choice pasta + small salad",
-    "price": 12.0,
-    "source_cuisine": "Italian",
-    "normalized_name": "Lunch Special",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Italian"
-    ],
-    "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "pasta",
-      "salad greens"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r011_i015",
-    "restaurant_id": "r011",
-    "restaurant": "Bella Napoli Ristorante",
-    "raw_item_index": 14,
-    "item_name": "Tikka Pizza",
-    "description": "mozzarella, chicken tikka masala chunks, cilantro drizzle",
-    "price": 17.5,
-    "source_cuisine": "Italian",
-    "normalized_name": "Tikka Pizza",
-    "category": "Pizza",
-    "cuisine_tags": [
-      "Italian",
-      "Indian",
-      "Fusion"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "chicken",
-      "cilantro",
-      "mozzarella",
-      "pizza dough",
-      "tikka masala sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r012_i002",
-    "restaurant_id": "r012",
-    "restaurant": "Trattoria Della Nonna",
-    "raw_item_index": 1,
-    "item_name": "Caprese salad",
-    "description": "sliced tomato, fresh buffalo mozzarella, basil leaves",
-    "price": 11.0,
-    "source_cuisine": "Italian",
-    "normalized_name": "Caprese Salad",
-    "category": "Salad",
-    "cuisine_tags": [
-      "Italian"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "basil leaves",
-      "buffalo mozzarella",
-      "olive oil",
-      "tomato"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r012_i003",
-    "restaurant_id": "r012",
-    "restaurant": "Trattoria Della Nonna",
-    "raw_item_index": 2,
-    "item_name": "Antipasto Board",
-    "description": "",
-    "price": 18.5,
-    "source_cuisine": "Italian",
-    "normalized_name": "Antipasto Board",
+    "normalized_name": "Minestrone Soup",
+    "normalized_description": "Hearty Italian vegetable soup with pasta and beans.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Italian"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "contains_meat",
-      "contains_pork"
+      "vegetarian"
     ],
     "ingredients": [
-      "cheeses",
-      "cured meats",
-      "marinated vegetables",
-      "olives"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "vegetables",
+      "pasta",
+      "beans",
+      "broth"
+    ]
   },
   {
-    "item_id": "r012_i008",
+    "item_id": "r011_i008",
+    "restaurant_id": "r011",
+    "restaurant": "Bella Napoli Ristorante",
+    "raw_item_index": 7,
+    "item_name": "Lasagna",
+    "description": "baked layers of pasta, meat, ricotta, mozzarella",
+    "price": 16.5,
+    "source_cuisine": "Italian",
+    "normalized_name": "Lasagna",
+    "normalized_description": "Baked layers of pasta, meat, ricotta, and mozzarella cheese.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Italian"
+    ],
+    "dietary_tags": [
+      "contains_dairy",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "pasta",
+      "ground meat",
+      "ricotta cheese",
+      "mozzarella cheese",
+      "tomato sauce"
+    ]
+  },
+  {
+    "item_id": "r011_i010",
+    "restaurant_id": "r011",
+    "restaurant": "Bella Napoli Ristorante",
+    "raw_item_index": 9,
+    "item_name": "pepperoni piz.",
+    "description": "classic style",
+    "price": 15.5,
+    "source_cuisine": "Italian",
+    "normalized_name": "Pepperoni Pizza",
+    "normalized_description": "Classic style pizza topped with pepperoni and mozzarella cheese.",
+    "category": "Pizza",
+    "cuisine_tags": [
+      "Italian"
+    ],
+    "dietary_tags": [
+      "contains_dairy",
+      "contains_pork",
+      "contains_meat"
+    ],
+    "ingredients": [
+      "pizza dough",
+      "tomato sauce",
+      "mozzarella cheese",
+      "pepperoni"
+    ]
+  },
+  {
+    "item_id": "r011_i020",
+    "restaurant_id": "r011",
+    "restaurant": "Bella Napoli Ristorante",
+    "raw_item_index": 19,
+    "item_name": "San Pellegrino",
+    "description": "sparkling water 750ml",
+    "price": 5.0,
+    "source_cuisine": "Italian",
+    "normalized_name": "San Pellegrino Sparkling Water",
+    "normalized_description": "Italian sparkling mineral water in a 750ml bottle.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Italian"
+    ],
+    "dietary_tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "sparkling water"
+    ]
+  },
+  {
+    "item_id": "r012_i006",
     "restaurant_id": "r012",
     "restaurant": "Trattoria Della Nonna",
-    "raw_item_index": 7,
-    "item_name": "Lobster Linguine",
-    "description": "fresh pasta tossed w/ chunks of lobster in light cherry tomato sauce",
-    "price": 26.0,
+    "raw_item_index": 5,
+    "item_name": "Carbonara",
+    "description": "spaghetti w/ guanciale, egg yolk, pecorino romano, black pepper",
+    "price": 16.0,
     "source_cuisine": "Italian",
-    "normalized_name": "Lobster Linguine",
+    "normalized_name": "Spaghetti Carbonara",
+    "normalized_description": "Spaghetti with guanciale, egg yolk, pecorino romano, and black pepper.",
     "category": "Noodles",
     "cuisine_tags": [
       "Italian"
     ],
     "dietary_tags": [
-      "contains_shellfish"
+      "contains_dairy",
+      "contains_pork",
+      "contains_meat"
     ],
     "ingredients": [
-      "cherry tomatoes",
-      "garlic",
-      "linguine pasta",
-      "lobster",
-      "olive oil"
+      "spaghetti",
+      "guanciale",
+      "egg yolk",
+      "pecorino romano",
+      "black pepper"
+    ]
+  },
+  {
+    "item_id": "r012_i009",
+    "restaurant_id": "r012",
+    "restaurant": "Trattoria Della Nonna",
+    "raw_item_index": 8,
+    "item_name": "Quattro Formaggi",
+    "description": "white pizza w/ mozzarella, gorgonzola, fontina, parm",
+    "price": 16.5,
+    "source_cuisine": "Italian",
+    "normalized_name": "Quattro Formaggi Pizza",
+    "normalized_description": "White pizza with mozzarella, gorgonzola, fontina, and parmesan cheeses.",
+    "category": "Pizza",
+    "cuisine_tags": [
+      "Italian"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "vegetarian",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "pizza dough",
+      "mozzarella",
+      "gorgonzola",
+      "fontina",
+      "parmesan"
+    ]
   },
   {
     "item_id": "r012_i012",
@@ -1552,328 +1482,379 @@
     "price": 28.5,
     "source_cuisine": "Italian",
     "normalized_name": "Osso Buco",
+    "normalized_description": "Braised veal shanks served over saffron risotto.",
     "category": "Entree",
     "cuisine_tags": [
       "Italian"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "broth",
-      "risotto",
-      "saffron",
-      "veal shanks",
-      "vegetables"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r012_i014",
-    "restaurant_id": "r012",
-    "restaurant": "Trattoria Della Nonna",
-    "raw_item_index": 13,
-    "item_name": "Combo Plate",
-    "description": "sample of lasgna, chicken parm, and fettuccine",
-    "price": 20.0,
-    "source_cuisine": "Italian",
-    "normalized_name": "Combo Plate",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Italian"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat",
-      "contains_pork"
-    ],
-    "ingredients": [
-      "cheese",
-      "chicken",
-      "fettuccine pasta",
-      "lasagna",
-      "marinara sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r013_i004",
-    "restaurant_id": "r013",
-    "restaurant": "Zaytouna Grill & Wrap",
-    "raw_item_index": 3,
-    "item_name": "Hummus w/ pita",
-    "description": "smthd chickpea dip, olive oil",
-    "price": 6.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Hummus with Pita",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Mediterranean",
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "chickpeas",
-      "olive oil",
-      "pita"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r013_i005",
-    "restaurant_id": "r013",
-    "restaurant": "Zaytouna Grill & Wrap",
-    "raw_item_index": 4,
-    "item_name": "Baba ghanoush",
-    "description": "",
-    "price": 6.5,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Baba Ghanoush",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Mediterranean",
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "eggplant",
-      "garlic",
-      "lemon juice",
-      "olive oil",
-      "tahini"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r013_i014",
-    "restaurant_id": "r013",
-    "restaurant": "Zaytouna Grill & Wrap",
-    "raw_item_index": 13,
-    "item_name": "Mediterranean Pizza",
-    "description": "zaatar crust, halloumi cheese, olives, sundried tomatoes",
-    "price": 14.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Mediterranean Pizza",
-    "category": "Pizza",
-    "cuisine_tags": [
-      "Mediterranean",
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "halloumi cheese",
-      "olives",
-      "pizza crust",
-      "sun dried tomatoes",
-      "zaatar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r013_i015",
-    "restaurant_id": "r013",
-    "restaurant": "Zaytouna Grill & Wrap",
-    "raw_item_index": 14,
-    "item_name": "Chef's Special",
-    "description": "ask cashier what it is today",
-    "price": 18.5,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Chef's Special",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Mediterranean"
-    ],
-    "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
-  },
-  {
-    "item_id": "r013_i017",
-    "restaurant_id": "r013",
-    "restaurant": "Zaytouna Grill & Wrap",
-    "raw_item_index": 16,
-    "item_name": "Rice Pudding",
-    "description": "",
-    "price": 4.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Rice Pudding",
-    "category": "Dessert",
-    "cuisine_tags": [
-      "Mediterranean",
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "cinnamon",
-      "milk",
-      "rice",
-      "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r014_i004",
-    "restaurant_id": "r014",
-    "restaurant": "Aegean Blue Tavern",
-    "raw_item_index": 3,
-    "item_name": "Melitzanosalata",
-    "description": "",
-    "price": 7.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Melitzanosalata",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Greek",
-      "Mediterranean"
-    ],
-    "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "eggplant",
-      "garlic",
-      "lemon juice",
-      "olive oil"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r014_i007",
-    "restaurant_id": "r014",
-    "restaurant": "Aegean Blue Tavern",
-    "raw_item_index": 6,
-    "item_name": "saganaki",
-    "description": "flaming kefalotyri cheese",
-    "price": 11.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Saganaki",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Greek",
-      "Mediterranean"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "kefalotyri cheese",
-      "lemon"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r014_i013",
-    "restaurant_id": "r014",
-    "restaurant": "Aegean Blue Tavern",
-    "raw_item_index": 12,
-    "item_name": "Combo Plate",
-    "description": "meat sampler with dip",
-    "price": 24.5,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Combo Plate",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Greek",
-      "Mediterranean"
     ],
     "dietary_tags": [
       "contains_meat"
     ],
     "ingredients": [
-      "assorted meats",
-      "dip"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "veal shanks",
+      "saffron risotto",
+      "vegetables"
+    ]
   },
   {
-    "item_id": "r014_i014",
-    "restaurant_id": "r014",
-    "restaurant": "Aegean Blue Tavern",
-    "raw_item_index": 13,
-    "item_name": "Greek Lemon Potato",
-    "description": "",
-    "price": 6.0,
-    "source_cuisine": "Mediterranean",
-    "normalized_name": "Greek Lemon Potato",
-    "category": "Appetizer",
+    "item_id": "r012_i013",
+    "restaurant_id": "r012",
+    "restaurant": "Trattoria Della Nonna",
+    "raw_item_index": 12,
+    "item_name": "Bistecca Fiorentina",
+    "description": "grilled t-bone steak tuscan style",
+    "price": 35.0,
+    "source_cuisine": "Italian",
+    "normalized_name": "Bistecca Fiorentina",
+    "normalized_description": "Grilled Tuscan-style T-bone steak.",
+    "category": "Entree",
     "cuisine_tags": [
-      "Greek",
-      "Mediterranean"
+      "Italian"
     ],
     "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
+      "contains_meat"
     ],
     "ingredients": [
-      "lemon juice",
+      "beef t-bone steak",
       "olive oil",
-      "oregano",
-      "potatoes"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "rosemary",
+      "salt"
+    ]
   },
   {
-    "item_id": "r014_i015",
-    "restaurant_id": "r014",
-    "restaurant": "Aegean Blue Tavern",
+    "item_id": "r012_i015",
+    "restaurant_id": "r012",
+    "restaurant": "Trattoria Della Nonna",
     "raw_item_index": 14,
-    "item_name": "Falafel Wrap",
-    "description": "mediterranean falafel in tortilla with hummus",
-    "price": 10.0,
+    "item_name": "Chef's Special",
+    "description": "ask your server for today's market creation",
+    "price": 24.0,
+    "source_cuisine": "Italian",
+    "normalized_name": "Chef's Special",
+    "normalized_description": "Ask your server for today's market creation.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Italian"
+    ],
+    "dietary_tags": [
+      "unknown"
+    ],
+    "ingredients": [
+      "unknown"
+    ]
+  },
+  {
+    "item_id": "r013_i003",
+    "restaurant_id": "r013",
+    "restaurant": "Zaytouna Grill & Wrap",
+    "raw_item_index": 2,
+    "item_name": "falafel pta",
+    "description": "crispy chickpea patties with tahini and greens",
+    "price": 8.75,
     "source_cuisine": "Mediterranean",
-    "normalized_name": "Falafel Wrap",
+    "normalized_name": "Falafel Pita",
+    "normalized_description": "Crispy chickpea patties served in a pita with tahini and greens.",
     "category": "Sandwich",
     "cuisine_tags": [
       "Mediterranean",
       "Middle Eastern"
     ],
     "dietary_tags": [
-      "vegan",
       "vegetarian"
     ],
     "ingredients": [
-      "falafel",
-      "hummus",
-      "tortilla"
+      "chickpeas",
+      "tahini",
+      "greens",
+      "pita"
+    ]
+  },
+  {
+    "item_id": "r013_i007",
+    "restaurant_id": "r013",
+    "restaurant": "Zaytouna Grill & Wrap",
+    "raw_item_index": 6,
+    "item_name": "Shish Tawook",
+    "description": "marinated chicken skewers",
+    "price": 14.5,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Shish Tawook",
+    "normalized_description": "Marinated chicken skewers grilled to perfection.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Middle Eastern"
     ],
-    "label_status": "draft",
-    "review_notes": ""
+    "dietary_tags": [
+      "contains_meat"
+    ],
+    "ingredients": [
+      "chicken"
+    ]
+  },
+  {
+    "item_id": "r013_i009",
+    "restaurant_id": "r013",
+    "restaurant": "Zaytouna Grill & Wrap",
+    "raw_item_index": 8,
+    "item_name": "Greek Salad",
+    "description": "feta, olives, tomatoes, cucumbers, no lettuce",
+    "price": 9.0,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Greek Salad",
+    "normalized_description": "Traditional salad made with feta, olives, tomatoes, and cucumbers, without lettuce.",
+    "category": "Salad",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Greek"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "contains_dairy",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "feta cheese",
+      "olives",
+      "tomatoes",
+      "cucumbers"
+    ]
+  },
+  {
+    "item_id": "r013_i012",
+    "restaurant_id": "r013",
+    "restaurant": "Zaytouna Grill & Wrap",
+    "raw_item_index": 11,
+    "item_name": "Side Fries",
+    "description": "seasoned french fries",
+    "price": 4.0,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Side Fries",
+    "normalized_description": "Seasoned French fries served as a side.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Mediterranean"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "potatoes",
+      "seasoning"
+    ]
+  },
+  {
+    "item_id": "r013_i020",
+    "restaurant_id": "r013",
+    "restaurant": "Zaytouna Grill & Wrap",
+    "raw_item_index": 19,
+    "item_name": "canned soda",
+    "description": "coke, sprite, diet",
+    "price": 2.0,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Canned Soda",
+    "normalized_description": "Choice of canned soda including Coke, Sprite, or Diet Coke.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Mediterranean"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "carbonated water",
+      "sugar",
+      "flavorings"
+    ]
+  },
+  {
+    "item_id": "r014_i006",
+    "restaurant_id": "r014",
+    "restaurant": "Aegean Blue Tavern",
+    "raw_item_index": 5,
+    "item_name": "Calamares",
+    "description": "fried squid rings",
+    "price": 12.5,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Calamares",
+    "normalized_description": "Crispy fried squid rings served as an appetizer.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Greek"
+    ],
+    "dietary_tags": [
+      "unknown"
+    ],
+    "ingredients": [
+      "squid",
+      "flour",
+      "oil"
+    ]
+  },
+  {
+    "item_id": "r014_i008",
+    "restaurant_id": "r014",
+    "restaurant": "Aegean Blue Tavern",
+    "raw_item_index": 7,
+    "item_name": "Moussaka",
+    "description": "layered eggplant, potatoes, minced meat, bechamel",
+    "price": 16.5,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Moussaka",
+    "normalized_description": "Layered casserole of eggplant, potatoes, minced meat, and creamy bechamel sauce.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Greek"
+    ],
+    "dietary_tags": [
+      "contains_meat",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "eggplant",
+      "potatoes",
+      "minced meat",
+      "bechamel sauce"
+    ]
+  },
+  {
+    "item_id": "r014_i018",
+    "restaurant_id": "r014",
+    "restaurant": "Aegean Blue Tavern",
+    "raw_item_index": 17,
+    "item_name": "Greek Coffee",
+    "description": "",
+    "price": 3.5,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Greek Coffee",
+    "normalized_description": "Traditional strong Greek coffee brewed in an ibrik.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Greek"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "coffee",
+      "water",
+      "sugar"
+    ]
+  },
+  {
+    "item_id": "r014_i019",
+    "restaurant_id": "r014",
+    "restaurant": "Aegean Blue Tavern",
+    "raw_item_index": 18,
+    "item_name": "House Wine",
+    "description": "red or white glass",
+    "price": 8.0,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "House Wine",
+    "normalized_description": "Glass of house red or white wine.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Mediterranean"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "grapes",
+      "wine"
+    ]
+  },
+  {
+    "item_id": "r014_i020",
+    "restaurant_id": "r014",
+    "restaurant": "Aegean Blue Tavern",
+    "raw_item_index": 19,
+    "item_name": "Mythos Beer",
+    "description": "greek import",
+    "price": 6.0,
+    "source_cuisine": "Mediterranean",
+    "normalized_name": "Mythos Beer",
+    "normalized_description": "Imported Greek Mythos beer.",
+    "category": "Beverage",
+    "cuisine_tags": [
+      "Mediterranean",
+      "Greek"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "ingredients": [
+      "barley",
+      "hops",
+      "water",
+      "yeast"
+    ]
+  },
+  {
+    "item_id": "r015_i008",
+    "restaurant_id": "r015",
+    "restaurant": "Greasy Spoon Diner",
+    "raw_item_index": 7,
+    "item_name": "Cheeseburger",
+    "description": "beef patty w/ american cheese lettuce onion pickle",
+    "price": 9.5,
+    "source_cuisine": "American diner",
+    "normalized_name": "Cheeseburger",
+    "normalized_description": "Beef patty topped with American cheese, lettuce, onion, and pickle.",
+    "category": "Sandwich",
+    "cuisine_tags": [
+      "American diner"
+    ],
+    "dietary_tags": [
+      "contains_meat",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "beef patty",
+      "american cheese",
+      "lettuce",
+      "onion",
+      "pickle",
+      "bun"
+    ]
+  },
+  {
+    "item_id": "r015_i009",
+    "restaurant_id": "r015",
+    "restaurant": "Greasy Spoon Diner",
+    "raw_item_index": 8,
+    "item_name": "Fries",
+    "description": "",
+    "price": 3.75,
+    "source_cuisine": "American diner",
+    "normalized_name": "Fries",
+    "normalized_description": "Classic golden French fries.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "American diner"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "potatoes",
+      "oil",
+      "salt"
+    ]
   },
   {
     "item_id": "r015_i011",
@@ -1885,44 +1866,42 @@
     "price": 11.99,
     "source_cuisine": "American diner",
     "normalized_name": "Chef's Special",
+    "normalized_description": "Daily special featuring whatever the cook felt like making today.",
     "category": "Entree",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
       "unknown"
     ],
     "ingredients": [
       "unknown"
-    ],
-    "label_status": "needs_review",
-    "review_notes": "filled missing ingredients"
+    ]
   },
   {
-    "item_id": "r015_i014",
+    "item_id": "r015_i013",
     "restaurant_id": "r015",
     "restaurant": "Greasy Spoon Diner",
-    "raw_item_index": 13,
-    "item_name": "Matzo Ball Soup",
-    "description": "chicken broth w/ fluffy matzo dumpling",
-    "price": 6.0,
+    "raw_item_index": 12,
+    "item_name": "Grilled Cheese",
+    "description": "",
+    "price": 5.0,
     "source_cuisine": "American diner",
-    "normalized_name": "Matzo Ball Soup",
-    "category": "Appetizer",
+    "normalized_name": "Grilled Cheese",
+    "normalized_description": "Classic toasted sandwich with melted cheese.",
+    "category": "Sandwich",
     "cuisine_tags": [
-      "American",
-      "Jewish"
+      "American diner"
     ],
     "dietary_tags": [
-      "contains_meat"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "chicken",
-      "chicken broth",
-      "matzo dumpling"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "bread",
+      "cheese",
+      "butter"
+    ]
   },
   {
     "item_id": "r015_i015",
@@ -1934,79 +1913,21 @@
     "price": 7.25,
     "source_cuisine": "American diner",
     "normalized_name": "Chili",
+    "normalized_description": "Hearty beef and bean stew topped with cheddar cheese.",
     "category": "Entree",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "contains_meat"
+      "contains_meat",
+      "contains_dairy"
     ],
     "ingredients": [
-      "beans",
       "beef",
-      "cheddar cheese",
+      "beans",
       "chili peppers",
-      "tomatoes"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r015_i016",
-    "restaurant_id": "r015",
-    "restaurant": "Greasy Spoon Diner",
-    "raw_item_index": 15,
-    "item_name": "Milkshake",
-    "description": "vanilla chocolate or strawberry hand spun shake",
-    "price": 5.5,
-    "source_cuisine": "American diner",
-    "normalized_name": "Milkshake",
-    "category": "Beverage",
-    "cuisine_tags": [
-      "American"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "chocolate",
-      "ice cream",
-      "milk",
-      "strawberry",
-      "vanilla"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r015_i017",
-    "restaurant_id": "r015",
-    "restaurant": "Greasy Spoon Diner",
-    "raw_item_index": 16,
-    "item_name": "Apple pie",
-    "description": "",
-    "price": 4.25,
-    "source_cuisine": "American diner",
-    "normalized_name": "Apple Pie",
-    "category": "Dessert",
-    "cuisine_tags": [
-      "American"
-    ],
-    "dietary_tags": [
-      "vegetarian"
-    ],
-    "ingredients": [
-      "apples",
-      "butter",
-      "cinnamon",
-      "flour",
-      "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "cheddar cheese"
+    ]
   },
   {
     "item_id": "r016_i002",
@@ -2018,49 +1939,45 @@
     "price": 7.0,
     "source_cuisine": "American diner",
     "normalized_name": "Waffle",
-    "category": "Dessert",
+    "normalized_description": "Classic golden breakfast waffle.",
+    "category": "Entree",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "butter",
-      "eggs",
       "flour",
-      "milk"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "eggs",
+      "milk",
+      "butter"
+    ]
   },
   {
-    "item_id": "r016_i005",
+    "item_id": "r016_i008",
     "restaurant_id": "r016",
     "restaurant": "Highway 66 Diner",
-    "raw_item_index": 4,
-    "item_name": "hot choc",
-    "description": "hot chocolate w/ whipped cream",
-    "price": 3.25,
+    "raw_item_index": 7,
+    "item_name": "Chicken Tenders",
+    "description": "fried chicken strips w/ honey mustard",
+    "price": 9.99,
     "source_cuisine": "American diner",
-    "normalized_name": "Hot Chocolate",
-    "category": "Beverage",
+    "normalized_name": "Chicken Tenders",
+    "normalized_description": "Crispy fried chicken strips served with honey mustard dipping sauce.",
+    "category": "Entree",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
-      "contains_dairy",
-      "vegetarian",
-      "gluten_free"
+      "contains_meat"
     ],
     "ingredients": [
-      "chocolate",
-      "milk",
-      "whipped cream"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chicken",
+      "flour",
+      "honey mustard"
+    ]
   },
   {
     "item_id": "r016_i011",
@@ -2072,21 +1989,19 @@
     "price": 8.5,
     "source_cuisine": "American diner",
     "normalized_name": "Lunch Special",
-    "category": "Sandwich",
+    "normalized_description": "Combo meal featuring the soup of the day and half a turkey sandwich.",
+    "category": "Entree",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
-      "contains_meat",
-      "unknown"
+      "contains_meat"
     ],
     "ingredients": [
+      "turkey",
       "bread",
-      "soup",
-      "turkey"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "soup ingredients"
+    ]
   },
   {
     "item_id": "r016_i013",
@@ -2098,20 +2013,20 @@
     "price": 9.25,
     "source_cuisine": "American diner",
     "normalized_name": "Tuna Melt",
+    "normalized_description": "Warm sandwich filled with tuna salad and melted cheese.",
     "category": "Sandwich",
     "cuisine_tags": [
-      "American"
+      "American diner"
     ],
     "dietary_tags": [
       "contains_dairy"
     ],
     "ingredients": [
-      "bread",
+      "tuna",
+      "mayonnaise",
       "cheese",
-      "tuna"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "bread"
+    ]
   },
   {
     "item_id": "r016_i020",
@@ -2123,80 +2038,108 @@
     "price": 9.5,
     "source_cuisine": "American diner",
     "normalized_name": "Tikka Masala Fries",
+    "normalized_description": "Crispy fries topped with chicken tikka chunks and rich curry sauce.",
     "category": "Appetizer",
     "cuisine_tags": [
-      "American",
-      "Indian",
+      "American diner",
+      "Fusion",
+      "Indian"
+    ],
+    "dietary_tags": [
+      "contains_meat",
+      "contains_dairy",
+      "spicy"
+    ],
+    "ingredients": [
+      "potatoes",
+      "chicken",
+      "curry sauce",
+      "cream"
+    ]
+  },
+  {
+    "item_id": "r017_i003",
+    "restaurant_id": "r017",
+    "restaurant": "SeoulMate Urban Pocha",
+    "raw_item_index": 2,
+    "item_name": "K-Town Tacos",
+    "description": "bulgogi beef, slaw, sriracha mayo in flour tortillas",
+    "price": 13.0,
+    "source_cuisine": "Korean",
+    "normalized_name": "K-Town Tacos",
+    "normalized_description": "Bulgogi beef, slaw, and sriracha mayo served in flour tortillas.",
+    "category": "Taco",
+    "cuisine_tags": [
+      "Korean",
       "Fusion"
     ],
     "dietary_tags": [
-      "contains_dairy",
+      "contains_meat",
+      "spicy",
+      "contains_dairy"
+    ],
+    "ingredients": [
+      "beef",
+      "cabbage",
+      "mayonnaise",
+      "sriracha",
+      "flour tortillas"
+    ]
+  },
+  {
+    "item_id": "r017_i007",
+    "restaurant_id": "r017",
+    "restaurant": "SeoulMate Urban Pocha",
+    "raw_item_index": 6,
+    "item_name": "Yangnyeom Chicken",
+    "description": "crispy wings tossed in sweet spicy glaze",
+    "price": 16.5,
+    "source_cuisine": "Korean",
+    "normalized_name": "Yangnyeom Chicken",
+    "normalized_description": "Crispy chicken wings tossed in a sweet and spicy glaze.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Korean"
+    ],
+    "dietary_tags": [
       "contains_meat",
       "spicy"
     ],
     "ingredients": [
       "chicken",
-      "fries",
-      "tikka masala sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "chili paste",
+      "sugar",
+      "garlic"
+    ]
   },
   {
-    "item_id": "r017_i005",
+    "item_id": "r017_i009",
     "restaurant_id": "r017",
     "restaurant": "SeoulMate Urban Pocha",
-    "raw_item_index": 4,
-    "item_name": "rabokki",
+    "raw_item_index": 8,
+    "item_name": "Army Stew",
     "description": "",
-    "price": 16.0,
+    "price": 28.0,
     "source_cuisine": "Korean",
-    "normalized_name": "Rabokki",
-    "category": "Noodles",
+    "normalized_name": "Army Stew",
+    "normalized_description": "Traditional Korean military base stew loaded with spam, sausages, ramen noodles, and vegetables.",
+    "category": "Entree",
     "cuisine_tags": [
       "Korean"
     ],
     "dietary_tags": [
       "contains_meat",
+      "contains_pork",
       "spicy"
     ],
     "ingredients": [
-      "cabbage",
-      "fish cakes",
-      "gochujang",
+      "spam",
+      "sausage",
       "ramen noodles",
-      "tteokbokki"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r017_i006",
-    "restaurant_id": "r017",
-    "restaurant": "SeoulMate Urban Pocha",
-    "raw_item_index": 5,
-    "item_name": "corn cheese",
-    "description": "sweet corn baked w/ mozzarella",
-    "price": 9.0,
-    "source_cuisine": "Korean",
-    "normalized_name": "Corn Cheese",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Korean"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "vegetarian"
-    ],
-    "ingredients": [
-      "butter",
-      "mayonnaise",
-      "mozzarella cheese",
-      "sugar",
-      "sweet corn"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "baked beans",
+      "kimchi",
+      "tofu"
+    ]
   },
   {
     "item_id": "r017_i011",
@@ -2208,84 +2151,34 @@
     "price": 10.0,
     "source_cuisine": "Korean",
     "normalized_name": "Steamed Dumplings",
+    "normalized_description": "Steamed dumplings filled with savory pork and chives.",
     "category": "Appetizer",
     "cuisine_tags": [
-      "Korean"
+      "Korean",
+      "Asian"
     ],
     "dietary_tags": [
-      "contains_meat",
-      "contains_pork"
+      "contains_pork",
+      "contains_meat"
     ],
     "ingredients": [
+      "pork",
       "chives",
-      "dumpling wrapper",
-      "pork"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "dumpling wrapper"
+    ]
   },
   {
-    "item_id": "r017_i012",
+    "item_id": "r017_i018",
     "restaurant_id": "r017",
     "restaurant": "SeoulMate Urban Pocha",
-    "raw_item_index": 11,
-    "item_name": "Cold Buckwheat Noodle",
-    "description": "",
-    "price": 15.0,
+    "raw_item_index": 17,
+    "item_name": "House Bowl",
+    "description": "rice, greens, fried egg, choice of protein",
+    "price": 14.0,
     "source_cuisine": "Korean",
-    "normalized_name": "Cold Buckwheat Noodle",
-    "category": "Noodles",
-    "cuisine_tags": [
-      "Korean"
-    ],
-    "dietary_tags": [
-      "vegetarian"
-    ],
-    "ingredients": [
-      "boiled egg",
-      "broth",
-      "buckwheat noodles",
-      "cucumber",
-      "radish"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r017_i013",
-    "restaurant_id": "r017",
-    "restaurant": "SeoulMate Urban Pocha",
-    "raw_item_index": 12,
-    "item_name": "Chef's Special",
-    "description": "ask server for today's catch",
-    "price": 32.0,
-    "source_cuisine": "Korean",
-    "normalized_name": "Chef's Special",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Korean"
-    ],
-    "dietary_tags": [
-      "unknown"
-    ],
-    "ingredients": [
-      "fish",
-      "seafood"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r018_i002",
-    "restaurant_id": "r018",
-    "restaurant": "Han River BBQ & Grille",
-    "raw_item_index": 1,
-    "item_name": "ribeye bulgogi",
-    "description": "",
-    "price": 26.0,
-    "source_cuisine": "Korean",
-    "normalized_name": "Ribeye Bulgogi",
-    "category": "Entree",
+    "normalized_name": "House Bowl",
+    "normalized_description": "Rice bowl featuring greens, a fried egg, and your choice of protein.",
+    "category": "Bowl",
     "cuisine_tags": [
       "Korean"
     ],
@@ -2293,15 +2186,11 @@
       "contains_meat"
     ],
     "ingredients": [
-      "garlic",
-      "ribeye beef",
-      "scallions",
-      "sesame oil",
-      "soy sauce",
-      "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "rice",
+      "greens",
+      "egg",
+      "protein"
+    ]
   },
   {
     "item_id": "r018_i005",
@@ -2313,6 +2202,7 @@
     "price": 75.0,
     "source_cuisine": "Korean",
     "normalized_name": "Combo Plate",
+    "normalized_description": "A Korean barbecue combo plate serving 2 to 3 people that includes bulgogi, galbi, and pork belly.",
     "category": "Entree",
     "cuisine_tags": [
       "Korean"
@@ -2322,107 +2212,197 @@
       "contains_pork"
     ],
     "ingredients": [
-      "bulgogi",
-      "galbi",
-      "pork belly"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "beef",
+      "pork belly",
+      "marinade"
+    ]
   },
   {
-    "item_id": "r018_i008",
+    "item_id": "r018_i009",
     "restaurant_id": "r018",
     "restaurant": "Han River BBQ & Grille",
-    "raw_item_index": 7,
-    "item_name": "Japchae",
-    "description": "sweet potato glass noodles w/ veggies and beef",
-    "price": 17.0,
+    "raw_item_index": 8,
+    "item_name": "bibimbap",
+    "description": "rice bowl w/ assorted veggies, gochujang, fried egg",
+    "price": 16.5,
     "source_cuisine": "Korean",
-    "normalized_name": "Japchae",
-    "category": "Noodles",
+    "normalized_name": "Bibimbap",
+    "normalized_description": "A rice bowl topped with assorted vegetables, gochujang, and a fried egg.",
+    "category": "Rice Dish",
+    "cuisine_tags": [
+      "Korean"
+    ],
+    "dietary_tags": [
+      "vegetarian",
+      "spicy"
+    ],
+    "ingredients": [
+      "rice",
+      "vegetables",
+      "gochujang",
+      "egg"
+    ]
+  },
+  {
+    "item_id": "r018_i013",
+    "restaurant_id": "r018",
+    "restaurant": "Han River BBQ & Grille",
+    "raw_item_index": 12,
+    "item_name": "Steamed Egg Souffle",
+    "description": "fluffy savory egg custard in hot stone pot",
+    "price": 10.0,
+    "source_cuisine": "Korean",
+    "normalized_name": "Steamed Egg Souffle",
+    "normalized_description": "Fluffy and savory egg custard served in a hot stone pot.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Korean"
+    ],
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      "egg",
+      "broth",
+      "green onion"
+    ]
+  },
+  {
+    "item_id": "r018_i015",
+    "restaurant_id": "r018",
+    "restaurant": "Han River BBQ & Grille",
+    "raw_item_index": 14,
+    "item_name": "Fried Mandoo",
+    "description": "beef and pork dumplings (5pc)",
+    "price": 9.5,
+    "source_cuisine": "Korean",
+    "normalized_name": "Fried Mandoo",
+    "normalized_description": "Crispy pan-fried dumplings filled with beef and pork.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Korean"
     ],
     "dietary_tags": [
       "contains_meat",
-      "gluten_free"
+      "contains_pork"
     ],
     "ingredients": [
       "beef",
-      "carrots",
-      "mushrooms",
-      "soy sauce",
-      "spinach",
-      "sweet potato glass noodles"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "pork",
+      "dumpling wrapper"
+    ]
   },
   {
-    "item_id": "r018_i012",
+    "item_id": "r018_i016",
     "restaurant_id": "r018",
     "restaurant": "Han River BBQ & Grille",
-    "raw_item_index": 11,
-    "item_name": "Beef Bulgogi Pizza",
-    "description": "thin crust, mozzarella, bulgogi beef, onions, unagi drizzle",
-    "price": 21.0,
-    "source_cuisine": "Korean",
-    "normalized_name": "Beef Bulgogi Pizza",
-    "category": "Pizza",
-    "cuisine_tags": [
-      "Korean",
-      "Fusion"
-    ],
-    "dietary_tags": [
-      "contains_dairy",
-      "contains_meat"
-    ],
-    "ingredients": [
-      "bulgogi beef",
-      "mozzarella cheese",
-      "onions",
-      "pizza crust",
-      "unagi sauce"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r018_i020",
-    "restaurant_id": "r018",
-    "restaurant": "Han River BBQ & Grille",
-    "raw_item_index": 19,
-    "item_name": "Melona Bar",
-    "description": "melon flavored ice cream bar",
+    "raw_item_index": 15,
+    "item_name": "Pickled Radish",
+    "description": "",
     "price": 4.0,
     "source_cuisine": "Korean",
-    "normalized_name": "Melona Bar",
-    "category": "Dessert",
+    "normalized_name": "Pickled Radish",
+    "normalized_description": "Crisp and tangy house-pickled radish cubes.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Korean"
     ],
     "dietary_tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free"
+    ],
+    "ingredients": [
+      "radish",
+      "vinegar",
+      "sugar",
+      "salt"
+    ]
+  },
+  {
+    "item_id": "r019_i005",
+    "restaurant_id": "r019",
+    "restaurant": "Al-Amir Shawarma & Bakery",
+    "raw_item_index": 4,
+    "item_name": "Cheese Manakish",
+    "description": "Lebanese flatbread baked with akkawi cheese",
+    "price": 7.25,
+    "source_cuisine": "Middle Eastern",
+    "normalized_name": "Cheese Manakish",
+    "normalized_description": "Traditional Lebanese flatbread baked with savory akkawi cheese.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Middle Eastern"
+    ],
+    "dietary_tags": [
+      "vegetarian",
       "contains_dairy"
     ],
     "ingredients": [
-      "cream",
-      "melon flavoring",
-      "milk",
-      "sugar"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "flatbread dough",
+      "akkawi cheese"
+    ]
   },
   {
-    "item_id": "r019_i003",
+    "item_id": "r019_i008",
     "restaurant_id": "r019",
     "restaurant": "Al-Amir Shawarma & Bakery",
-    "raw_item_index": 2,
-    "item_name": "Falafel 6pc",
-    "description": "crispy chickpea fritters served with hot sauce",
-    "price": 6.99,
+    "raw_item_index": 7,
+    "item_name": "Lamb Kofta Skewer",
+    "description": "ground lamb mixed with parsley & onions",
+    "price": 8.0,
     "source_cuisine": "Middle Eastern",
-    "normalized_name": "Falafel",
+    "normalized_name": "Lamb Kofta Skewer",
+    "normalized_description": "Skewered ground lamb mixed with fresh parsley and onions.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Middle Eastern"
+    ],
+    "dietary_tags": [
+      "contains_meat"
+    ],
+    "ingredients": [
+      "ground lamb",
+      "parsley",
+      "onion"
+    ]
+  },
+  {
+    "item_id": "r019_i009",
+    "restaurant_id": "r019",
+    "restaurant": "Al-Amir Shawarma & Bakery",
+    "raw_item_index": 8,
+    "item_name": "shish tawook",
+    "description": "marinated grilled chicken cubes",
+    "price": 7.5,
+    "source_cuisine": "Middle Eastern",
+    "normalized_name": "Shish Tawook",
+    "normalized_description": "Tender cubes of marinated grilled chicken.",
+    "category": "Entree",
+    "cuisine_tags": [
+      "Middle Eastern"
+    ],
+    "dietary_tags": [
+      "contains_meat"
+    ],
+    "ingredients": [
+      "chicken",
+      "yogurt",
+      "garlic",
+      "spices"
+    ]
+  },
+  {
+    "item_id": "r019_i014",
+    "restaurant_id": "r019",
+    "restaurant": "Al-Amir Shawarma & Bakery",
+    "raw_item_index": 13,
+    "item_name": "Garlic Dip (Toum)",
+    "description": "extra strong whipped garlic sauce",
+    "price": 2.99,
+    "source_cuisine": "Middle Eastern",
+    "normalized_name": "Garlic Dip (Toum)",
+    "normalized_description": "An extra strong whipped garlic sauce.",
     "category": "Appetizer",
     "cuisine_tags": [
       "Middle Eastern"
@@ -2433,117 +2413,38 @@
       "gluten_free"
     ],
     "ingredients": [
-      "chickpeas",
-      "herbs",
-      "hot sauce",
-      "spices"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "garlic",
+      "oil",
+      "lemon juice",
+      "salt"
+    ]
   },
   {
-    "item_id": "r019_i004",
+    "item_id": "r019_i018",
     "restaurant_id": "r019",
     "restaurant": "Al-Amir Shawarma & Bakery",
-    "raw_item_index": 3,
-    "item_name": "Hummus w/ meat",
-    "description": "creamy chickpea dip topped with spiced lamb bits",
-    "price": 11.5,
+    "raw_item_index": 17,
+    "item_name": "Mint Lemonade",
+    "description": "fresh squeezed lemons blended with mint leaves",
+    "price": 4.25,
     "source_cuisine": "Middle Eastern",
-    "normalized_name": "Hummus with Meat",
-    "category": "Appetizer",
+    "normalized_name": "Mint Lemonade",
+    "normalized_description": "Freshly squeezed lemons blended with fragrant mint leaves.",
+    "category": "Beverage",
     "cuisine_tags": [
       "Middle Eastern"
     ],
     "dietary_tags": [
-      "contains_meat",
+      "vegan",
+      "vegetarian",
       "gluten_free"
     ],
     "ingredients": [
-      "chickpeas",
-      "garlic",
-      "lamb",
-      "lemon juice",
-      "tahini"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r019_i007",
-    "restaurant_id": "r019",
-    "restaurant": "Al-Amir Shawarma & Bakery",
-    "raw_item_index": 6,
-    "item_name": "mix grill plate",
-    "description": "shish taouk, kofta, and lamb chop w/ rice & garlic sauce",
-    "price": 24.99,
-    "source_cuisine": "Middle Eastern",
-    "normalized_name": "Mix Grill Plate",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "contains_meat"
-    ],
-    "ingredients": [
-      "chicken",
-      "garlic sauce",
-      "lamb",
-      "rice"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r019_i015",
-    "restaurant_id": "r019",
-    "restaurant": "Al-Amir Shawarma & Bakery",
-    "raw_item_index": 14,
-    "item_name": "Extra Pita",
-    "description": "",
-    "price": 1.5,
-    "source_cuisine": "Middle Eastern",
-    "normalized_name": "Extra Pita",
-    "category": "Appetizer",
-    "cuisine_tags": [
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "vegetarian"
-    ],
-    "ingredients": [
-      "flour",
+      "lemon",
+      "mint",
       "water",
-      "yeast"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r019_i020",
-    "restaurant_id": "r019",
-    "restaurant": "Al-Amir Shawarma & Bakery",
-    "raw_item_index": 19,
-    "item_name": "Chef's Special",
-    "description": "daily surprise platter of assorted meats and dips",
-    "price": 29.99,
-    "source_cuisine": "Middle Eastern",
-    "normalized_name": "Chef's Special",
-    "category": "Entree",
-    "cuisine_tags": [
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "contains_meat"
-    ],
-    "ingredients": [
-      "assorted meats",
-      "bread",
-      "dips"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "sugar"
+    ]
   },
   {
     "item_id": "r020_i005",
@@ -2555,6 +2456,7 @@
     "price": 22.99,
     "source_cuisine": "Middle Eastern",
     "normalized_name": "Combo Plate",
+    "normalized_description": "A combination platter featuring gyro meat, chicken, and kofta.",
     "category": "Entree",
     "cuisine_tags": [
       "Middle Eastern"
@@ -2563,14 +2465,12 @@
       "contains_meat"
     ],
     "ingredients": [
-      "chicken",
       "gyro meat",
+      "chicken",
       "kofta",
       "rice",
       "salad"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+    ]
   },
   {
     "item_id": "r020_i008",
@@ -2582,63 +2482,89 @@
     "price": 9.25,
     "source_cuisine": "Middle Eastern",
     "normalized_name": "Greek Salad",
+    "normalized_description": "Traditional salad featuring crisp lettuce, tomatoes, cucumbers, olives, and feta cheese.",
     "category": "Salad",
     "cuisine_tags": [
-      "Greek",
-      "Middle Eastern"
+      "Middle Eastern",
+      "Greek"
     ],
     "dietary_tags": [
+      "vegetarian",
       "contains_dairy",
-      "vegetarian",
       "gluten_free"
     ],
     "ingredients": [
-      "cucumbers",
-      "feta cheese",
       "lettuce",
+      "tomato",
+      "cucumber",
       "olives",
-      "onions",
-      "tomatoes"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "feta cheese"
+    ]
   },
   {
-    "item_id": "r020_i011",
+    "item_id": "r020_i012",
     "restaurant_id": "r020",
     "restaurant": "Babylon Kebab & Falafel",
-    "raw_item_index": 10,
-    "item_name": "Lunch Special",
-    "description": "quick wrap with side of fries and soda",
-    "price": 11.99,
+    "raw_item_index": 11,
+    "item_name": "Spinach Pie",
+    "description": "flaky pastry stuffed with spinach and feta cheese",
+    "price": 6.5,
     "source_cuisine": "Middle Eastern",
-    "normalized_name": "Lunch Special",
-    "category": "Sandwich",
+    "normalized_name": "Spinach Pie",
+    "normalized_description": "Flaky pastry stuffed with seasoned spinach and feta cheese.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Middle Eastern"
     ],
     "dietary_tags": [
-      "contains_meat"
+      "vegetarian",
+      "contains_dairy"
     ],
     "ingredients": [
-      "french fries",
-      "meat wrap",
-      "soda"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "phyllo dough",
+      "spinach",
+      "feta cheese",
+      "onion"
+    ]
   },
   {
-    "item_id": "r020_i017",
+    "item_id": "r020_i013",
     "restaurant_id": "r020",
     "restaurant": "Babylon Kebab & Falafel",
-    "raw_item_index": 16,
-    "item_name": "Can Soda",
-    "description": "coke, diet coke, sprite",
-    "price": 2.5,
+    "raw_item_index": 12,
+    "item_name": "Fried Kibbeh",
+    "description": "bulgur wheat shells stuffed with ground beef and pine nuts",
+    "price": 8.0,
     "source_cuisine": "Middle Eastern",
-    "normalized_name": "Can Soda",
-    "category": "Beverage",
+    "normalized_name": "Fried Kibbeh",
+    "normalized_description": "Bulgur wheat shells stuffed with ground beef and pine nuts.",
+    "category": "Appetizer",
+    "cuisine_tags": [
+      "Middle Eastern"
+    ],
+    "dietary_tags": [
+      "contains_meat",
+      "contains_nuts"
+    ],
+    "ingredients": [
+      "bulgur wheat",
+      "ground beef",
+      "pine nuts",
+      "onion"
+    ]
+  },
+  {
+    "item_id": "r020_i019",
+    "restaurant_id": "r020",
+    "restaurant": "Babylon Kebab & Falafel",
+    "raw_item_index": 18,
+    "item_name": "Extra Garlic Sauce",
+    "description": "side of creamy garlic paste",
+    "price": 1.5,
+    "source_cuisine": "Middle Eastern",
+    "normalized_name": "Extra Garlic Sauce",
+    "normalized_description": "A side portion of creamy garlic paste.",
+    "category": "Appetizer",
     "cuisine_tags": [
       "Middle Eastern"
     ],
@@ -2648,34 +2574,10 @@
       "gluten_free"
     ],
     "ingredients": [
-      "soda"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
-  },
-  {
-    "item_id": "r020_i018",
-    "restaurant_id": "r020",
-    "restaurant": "Babylon Kebab & Falafel",
-    "raw_item_index": 17,
-    "item_name": "Bottled Water",
-    "description": "",
-    "price": 2.0,
-    "source_cuisine": "Middle Eastern",
-    "normalized_name": "Bottled Water",
-    "category": "Beverage",
-    "cuisine_tags": [
-      "Middle Eastern"
-    ],
-    "dietary_tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
-    ],
-    "ingredients": [
-      "water"
-    ],
-    "label_status": "draft",
-    "review_notes": ""
+      "garlic",
+      "oil",
+      "lemon juice",
+      "salt"
+    ]
   }
 ]

@@ -4,25 +4,16 @@
 from __future__ import annotations
 
 import json
-import os
-import re
-import urllib.error
-import urllib.request
-from pathlib import Path
 from typing import Any
 
+from utils import GEMINI_MODEL, ROOT, call_gemini_json, normalize_key, write_json
 
-ROOT = Path(__file__).resolve().parents[1]
+
 PROMPT_PATH = ROOT / "prompts" / "raw_dataset_generation.md"
 MENU_OUTPUT_PATH = ROOT / "data" / "raw" / "synthetic_menus.json"
 SUMMARY_PATH = ROOT / "data" / "raw" / "summary.json"
-KEY_FILE = ROOT / ".gemini_api_key"
-MODEL = "gemini-3.5-flash-lite"
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/interactions"
 RESTAURANTS_PER_CUISINE = 2
 ITEMS_PER_MENU = 20
-MAX_OUTPUT_TOKENS = 8192
-REQUEST_TIMEOUT_SECONDS = 60
 
 MENU_REQUIRED_FIELDS = {"restaurant", "items"}
 ITEM_REQUIRED_FIELDS = {"item_name", "description", "price"}
@@ -71,40 +62,6 @@ CUISINES = [
 ]
 
 
-def read_api_key() -> str:
-    key = (
-        os.environ.get("GEMINI_API_KEY")
-        or os.environ.get("GOOGLE_API_KEY")
-        or (
-            KEY_FILE.read_text(encoding="utf-8").strip()
-            if KEY_FILE.exists()
-            else ""
-        )
-    )
-    if not key:
-        raise SystemExit("Missing Gemini API key.")
-    return key
-
-
-def normalize_key(value: str) -> str:
-    """
-    Lowercase, replace each non-alphanumeric sequence with a single space and trim.
-    """
-    return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
-
-
-def extract_text(response: dict[str, Any]) -> str:
-    for step in response.get("steps", []):
-        if step.get("type") != "model_output":
-            continue
-        for content in step.get("content", []):
-            if content.get("type") == "text" and (
-                text := content.get("text", "").strip()
-            ):
-                return text
-    raise ValueError(f"Gemini interaction returned no text: {response}")
-
-
 def clean_item(item: Any) -> dict[str, Any] | None:
     if not isinstance(item, dict) or set(item) != ITEM_REQUIRED_FIELDS:
         return None
@@ -127,7 +84,7 @@ def clean_item(item: Any) -> dict[str, Any] | None:
     }
 
 
-def clean_menu(menu: Any) -> dict[str, Any] | None:
+def clean_menu(menu: Any, cuisine: str) -> dict[str, Any] | None:
     if not isinstance(menu, dict) or set(menu) != MENU_REQUIRED_FIELDS:
         return None
 
@@ -152,46 +109,12 @@ def clean_menu(menu: Any) -> dict[str, Any] | None:
         clean_items.append(clean)
 
     if len(clean_items) == ITEMS_PER_MENU:
-        return {"restaurant": restaurant.strip(), "items": clean_items}
+        return {
+            "restaurant": restaurant.strip(),
+            "cuisine": cuisine,
+            "items": clean_items,
+        }
     return None
-
-
-def call_gemini_interaction(api_key: str, prompt: str) -> list[Any]:
-    body = {
-        "model": MODEL,
-        "input": prompt,
-        "response_format": {
-            "type": "text",
-            "mime_type": "application/json",
-            "schema": RESPONSE_SCHEMA,
-        },
-        "generation_config": {
-            "max_output_tokens": MAX_OUTPUT_TOKENS,
-        },
-    }
-    request = urllib.request.Request(
-        GEMINI_URL,
-        data=json.dumps(body).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "x-goog-api-key": api_key,
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(
-            request,
-            timeout=REQUEST_TIMEOUT_SECONDS,
-        ) as response:
-            payload = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail}") from exc
-
-    menus = json.loads(extract_text(payload))
-    if not isinstance(menus, list):
-        raise ValueError("Gemini response must be a JSON array")
-    return menus
 
 
 def build_batch_prompt(base_prompt: str, cuisine: str, restaurant_keys: list[str]) -> str:
@@ -208,10 +131,12 @@ def build_batch_prompt(base_prompt: str, cuisine: str, restaurant_keys: list[str
 def summarize(menus: list[dict[str, Any]]) -> dict[str, Any]:
     items = [item for menu in menus for item in menu["items"]]
     item_counts = [len(menu["items"]) for menu in menus]
+    cuisines = sorted({menu["cuisine"] for menu in menus})
     return {
         "total_restaurants": len(menus),
         "total_items": len(items),
-        "model": MODEL,
+        "model": GEMINI_MODEL,
+        "cuisines": cuisines,
         "items_per_menu_min": min(item_counts) if item_counts else 0,
         "items_per_menu_max": max(item_counts) if item_counts else 0,
         "missing_descriptions": sum(1 for item in items if not item["description"]),
@@ -230,7 +155,6 @@ def summarize(menus: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def generate_dataset() -> list[dict[str, Any]]:
-    api_key = read_api_key()
     base_prompt = PROMPT_PATH.read_text(encoding="utf-8")
 
     menus: list[dict[str, Any]] = []
@@ -238,11 +162,11 @@ def generate_dataset() -> list[dict[str, Any]]:
 
     for cuisine in CUISINES:
         prompt = build_batch_prompt(base_prompt, cuisine, restaurant_keys)
-        raw_batch = call_gemini_interaction(api_key, prompt)
+        raw_batch = call_gemini_json(prompt=prompt, schema=RESPONSE_SCHEMA)
 
         unique_menus: list[dict[str, Any]] = []
         for raw_menu in raw_batch:
-            if (menu := clean_menu(raw_menu)) is None:
+            if (menu := clean_menu(raw_menu, cuisine)) is None:
                 continue
             if (key := normalize_key(menu["restaurant"])) in restaurant_keys:
                 continue
@@ -267,14 +191,9 @@ def generate_dataset() -> list[dict[str, Any]]:
     return menus
 
 
-def write_json(path: Path, value: Any) -> None:
-    path.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
-
-
 def main() -> int:
     menus = generate_dataset()
 
-    MENU_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     write_json(MENU_OUTPUT_PATH, menus)
     write_json(SUMMARY_PATH, summarize(menus))
     print(f"Wrote {len(menus)} menus to {MENU_OUTPUT_PATH}")
