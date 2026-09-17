@@ -1,0 +1,459 @@
+[
+  {
+    "item_id": 43528,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Aroma",
+    "restaurant_id": 42911,
+    "category_source": "SOFT DRINKS",
+    "raw_item_index": 169,
+    "original_item": {
+      "name": "144. Aura water 0,5 l",
+      "description": "Sparkling",
+      "price": 3.2
+    },
+    "messy_item": {
+      "name": "144. Aura water 0,5l",
+      "description": "",
+      "price": 3.2
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 5634,
+    "source_cuisine": "burgers",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 5272,
+    "category_source": "\ud83c\udf54 BURGERS",
+    "raw_item_index": 14,
+    "original_item": {
+      "name": "Very good",
+      "description": "Handmade bun, beef patty, 2x cheese, green onion, pickled cucumber, ketchup, French's mustard",
+      "price": 10.9
+    },
+    "messy_item": {
+      "name": "very good",
+      "description": "handmade bun, beef patty, 2x cheese",
+      "price": 10.9
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 1758,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "SAUCES",
+    "raw_item_index": 15,
+    "original_item": {
+      "name": "BBQ sauce",
+      "description": "",
+      "price": 2.0
+    },
+    "messy_item": {
+      "name": "BBQ scc.",
+      "description": "",
+      "price": 2.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 51535,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "SUSHI SET",
+    "raw_item_index": 35,
+    "original_item": {
+      "name": "OFFICE SET 12TK",
+      "description": "A balanced selection of Philadelphia, Salmon, and California Maki.",
+      "price": 18.0
+    },
+    "messy_item": {
+      "name": "oFFICE SET 12TK",
+      "description": "",
+      "price": 18.0
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12864,
+    "source_cuisine": "street_food",
+    "restaurant": "Jahu Street Gourmet Burger Volta",
+    "restaurant_id": 12409,
+    "category_source": "SUPISTED",
+    "raw_item_index": 18,
+    "original_item": {
+      "name": "Truffle friikad",
+      "description": "French fries, truffle cheese zest, truffle mayo",
+      "price": 9.0
+    },
+    "messy_item": {
+      "name": "truffle friikad",
+      "description": "fries, truffle cheese, mayo",
+      "price": 9.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12038,
+    "source_cuisine": "street_food",
+    "restaurant": "Han's Street Food",
+    "restaurant_id": 11836,
+    "category_source": "LANZHOU RAMEN ",
+    "raw_item_index": 13,
+    "original_item": {
+      "name": "Classical chicken ramen with soup / \u9e21\u8089\u62c9\u9762",
+      "description": "Chicken ramen soup.",
+      "price": 11.0
+    },
+    "messy_item": {
+      "name": "Classical chkn ramen w/ soup / \u9e21\u8089\u62c9\u9762",
+      "description": "chkn soup.",
+      "price": 11.0
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 11697,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "CURRIES",
+    "raw_item_index": 36,
+    "original_item": {
+      "name": "36. Panang Karri Kanaga \ud83c\udf36\ufe0f",
+      "description": "Chicken fillet in Panang curry sauce with coconut milk and fresh chilli, served with jasmine rice.",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "36. Panang Karri Kanaga",
+      "description": "chicken in panang curry",
+      "price": 12.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 6235,
+    "source_cuisine": "burgers",
+    "restaurant": "Urban Buns",
+    "restaurant_id": 6108,
+    "category_source": "FRIES",
+    "raw_item_index": 11,
+    "original_item": {
+      "name": "French Fries ",
+      "description": "",
+      "price": 5.0
+    },
+    "messy_item": {
+      "name": "French  Fries",
+      "description": "",
+      "price": 5.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 51309,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "STARTERS",
+    "raw_item_index": 15,
+    "original_item": {
+      "name": "Goma-wakame salad (V)",
+      "description": "Wakame deep seaweed, lettuce, seaweed salad",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Goma-wakame salad v",
+      "description": "Wakame deep seaweed, lettuce...",
+      "price": 5.9
+    },
+    "normalized_category": "salad",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 4733,
+    "source_cuisine": "burgers",
+    "restaurant": "Burger King Vanalinn",
+    "restaurant_id": 2977,
+    "category_source": "CHICKEN AND FISH BURGERS",
+    "raw_item_index": 60,
+    "original_item": {
+      "name": "Long Chicken\u2122",
+      "description": "Long chicken sandwich.",
+      "price": 5.4
+    },
+    "messy_item": {
+      "name": "LONG CHICKEN",
+      "description": "Long chicken sandwich.",
+      "price": 5.4
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 46751,
+    "source_cuisine": "asian",
+    "restaurant": "Cho Oyu Asian Restaurant",
+    "restaurant_id": 46640,
+    "category_source": "CHINESE COOKED DUCK MEAT",
+    "raw_item_index": 92,
+    "original_item": {
+      "name": "94. Singapore Duck",
+      "description": "Battered fried duck broccoli, nuts, and leek in Singapore sauce",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "94. singapore Duck",
+      "description": "fried duck broccoli nuts leek",
+      "price": 12.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 34002,
+    "source_cuisine": "pizza",
+    "restaurant": "Domino's Pizza Tammsaare",
+    "restaurant_id": 30541,
+    "category_source": "DRINKS",
+    "raw_item_index": 93,
+    "original_item": {
+      "name": "Fuzetea lemon 500 ml",
+      "description": "",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "fuzetea lemon 500 ml",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 2965,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "DRINK",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "PEPSI ZERO 330ml",
+      "description": "Sugar-free Pepsi soft drink.",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "pEPSI ZERO 330ml",
+      "description": "Sugar-free Pepsi soft drink.",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 40257,
+    "source_cuisine": "italian",
+    "restaurant": "LaBocca Golden Gate",
+    "restaurant_id": 37746,
+    "category_source": "Pasta / Meat ",
+    "raw_item_index": 46,
+    "original_item": {
+      "name": "Penne con Pollo",
+      "description": "chicken fillet, cream sauce, sun-dried tomato, spinach, grana padano",
+      "price": 15.3
+    },
+    "messy_item": {
+      "name": "penne con Pollo",
+      "description": "chicken fillet cream sauce sun-dried tomato spinach grana padano",
+      "price": 15.3
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 19003,
+    "source_cuisine": "japanese",
+    "restaurant": "Kagerou Ramen House",
+    "restaurant_id": 18494,
+    "category_source": "RAMEN",
+    "raw_item_index": 26,
+    "original_item": {
+      "name": "Ramen with chicken",
+      "description": "Broth, edamame, corn, daikon, green onion, egg, chicken",
+      "price": 17.9
+    },
+    "messy_item": {
+      "name": "Ramen w/ CHICKEN",
+      "description": "Broth, edamame, corn, daikon, green onion, egg, chickun",
+      "price": 17.9
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 1830,
+    "source_cuisine": "american",
+    "restaurant": "Goodwin Steak House",
+    "restaurant_id": 1774,
+    "category_source": "STEAK",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "New York 220 g",
+      "description": "Australian or US short loin steak from cattle grain-fed for 100 days.",
+      "price": 33.5
+    },
+    "messy_item": {
+      "name": "New York 220g",
+      "description": "Australian or US short loin steak from cattle grainfed 100 days",
+      "price": 33.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 1767,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "DRINKS",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "Aqua panna water without gas 500 ml",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "aqua panna wtr no gas 500ml",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 2972,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "ALCOHOL",
+    "raw_item_index": 30,
+    "original_item": {
+      "name": "HARTWALL ORIGINAL LONG DRINK 5.5% 330ml",
+      "description": "Original long drink, 5.5% ABV.",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "hartwall original long drink 5.5% 330ml",
+      "description": "Original long drink, 5.5% ABV.",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 11218,
+    "source_cuisine": "chicken",
+    "restaurant": "Hawaii Davai Sikupilli",
+    "restaurant_id": 10131,
+    "category_source": "SMOOTHIES",
+    "raw_item_index": 77,
+    "original_item": {
+      "name": "Pina Colada - smoothie 0.4L",
+      "description": "coconut milk, banana, pineapple, apple, pineapple puree",
+      "price": 6.5
+    },
+    "messy_item": {
+      "name": "Pina Colada smothie 0.4L",
+      "description": "banana, pineapple, coconut milk",
+      "price": 6.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 11831,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "DRINKS",
+    "raw_item_index": 56,
+    "original_item": {
+      "name": "Greppo watermelon-flavored juice drink 0.32l",
+      "description": "",
+      "price": 4.0
+    },
+    "messy_item": {
+      "name": "Greppo watermelon juice 0.32l",
+      "description": "",
+      "price": 4.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  }
+]

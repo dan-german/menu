@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -12,38 +11,38 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_MENUS_PATH = ROOT / "data" / "raw" / "synthetic_menus.json"
+RAW_MENUS_PATH = ROOT / "data" / "raw" / "menus.json"
 KEY_FILE = ROOT / ".gemini_api_key"
 GEMINI_MODEL = "gemini-3.5-flash-lite"
 GEMINI_MAX_OUTPUT_TOKENS = 8192
 GEMINI_TIMEOUT_SECONDS = 90
 
 EVAL_SAMPLE_SEED = 42
-EVAL_ITEMS_PER_RESTAURANT = 5
-EVAL_TOTAL_ITEMS = 100
+EVAL_TOTAL_ITEMS = 200
+EVAL_SPOTCHECK_ITEMS = 20
+MESSY_SET_PATH = ROOT / "eval" / "messy_set.json"
+EVAL_SPOTCHECK_PATH = ROOT / "eval" / "spotcheck_sample.json"
 
-DIETARY_TAGS = (
-    "vegetarian",
-    "vegan",
-    "gluten_free",
-    "contains_dairy",
-    "contains_nuts",
-    "contains_shellfish",
-    "contains_pork",
-    "contains_meat",
-    "spicy",
+CATEGORY_TAXONOMY = (
+    "appetizer",
+    "bakery",
+    "beverage",
+    "breakfast",
+    "burger",
+    "dessert",
+    "main_course",
+    "noodles",
+    "pizza",
+    "rice_dish",
+    "salad",
+    "sandwich",
+    "side",
+    "snack",
+    "soup",
+    "sushi",
+    "taco",
     "unknown",
 )
-
-def normalize_key(value: str) -> str:
-    """Normalize loose menu text for matching and validation."""
-    return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
-
-
-def item_id(restaurant_index: int, item_index: int) -> str:
-    """Build the stable ID used to link eval items to raw menu items."""
-    return f"r{restaurant_index + 1:03d}_i{item_index + 1:03d}"
-
 
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))

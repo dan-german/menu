@@ -1,0 +1,4568 @@
+[
+  {
+    "item_id": 262,
+    "source_cuisine": "american",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 1,
+    "category_source": "APPETIZERS",
+    "raw_item_index": 15,
+    "original_item": {
+      "name": "ONION RINGS WITH GARLIC SAUCE 10 PIECES",
+      "description": "",
+      "price": 7.2
+    },
+    "messy_item": {
+      "name": "ONION RINGS w/ garlic sauce 10 pcs",
+      "description": "",
+      "price": 7.2
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 265,
+    "source_cuisine": "american",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 1,
+    "category_source": "APPETIZERS",
+    "raw_item_index": 16,
+    "original_item": {
+      "name": "STUFFED JALOPENOS WITH GARLIC SAUCE 6 PIECES",
+      "description": "",
+      "price": 7.6
+    },
+    "messy_item": {
+      "name": "stuffed JALOPENOS w/ garlic sace 6 pcs",
+      "description": "",
+      "price": 7.6
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 314,
+    "source_cuisine": "american",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 1,
+    "category_source": "PAN PIZZAS (Small)",
+    "raw_item_index": 30,
+    "original_item": {
+      "name": "NR. 1 (24cm)",
+      "description": "CHICKEN, HAM, PINEAPPLE, MUSHROOM ,CHEESE",
+      "price": 14.1
+    },
+    "messy_item": {
+      "name": "NR. 1 (24cm) - pan",
+      "description": "chickn, ham, pineapple, mushrm, chse",
+      "price": 14.1
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 790,
+    "source_cuisine": "american",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 1,
+    "category_source": "PAN PIZZAS (Small)",
+    "raw_item_index": 47,
+    "original_item": {
+      "name": "NR.18 (24cm)",
+      "description": "CHICKEN, PINEAPPLE, BLUE CHEESE, CHEESE",
+      "price": 13.4
+    },
+    "messy_item": {
+      "name": "nr.18 (24cm)",
+      "description": "chicken, pineapple, blue cheese",
+      "price": 13.4
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 1702,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "BILL'S ORIGINAL SUBS",
+    "raw_item_index": 6,
+    "original_item": {
+      "name": "Mortadella SUB \"Love my sausage\"",
+      "description": "Thinly sliced and grilled best Mortadella with melted Cheddar cheese and mustard",
+      "price": 9.0
+    },
+    "messy_item": {
+      "name": "Mortadella SUB (Love my sausge)",
+      "description": "Thinly sliced & grilled mortadella w/ cheddar & mustard",
+      "price": 9.0
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 1725,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "SMASH HEAD SUBS",
+    "raw_item_index": 9,
+    "original_item": {
+      "name": "Smash Head Sub Single",
+      "description": "Bun, beef patty, cheddar, onion, pickle, Smash Head sauce",
+      "price": 6.0
+    },
+    "messy_item": {
+      "name": "smash head sub single",
+      "description": "bun beef patty cheddar onion pickle sauce",
+      "price": 6.0
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 1758,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "SAUCES",
+    "raw_item_index": 15,
+    "original_item": {
+      "name": "BBQ sauce",
+      "description": "",
+      "price": 2.0
+    },
+    "messy_item": {
+      "name": "BBQ scc.",
+      "description": "",
+      "price": 2.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 1767,
+    "source_cuisine": "american",
+    "restaurant": "Bill the Butcher American Hot Subs",
+    "restaurant_id": 1671,
+    "category_source": "DRINKS",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "Aqua panna water without gas 500 ml",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "aqua panna wtr no gas 500ml",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 1830,
+    "source_cuisine": "american",
+    "restaurant": "Goodwin Steak House",
+    "restaurant_id": 1774,
+    "category_source": "STEAK",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "New York 220 g",
+      "description": "Australian or US short loin steak from cattle grain-fed for 100 days.",
+      "price": 33.5
+    },
+    "messy_item": {
+      "name": "New York 220g",
+      "description": "Australian or US short loin steak from cattle grainfed 100 days",
+      "price": 33.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 1932,
+    "source_cuisine": "american",
+    "restaurant": "Goodwin Steak House",
+    "restaurant_id": 1774,
+    "category_source": "FISH AND SEAFOOD",
+    "raw_item_index": 13,
+    "original_item": {
+      "name": "GOODWIN tiger prawns",
+      "description": "GOODWIN's tiger prawns With tomatoes, garlic and herbs. With tomatoes, garlic and herbs.",
+      "price": 22.5
+    },
+    "messy_item": {
+      "name": "GOODWIN tiger prawnz",
+      "description": "With tomatoes, garlic & herbs.",
+      "price": 22.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "typo",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 2044,
+    "source_cuisine": "american",
+    "restaurant": "Goodwin Steak House",
+    "restaurant_id": 1774,
+    "category_source": "COLD SNACKS",
+    "raw_item_index": 26,
+    "original_item": {
+      "name": "Italian delicacy plate",
+      "description": "Platter of Italian meat",
+      "price": 23.5
+    },
+    "messy_item": {
+      "name": "Italian deliccy plate",
+      "description": "Platter of meats",
+      "price": 23.5
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 2083,
+    "source_cuisine": "american",
+    "restaurant": "Goodwin Steak House",
+    "restaurant_id": 1774,
+    "category_source": "BEER AND CIDER",
+    "raw_item_index": 57,
+    "original_item": {
+      "name": "Saku Gold 0,5 l",
+      "description": "",
+      "price": 6.5
+    },
+    "messy_item": {
+      "name": "Saku Gold 0,5l",
+      "description": "",
+      "price": 6.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 2126,
+    "source_cuisine": "american",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 2094,
+    "category_source": "CAMPAIGN",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "French fries + sauce",
+      "description": "",
+      "price": 3.78
+    },
+    "messy_item": {
+      "name": "French fries + sace!",
+      "description": "",
+      "price": 3.78
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "typo",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 2151,
+    "source_cuisine": "american",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 2094,
+    "category_source": "SNACKS",
+    "raw_item_index": 9,
+    "original_item": {
+      "name": "French fries + sauce",
+      "description": "",
+      "price": 5.4
+    },
+    "messy_item": {
+      "name": "FRENCH FRIES + SAUCE",
+      "description": "",
+      "price": 5.4
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 2219,
+    "source_cuisine": "american",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 2094,
+    "category_source": "WRAP & BOX",
+    "raw_item_index": 19,
+    "original_item": {
+      "name": "Wrap with ground beef",
+      "description": "Wheat tortilla filled with minced beef, tomato, iceberg lettuce, ranch dressing, spring onion, salsa, cheddar cheese",
+      "price": 9.8
+    },
+    "messy_item": {
+      "name": "Wrap w/ ground beef",
+      "description": "Wheat tortilla w/ minced beef, tomato, lettuce, ranch, salsa, cheddar",
+      "price": 9.8
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 2259,
+    "source_cuisine": "american",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 2094,
+    "category_source": "GRILL & BBQ",
+    "raw_item_index": 25,
+    "original_item": {
+      "name": "Grilled chicken",
+      "description": "Chicken thigh served with coleslaw and blue cheese dressing",
+      "price": 13.1
+    },
+    "messy_item": {
+      "name": "Grilled chix",
+      "description": "Chicken thigh with coleslaw and blue cheese",
+      "price": 13.1
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 2642,
+    "source_cuisine": "american",
+    "restaurant": "Bad Habits",
+    "restaurant_id": 2590,
+    "category_source": "Burgers",
+    "raw_item_index": 8,
+    "original_item": {
+      "name": "Pulled Pork Burger",
+      "description": "French fries, ranch sauce",
+      "price": 16.9
+    },
+    "messy_item": {
+      "name": "Pulled Pork Brgr",
+      "description": "French fries, ranch",
+      "price": 16.9
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 2735,
+    "source_cuisine": "american",
+    "restaurant": "Bad Habits",
+    "restaurant_id": 2590,
+    "category_source": "Snacks",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "Pulled Pork Tacos",
+      "description": "BBQ pulled pork, chili-lime sauce, lime, coriander, pickled onion, sesame seeds",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "pulled Pork Tacos",
+      "description": "BBQ pork, chili-lime, lime, coriander, onion, sesame",
+      "price": 12.9
+    },
+    "normalized_category": "taco",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 2866,
+    "source_cuisine": "american",
+    "restaurant": "Bad Habits",
+    "restaurant_id": 2590,
+    "category_source": "Side Dishes",
+    "raw_item_index": 44,
+    "original_item": {
+      "name": "Smoked Beans",
+      "description": "",
+      "price": 6.9
+    },
+    "messy_item": {
+      "name": "Smoked Beanz...",
+      "description": "",
+      "price": 6.9
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "typo",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 2877,
+    "source_cuisine": "american",
+    "restaurant": "Bad Habits",
+    "restaurant_id": 2590,
+    "category_source": "Sauces",
+    "raw_item_index": 49,
+    "original_item": {
+      "name": "BBQ",
+      "description": "",
+      "price": 2.5
+    },
+    "messy_item": {
+      "name": "bbq",
+      "description": "",
+      "price": 2.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 2943,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "COMBO",
+    "raw_item_index": 11,
+    "original_item": {
+      "name": "SUPER FAT RABBIT COMBO",
+      "description": "Cheeseburger, fries & garlic, Pepsi",
+      "price": 19.5
+    },
+    "messy_item": {
+      "name": "SUPER FAT RABBT COMBO",
+      "description": "Cheesburger, fries & garlic, Pepsi",
+      "price": 19.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "typo"
+    ]
+  },
+  {
+    "item_id": 2963,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "DRINK",
+    "raw_item_index": 22,
+    "original_item": {
+      "name": "MIRINDA 330ml",
+      "description": "MIRINDA 330ml",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "MIRINDA 330ml.",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 2965,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "DRINK",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "PEPSI ZERO 330ml",
+      "description": "Sugar-free Pepsi soft drink.",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "pEPSI ZERO 330ml",
+      "description": "Sugar-free Pepsi soft drink.",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 2972,
+    "source_cuisine": "burgers",
+    "restaurant": "Fat Rabbit Smash Burgers",
+    "restaurant_id": 2912,
+    "category_source": "ALCOHOL",
+    "raw_item_index": 30,
+    "original_item": {
+      "name": "HARTWALL ORIGINAL LONG DRINK 5.5% 330ml",
+      "description": "Original long drink, 5.5% ABV.",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "hartwall original long drink 5.5% 330ml",
+      "description": "Original long drink, 5.5% ABV.",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 4056,
+    "source_cuisine": "burgers",
+    "restaurant": "Burger King Vanalinn",
+    "restaurant_id": 2977,
+    "category_source": "VEGETABLES",
+    "raw_item_index": 28,
+    "original_item": {
+      "name": "Plant-Based Whopper Jr\u00ae Meal",
+      "description": "The WHOPPER JR\u2122 burger is the nest egg of the Whopper family! A soft sesame seed bun features a delicious flame-grilled plant-based patty, plus juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles and onion slices.",
+      "price": 8.3
+    },
+    "messy_item": {
+      "name": "Plant-Based Whoper Jr. Meal",
+      "description": "nest egg of the Whopper family! patty, plus juicy tomatoes, fresh lettuce.",
+      "price": 8.3
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 4600,
+    "source_cuisine": "burgers",
+    "restaurant": "Burger King Vanalinn",
+    "restaurant_id": 2977,
+    "category_source": "CHICKEN AND FISH BURGERS",
+    "raw_item_index": 53,
+    "original_item": {
+      "name": "Long Chili Cheese Chicken\u2122",
+      "description": "Longer enjoyment!",
+      "price": 5.7
+    },
+    "messy_item": {
+      "name": "Long Chili Cheese Chkn",
+      "description": "Longer enjoyment!",
+      "price": 5.7
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 4733,
+    "source_cuisine": "burgers",
+    "restaurant": "Burger King Vanalinn",
+    "restaurant_id": 2977,
+    "category_source": "CHICKEN AND FISH BURGERS",
+    "raw_item_index": 60,
+    "original_item": {
+      "name": "Long Chicken\u2122",
+      "description": "Long chicken sandwich.",
+      "price": 5.4
+    },
+    "messy_item": {
+      "name": "LONG CHICKEN",
+      "description": "Long chicken sandwich.",
+      "price": 5.4
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 5239,
+    "source_cuisine": "burgers",
+    "restaurant": "Burger King Vanalinn",
+    "restaurant_id": 2977,
+    "category_source": "DRINKS",
+    "raw_item_index": 115,
+    "original_item": {
+      "name": "Cappy Orange Juice",
+      "description": "",
+      "price": 1.95
+    },
+    "messy_item": {
+      "name": "Cappy Orange J.",
+      "description": "",
+      "price": 1.95
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 5634,
+    "source_cuisine": "burgers",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 5272,
+    "category_source": "\ud83c\udf54 BURGERS",
+    "raw_item_index": 14,
+    "original_item": {
+      "name": "Very good",
+      "description": "Handmade bun, beef patty, 2x cheese, green onion, pickled cucumber, ketchup, French's mustard",
+      "price": 10.9
+    },
+    "messy_item": {
+      "name": "very good",
+      "description": "handmade bun, beef patty, 2x cheese",
+      "price": 10.9
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 6101,
+    "source_cuisine": "burgers",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 5272,
+    "category_source": "\ud83e\udd64 DRINKS",
+    "raw_item_index": 51,
+    "original_item": {
+      "name": "Red Bull 250 ml",
+      "description": "",
+      "price": 2.8
+    },
+    "messy_item": {
+      "name": "Red Bull 250ml",
+      "description": "energy drink",
+      "price": 2.8
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 6106,
+    "source_cuisine": "burgers",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 5272,
+    "category_source": "\ud83d\udd1eAlcoholic beverages",
+    "raw_item_index": 55,
+    "original_item": {
+      "name": "Smells Like Peacharine Spirit 0.33l",
+      "description": "Smells Like Peacharine Spirit is a tribute to the finest New Zealand hops. Peacharine gives the beer an intense and sweet peach and nectarine aroma, supported by the zesty passion fruit of Riwaka. Rakau adds soft apricot and orchard fruit notes. Tropical, juicy and full of the true New Zealand spirit.",
+      "price": 4.6
+    },
+    "messy_item": {
+      "name": "Smells Like Peacharine Spir 0.33l",
+      "description": "intense peach aroma.",
+      "price": 4.6
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 6107,
+    "source_cuisine": "burgers",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 5272,
+    "category_source": "\ud83d\udd1eAlcoholic beverages",
+    "raw_item_index": 56,
+    "original_item": {
+      "name": "Simply The West 0.33l",
+      "description": "A hoppy and crisp Pilsner with Nelson Sauvin and Citra hops. A collaboration beer with Nurme Brewery from Latvia.",
+      "price": 4.6
+    },
+    "messy_item": {
+      "name": "Simply The West 0.33l!!",
+      "description": "A hoppy & crisp Pilsner...",
+      "price": 4.6
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 6116,
+    "source_cuisine": "burgers",
+    "restaurant": "Urban Buns",
+    "restaurant_id": 6108,
+    "category_source": "COMBOS",
+    "raw_item_index": 1,
+    "original_item": {
+      "name": "DELUXE COMBO",
+      "description": "choice of burger + sweet potato fries with classic sauce + drink",
+      "price": 22.0
+    },
+    "messy_item": {
+      "name": "DELUXE CMBO",
+      "description": "choice of burger + sweet potato fries + drink",
+      "price": 22.0
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 6168,
+    "source_cuisine": "burgers",
+    "restaurant": "Urban Buns",
+    "restaurant_id": 6108,
+    "category_source": "BURGERS",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "\ud83e\uddc0 GORGONZOLA MESS",
+      "description": "Two beef patties, melted cheddar, crispy pickles, gorgonzola sauce, toasted bun.\n",
+      "price": 15.5
+    },
+    "messy_item": {
+      "name": "GORGONZOLA MESS",
+      "description": "Two beef patties, melted cheddar...",
+      "price": 15.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 6178,
+    "source_cuisine": "burgers",
+    "restaurant": "Urban Buns",
+    "restaurant_id": 6108,
+    "category_source": "BURGERS",
+    "raw_item_index": 6,
+    "original_item": {
+      "name": "SMASH WRAP",
+      "description": "any burger can be made as a tortilla",
+      "price": 15.5
+    },
+    "messy_item": {
+      "name": "smash wrap",
+      "description": "",
+      "price": 15.5
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 6235,
+    "source_cuisine": "burgers",
+    "restaurant": "Urban Buns",
+    "restaurant_id": 6108,
+    "category_source": "FRIES",
+    "raw_item_index": 11,
+    "original_item": {
+      "name": "French Fries ",
+      "description": "",
+      "price": 5.0
+    },
+    "messy_item": {
+      "name": "French  Fries",
+      "description": "",
+      "price": 5.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 6305,
+    "source_cuisine": "burgers",
+    "restaurant": "BurX",
+    "restaurant_id": 6263,
+    "category_source": "Combo",
+    "raw_item_index": 2,
+    "original_item": {
+      "name": "2x OG Burger Combo",
+      "description": "1. 2x OG Burger- Brioche bun, 100% Beef Smash Patty, Cheddar Cheese, Iceberg, Onion, Pickles, Burx Special Sauce\r\n2. French Fries or Sweet Potato\r\n3. 2x Drinks of your choice\r\n4. One portion of Snacks\r\n5. 2x Sauces",
+      "price": 36.5
+    },
+    "messy_item": {
+      "name": "2X OG Burger Combo",
+      "description": "1. 2x OG Burger 2. Fries 3. Drinks",
+      "price": 36.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 6490,
+    "source_cuisine": "burgers",
+    "restaurant": "BurX",
+    "restaurant_id": 6263,
+    "category_source": "Combo",
+    "raw_item_index": 10,
+    "original_item": {
+      "name": "Mighty Combo",
+      "description": "1. Mighty Burger-  Brioche bun, 2x 100% Beef smash patty, 2x Cheddar cheese, Iceberg, Onion, Pickles, Burx special sauce\r\n2. French fries or Sweet Potato\r\n3. Drink of your choice",
+      "price": 19.5
+    },
+    "messy_item": {
+      "name": "Mghty Combo",
+      "description": "Mighty Burger, fries, drink",
+      "price": 19.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "typo"
+    ]
+  },
+  {
+    "item_id": 7008,
+    "source_cuisine": "burgers",
+    "restaurant": "BurX",
+    "restaurant_id": 6263,
+    "category_source": "Soft Drinks",
+    "raw_item_index": 49,
+    "original_item": {
+      "name": "Fanta 0.5l",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "fanta 0.5l",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 7014,
+    "source_cuisine": "burgers",
+    "restaurant": "BurX",
+    "restaurant_id": 6263,
+    "category_source": "Soft Drinks",
+    "raw_item_index": 55,
+    "original_item": {
+      "name": "Cappy Apple 0.33l",
+      "description": "",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "Cappy Apple 0.33l.",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 7554,
+    "source_cuisine": "chicken",
+    "restaurant": "KFC Artius",
+    "restaurant_id": 7019,
+    "category_source": "Dips",
+    "raw_item_index": 57,
+    "original_item": {
+      "name": "Garlic",
+      "description": "Garlic",
+      "price": 1.15
+    },
+    "messy_item": {
+      "name": "Garlic.",
+      "description": "Garlic dip",
+      "price": 1.15
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 7634,
+    "source_cuisine": "chicken",
+    "restaurant": "KFC Artius",
+    "restaurant_id": 7019,
+    "category_source": "Cold Drinks",
+    "raw_item_index": 91,
+    "original_item": {
+      "name": "Neptunas Still water (bottle) 500 ml",
+      "description": "Pudelis",
+      "price": 2.3
+    },
+    "messy_item": {
+      "name": "Neptunas Still water 500ml",
+      "description": "",
+      "price": 2.3
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation",
+      "dropped_description",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 7683,
+    "source_cuisine": "chicken",
+    "restaurant": "KFC Artius",
+    "restaurant_id": 7019,
+    "category_source": "Chicken",
+    "raw_item_index": 107,
+    "original_item": {
+      "name": "3 Hot & Spicy Wings",
+      "description": "Hot & Spicy Wings 3",
+      "price": 4.45
+    },
+    "messy_item": {
+      "name": "3 Hot & Spcy Wings",
+      "description": "hot wings 3",
+      "price": 4.45
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 7770,
+    "source_cuisine": "chicken",
+    "restaurant": "KFC Artius",
+    "restaurant_id": 7019,
+    "category_source": "Burgers",
+    "raw_item_index": 121,
+    "original_item": {
+      "name": "Kentucky Gold Grander burger",
+      "description": "Mahlane kanafilee, peekon, marineeritud kurk, v\u00e4rske salat, ikooniline Kentucky Gold kaste ja cheddari juust ei j\u00e4ta sind \u00fcksk\u00f5ikseks. Kombinatsioon, mis paneb suu vett jooksma!",
+      "price": 7.1
+    },
+    "messy_item": {
+      "name": "KENTUCKY gold grander",
+      "description": "Mahlane kanafilee, peekon, kaste",
+      "price": 7.1
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 8192,
+    "source_cuisine": "chicken",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 7793,
+    "category_source": "NIGIRI",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Salmon Nigiri",
+      "description": "Salmon, rice",
+      "price": 5.2
+    },
+    "messy_item": {
+      "name": "Salmon Nigri",
+      "description": "rice, salmon",
+      "price": 5.2
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 8482,
+    "source_cuisine": "chicken",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 7793,
+    "category_source": "FUTOMAKI",
+    "raw_item_index": 42,
+    "original_item": {
+      "name": "Philadelphia (5 pcs.)",
+      "description": "Salmon, cucumber, avocado, cream cheese and sesame seeds",
+      "price": 9.2
+    },
+    "messy_item": {
+      "name": "Philadelph (5 pcs.)",
+      "description": "salmon, cream cheese, avocado",
+      "price": 9.2
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 8706,
+    "source_cuisine": "chicken",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 7793,
+    "category_source": "FUTOMAKI",
+    "raw_item_index": 56,
+    "original_item": {
+      "name": "Rishiri (10pcs.)",
+      "description": "Cold-smoked salmon, cream cheese, frillice salad, masago, black sesame seeds with ginger-garlic chilli sauce",
+      "price": 14.1
+    },
+    "messy_item": {
+      "name": "Rishiri 10pcs",
+      "description": "cold-smoked salmon, cream cheese, salad",
+      "price": 14.1
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "spacing_noise",
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 9185,
+    "source_cuisine": "chicken",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 7793,
+    "category_source": "VEGAN SUSHI",
+    "raw_item_index": 88,
+    "original_item": {
+      "name": "Vegan Tempura (5 pcs.)",
+      "description": "Tofu, cashew sauce, spinach, leek and teriyaki sauce",
+      "price": 8.5
+    },
+    "messy_item": {
+      "name": "VEGAN tempura (5pcs)",
+      "description": "",
+      "price": 8.5
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "dropped_description",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 9408,
+    "source_cuisine": "chicken",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 9295,
+    "category_source": "\ud83c\udf54\ud83c\udf5fFOOD",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "NGU meal",
+      "description": "Burger + fries + sauce + drink NGU burger (Handmade bun, beef patty, 2x bacon, cheese, onion jam, pickled cucumber, BBQ sauce, BurgerBros mayonnaise) \ud83d\udd25Burger prepared in collaboration with Haljala NGU basketball team",
+      "price": 22.5
+    },
+    "messy_item": {
+      "name": "NGU_meal",
+      "description": "burger + fries + drink",
+      "price": 22.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 9763,
+    "source_cuisine": "chicken",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 9295,
+    "category_source": "\ud83c\udf5fLOADED FRIES",
+    "raw_item_index": 19,
+    "original_item": {
+      "name": "Loaded fries with chicken",
+      "description": "Fries, crispy chicken strips, pico de gallo, roasted onions, cheese, green onions, garlic sauce, sriracha or chipotle mayo (with chipotle sauce, jalapenos are added to the fries)",
+      "price": 10.9
+    },
+    "messy_item": {
+      "name": "Loaded fries w/ chicken",
+      "description": "Fries, crispy chicken, cheese, sauce",
+      "price": 10.9
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 9829,
+    "source_cuisine": "chicken",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 9295,
+    "category_source": "\ud83d\udca5BURGERBROS SPECIALS",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Sweet potato fries",
+      "description": "Sweet potato fries, sauce, grated Forte cheese",
+      "price": 6.6
+    },
+    "messy_item": {
+      "name": "Sweet potto fries",
+      "description": "sweet potato fries",
+      "price": 6.6
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 10127,
+    "source_cuisine": "chicken",
+    "restaurant": "BurgerBros Tallinn",
+    "restaurant_id": 9295,
+    "category_source": "\ud83d\udd1eAlcoholic beverages",
+    "raw_item_index": 53,
+    "original_item": {
+      "name": "Zesty bastard 0.33l",
+      "description": "A collaboration brew with Mlinarica Brewery from Croatia, Zesty Bastard is a cloudy IPA with fresh tangerine peel and juice and New Zealand hops (Nectaron and Riwaka).",
+      "price": 4.6
+    },
+    "messy_item": {
+      "name": "zesty bastard 0.33l",
+      "description": "ipa",
+      "price": 4.6
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 10471,
+    "source_cuisine": "chicken",
+    "restaurant": "Hawaii Davai Sikupilli",
+    "restaurant_id": 10131,
+    "category_source": "SNACKS",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "Fish & Chips",
+      "description": "breaded white fish, lemon, french fries, vegan cucumber mayonnaise",
+      "price": 11.9
+    },
+    "messy_item": {
+      "name": "Fish & Chips...",
+      "description": "white fish, fries, lemon",
+      "price": 11.9
+    },
+    "normalized_category": "snack",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 10472,
+    "source_cuisine": "chicken",
+    "restaurant": "Hawaii Davai Sikupilli",
+    "restaurant_id": 10131,
+    "category_source": "SNACKS",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Handmade fries with cheese",
+      "description": "",
+      "price": 7.9
+    },
+    "messy_item": {
+      "name": "Handmade fries w. cheese",
+      "description": "",
+      "price": 7.9
+    },
+    "normalized_category": "snack",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 10909,
+    "source_cuisine": "chicken",
+    "restaurant": "Hawaii Davai Sikupilli",
+    "restaurant_id": 10131,
+    "category_source": "POKE BOWL",
+    "raw_item_index": 35,
+    "original_item": {
+      "name": "Healthier choice: Fit-chicken bowl \ud83d\udcaa",
+      "description": "chicken fillet, avocado, bell pepper, carrot, cucumber, bok choy, edamame, radish, green salad, nut sauce, teriyaki sauce, sesame seeds *large bowl with quinoa 430 kcal / small bowl 290 kcal *large bowl with rice 560 kcal / small bowl 368 kcal",
+      "price": 13.7
+    },
+    "messy_item": {
+      "name": "Fit-chicken bowl",
+      "description": "chicken, avocado, rice/quinoa, veggies",
+      "price": 13.7
+    },
+    "normalized_category": "salad",
+    "applied_corruptions": [
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 11218,
+    "source_cuisine": "chicken",
+    "restaurant": "Hawaii Davai Sikupilli",
+    "restaurant_id": 10131,
+    "category_source": "SMOOTHIES",
+    "raw_item_index": 77,
+    "original_item": {
+      "name": "Pina Colada - smoothie 0.4L",
+      "description": "coconut milk, banana, pineapple, apple, pineapple puree",
+      "price": 6.5
+    },
+    "messy_item": {
+      "name": "Pina Colada smothie 0.4L",
+      "description": "banana, pineapple, coconut milk",
+      "price": 6.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 11537,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "NOODLES",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "40. Pad Thai Tom Yam Goong \ud83c\udf36\ufe0f\ud83c\udf36\ufe0f\ud83c\udf36\ufe0f",
+      "description": "Rice noodles fried in spicy tamarind sauce with king prawns, peanut crumbs and vegetables. Fried rice noodles in spicy tamarind sauce with king prawns, peanuts and vegetables.",
+      "price": 14.5
+    },
+    "messy_item": {
+      "name": "Pad Thai Tom Yam Goong",
+      "description": "Rice noodles with king prawns.",
+      "price": 14.5
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 11697,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "CURRIES",
+    "raw_item_index": 36,
+    "original_item": {
+      "name": "36. Panang Karri Kanaga \ud83c\udf36\ufe0f",
+      "description": "Chicken fillet in Panang curry sauce with coconut milk and fresh chilli, served with jasmine rice.",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "36. Panang Karri Kanaga",
+      "description": "chicken in panang curry",
+      "price": 12.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 11736,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "CURRIES",
+    "raw_item_index": 39,
+    "original_item": {
+      "name": "9. Green Curry with Chicken \ud83c\udf36\ufe0f\ud83c\udf36\ufe0f\ud83c\udf36\ufe0f",
+      "description": "Chicken in green curry sauce with vegetables and coconut milk. Served with jasmine rice. Chicken in a green curry sauce with vegetables and coconut milk. Served with jasmine rice.",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "9. Green Curry w/ Chicken",
+      "description": "chicken in green curry",
+      "price": 12.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 11831,
+    "source_cuisine": "chicken",
+    "restaurant": "Nuudel Kesklinn",
+    "restaurant_id": 11273,
+    "category_source": "DRINKS",
+    "raw_item_index": 56,
+    "original_item": {
+      "name": "Greppo watermelon-flavored juice drink 0.32l",
+      "description": "",
+      "price": 4.0
+    },
+    "messy_item": {
+      "name": "Greppo watermelon juice 0.32l",
+      "description": "",
+      "price": 4.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 11848,
+    "source_cuisine": "street_food",
+    "restaurant": "Han's Street Food",
+    "restaurant_id": 11836,
+    "category_source": "BAO ZI ",
+    "raw_item_index": 1,
+    "original_item": {
+      "name": "Bao Zi pork / \u732a\u8089\u5305",
+      "description": "",
+      "price": 4.0
+    },
+    "messy_item": {
+      "name": "Bao Zi pork / \u732a\u8089\u5305 ",
+      "description": "",
+      "price": 4.0
+    },
+    "normalized_category": "snack",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 11858,
+    "source_cuisine": "street_food",
+    "restaurant": "Han's Street Food",
+    "restaurant_id": 11836,
+    "category_source": "BAO ZI ",
+    "raw_item_index": 2,
+    "original_item": {
+      "name": "Bao Zi beef / \u725b\u8089\u5305",
+      "description": "",
+      "price": 4.0
+    },
+    "messy_item": {
+      "name": "Bao-Zi beef / \u725b\u8089\u5305",
+      "description": "",
+      "price": 4.0
+    },
+    "normalized_category": "snack",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 12038,
+    "source_cuisine": "street_food",
+    "restaurant": "Han's Street Food",
+    "restaurant_id": 11836,
+    "category_source": "LANZHOU RAMEN ",
+    "raw_item_index": 13,
+    "original_item": {
+      "name": "Classical chicken ramen with soup / \u9e21\u8089\u62c9\u9762",
+      "description": "Chicken ramen soup.",
+      "price": 11.0
+    },
+    "messy_item": {
+      "name": "Classical chkn ramen w/ soup / \u9e21\u8089\u62c9\u9762",
+      "description": "chkn soup.",
+      "price": 11.0
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 12120,
+    "source_cuisine": "street_food",
+    "restaurant": "Han's Street Food",
+    "restaurant_id": 11836,
+    "category_source": "SOFT DRINKS ",
+    "raw_item_index": 22,
+    "original_item": {
+      "name": "Saaremaa Sparkling Water 500ml \u82cf\u6253\u6c34",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "saaremaa sparkling water 500ml \u82cf\u6253\u6c34",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12200,
+    "source_cuisine": "street_food",
+    "restaurant": "Hans Street Food Balti Jaam",
+    "restaurant_id": 12127,
+    "category_source": "DUMPLING ",
+    "raw_item_index": 6,
+    "original_item": {
+      "name": "Wonton soup (6 pcs) / \u9984\u9968 ",
+      "description": "Pork filling ",
+      "price": 9.5
+    },
+    "messy_item": {
+      "name": "Wonton soup (6 pcs) / \u9984\u9968",
+      "description": "pork fillng",
+      "price": 9.5
+    },
+    "normalized_category": "soup",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 12257,
+    "source_cuisine": "street_food",
+    "restaurant": "Hans Street Food Balti Jaam",
+    "restaurant_id": 12127,
+    "category_source": "DUMPLING ",
+    "raw_item_index": 9,
+    "original_item": {
+      "name": "Wonton soup (12 pcs) / \u9984\u9968",
+      "description": "Pork filling ",
+      "price": 15.5
+    },
+    "messy_item": {
+      "name": "wonton soup (12 pcs) / \u9984\u9968",
+      "description": "",
+      "price": 15.5
+    },
+    "normalized_category": "soup",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12399,
+    "source_cuisine": "street_food",
+    "restaurant": "Hans Street Food Balti Jaam",
+    "restaurant_id": 12127,
+    "category_source": "SOFT DRINKS ",
+    "raw_item_index": 17,
+    "original_item": {
+      "name": "Dr. Pepper 330ml",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "DrPepper 330ml",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 12401,
+    "source_cuisine": "street_food",
+    "restaurant": "Hans Street Food Balti Jaam",
+    "restaurant_id": 12127,
+    "category_source": "SOFT DRINKS ",
+    "raw_item_index": 19,
+    "original_item": {
+      "name": "Fanta Orange 330 ml",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "FANTA orange 330 ml",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12606,
+    "source_cuisine": "street_food",
+    "restaurant": "Jahu Street Gourmet Burger Volta",
+    "restaurant_id": 12409,
+    "category_source": "FLOUR BURGER MEALS",
+    "raw_item_index": 7,
+    "original_item": {
+      "name": "BACONATOR",
+      "description": "Local farm beef patty, crispy bacon, cheddar cheese, pickles, onion jam, bbq sauce, brioche\n",
+      "price": 18.0
+    },
+    "messy_item": {
+      "name": "baconator",
+      "description": "local farm beef patty, crispy bacon, cheddar cheese, pickles, onion jam, bbq sauce, brioche",
+      "price": 18.0
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 12718,
+    "source_cuisine": "street_food",
+    "restaurant": "Jahu Street Gourmet Burger Volta",
+    "restaurant_id": 12409,
+    "category_source": "SMASHBURGERID",
+    "raw_item_index": 11,
+    "original_item": {
+      "name": "BACONATOR",
+      "description": "Local farm beef patty, crispy bacon, cheddar cheese, pickles, onion jam, bbq sauce, brioche\n",
+      "price": 13.0
+    },
+    "messy_item": {
+      "name": "Baconator!!",
+      "description": "beef patty, bacon...",
+      "price": 13.0
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 12864,
+    "source_cuisine": "street_food",
+    "restaurant": "Jahu Street Gourmet Burger Volta",
+    "restaurant_id": 12409,
+    "category_source": "SUPISTED",
+    "raw_item_index": 18,
+    "original_item": {
+      "name": "Truffle friikad",
+      "description": "French fries, truffle cheese zest, truffle mayo",
+      "price": 9.0
+    },
+    "messy_item": {
+      "name": "truffle friikad",
+      "description": "fries, truffle cheese, mayo",
+      "price": 9.0
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 12920,
+    "source_cuisine": "street_food",
+    "restaurant": "Jahu Street Gourmet Burger Volta",
+    "restaurant_id": 12409,
+    "category_source": "JOOGID",
+    "raw_item_index": 25,
+    "original_item": {
+      "name": "EIRA mullita vesi 0.33 l",
+      "description": "",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "EIRA mullitav vesi 0.33l",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 13070,
+    "source_cuisine": "street_food",
+    "restaurant": "Chaat House",
+    "restaurant_id": 12926,
+    "category_source": "FRESH BREADS:-  NAAN / PARANTHA / PHULKA ROTI",
+    "raw_item_index": 47,
+    "original_item": {
+      "name": "Cheese Naan",
+      "description": "Stuffed Naan with mozarella cheese",
+      "price": 5.5
+    },
+    "messy_item": {
+      "name": "cheese Naan",
+      "description": "stuffed w/ mozarella",
+      "price": 5.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 13077,
+    "source_cuisine": "street_food",
+    "restaurant": "Chaat House",
+    "restaurant_id": 12926,
+    "category_source": "FRESH BREADS:-  NAAN / PARANTHA / PHULKA ROTI",
+    "raw_item_index": 54,
+    "original_item": {
+      "name": "Cheese Garlic Naan",
+      "description": "Naan bread garnished with touch of fresh garlic, replete with cheese",
+      "price": 5.5
+    },
+    "messy_item": {
+      "name": "cheese garlic naan",
+      "description": "Naan bread garnished with touch of fresh garlic, replete with cheese",
+      "price": 5.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 13457,
+    "source_cuisine": "street_food",
+    "restaurant": "Chaat House",
+    "restaurant_id": 12926,
+    "category_source": "MAIN:-  CURRY IN HURRY - Veg",
+    "raw_item_index": 89,
+    "original_item": {
+      "name": "Tadka Daal",
+      "description": "Yellow split lentils cooked with cumin seeds, ginger, garlic, tomatoes and turmeric",
+      "price": 12.0
+    },
+    "messy_item": {
+      "name": "tadka Daal",
+      "description": "yellow split lentils w/ cumin, ginger, garlic, tomatoes & turmeric",
+      "price": 12.0
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 13753,
+    "source_cuisine": "street_food",
+    "restaurant": "Chaat House",
+    "restaurant_id": 12926,
+    "category_source": "HAKKA NOODLES",
+    "raw_item_index": 112,
+    "original_item": {
+      "name": "CHICKEN SCHEZWAN NOODLES",
+      "description": "Chicken Schezwan Noodles is one of those dishes that hits all the right notes \u2014 spicy, savoury, and full of flavour",
+      "price": 8.5
+    },
+    "messy_item": {
+      "name": "CHCKEN SCHEZWAN NOODLES",
+      "description": "spicy savoury full of flavr",
+      "price": 8.5
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 13946,
+    "source_cuisine": "street_food",
+    "restaurant": "Freya Foodbar",
+    "restaurant_id": 13914,
+    "category_source": "Drinks",
+    "raw_item_index": 10,
+    "original_item": {
+      "name": "Big Tom spiced tomato",
+      "description": "",
+      "price": 5.0
+    },
+    "messy_item": {
+      "name": "Big Tom spcd tomato",
+      "description": "",
+      "price": 5.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 13948,
+    "source_cuisine": "street_food",
+    "restaurant": "Freya Foodbar",
+    "restaurant_id": 13914,
+    "category_source": "Drinks",
+    "raw_item_index": 12,
+    "original_item": {
+      "name": "Real Kola sugar free drink",
+      "description": "",
+      "price": 4.5
+    },
+    "messy_item": {
+      "name": "Real Kola sugar free",
+      "description": "",
+      "price": 4.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 13949,
+    "source_cuisine": "street_food",
+    "restaurant": "Freya Foodbar",
+    "restaurant_id": 13914,
+    "category_source": "Drinks",
+    "raw_item_index": 13,
+    "original_item": {
+      "name": "T\u00f6rst Real Lemon lemonade",
+      "description": "",
+      "price": 4.5
+    },
+    "messy_item": {
+      "name": "T\u00f6rst Real Lemon lmnade",
+      "description": "",
+      "price": 4.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 13950,
+    "source_cuisine": "street_food",
+    "restaurant": "Freya Foodbar",
+    "restaurant_id": 13914,
+    "category_source": "Drinks",
+    "raw_item_index": 14,
+    "original_item": {
+      "name": "Real Kola",
+      "description": "",
+      "price": 4.5
+    },
+    "messy_item": {
+      "name": "real kola",
+      "description": "",
+      "price": 4.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14024,
+    "source_cuisine": "bbq",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 13952,
+    "category_source": "SNACKS",
+    "raw_item_index": 12,
+    "original_item": {
+      "name": "Buffalo chicken wings + sauce",
+      "description": "",
+      "price": 9.4
+    },
+    "messy_item": {
+      "name": "Buffalo chicken wings + sauce!",
+      "description": "",
+      "price": 9.4
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 14319,
+    "source_cuisine": "bbq",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 13952,
+    "category_source": "KOMBOD",
+    "raw_item_index": 47,
+    "original_item": {
+      "name": "Keskmine BBQ-lihavaagen + friikartulid + karastusjoo",
+      "description": "",
+      "price": 36.2
+    },
+    "messy_item": {
+      "name": "keskmine BBQ-lihavaagen + friikartulid + karastusjoo",
+      "description": "kombo",
+      "price": 36.2
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14439,
+    "source_cuisine": "bbq",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 13952,
+    "category_source": "NON - ALCOHOLIC BEVERAGES",
+    "raw_item_index": 65,
+    "original_item": {
+      "name": "Sprite 250 ml",
+      "description": "",
+      "price": 3.2
+    },
+    "messy_item": {
+      "name": "sprt 250ml",
+      "description": "",
+      "price": 3.2
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 14443,
+    "source_cuisine": "bbq",
+    "restaurant": "BabyBack Ribs & BBQ Nautica",
+    "restaurant_id": 13952,
+    "category_source": "NON - ALCOHOLIC BEVERAGES",
+    "raw_item_index": 69,
+    "original_item": {
+      "name": "Fuzetea peach hibiscus iced tea 500 ml",
+      "description": "",
+      "price": 3.9
+    },
+    "messy_item": {
+      "name": "fuzetea peach hibiscus iced tea 500 ml",
+      "description": "refreshing drink",
+      "price": 3.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14483,
+    "source_cuisine": "bbq",
+    "restaurant": "P\u00f5hjala Tap Room",
+    "restaurant_id": 14448,
+    "category_source": "TEXAS BBQ",
+    "raw_item_index": 3,
+    "original_item": {
+      "name": "Three Meat Platter for One",
+      "description": "Brisket 100g, sausage 80g, 1 rib\nServed with coleslaw, pickles and a Parker House roll",
+      "price": 28.9
+    },
+    "messy_item": {
+      "name": "Three Meat Pltr For 1",
+      "description": "Brisket 100g, sausage 80g, 1 rib",
+      "price": 28.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14545,
+    "source_cuisine": "bbq",
+    "restaurant": "P\u00f5hjala Tap Room",
+    "restaurant_id": 14448,
+    "category_source": "SANDWICHES & MORE",
+    "raw_item_index": 11,
+    "original_item": {
+      "name": "Double Cheeseburger with Fries",
+      "description": "Ground striploin, brisket and house bacon patty, crispy onion, pickled onion, onion mayo, pickles and American cheese",
+      "price": 15.9
+    },
+    "messy_item": {
+      "name": "Double Cheeseburgr w/ Fries",
+      "description": "Ground striploin & brisket patty w/ cheese",
+      "price": 15.9
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "typo",
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 14594,
+    "source_cuisine": "bbq",
+    "restaurant": "P\u00f5hjala Tap Room",
+    "restaurant_id": 14448,
+    "category_source": "P\u00d5HJALA BEER",
+    "raw_item_index": 29,
+    "original_item": {
+      "name": "P\u00f5hjala \u00d6\u00f6 0,33L",
+      "description": "10,5% An Imperial Baltic Porter as dark as the Estonian winter nights. Strong enough to keep you warm through the cold evenings.",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "Pohjala Ooe 0,33L",
+      "description": "Dark porter",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 14595,
+    "source_cuisine": "bbq",
+    "restaurant": "P\u00f5hjala Tap Room",
+    "restaurant_id": 14448,
+    "category_source": "P\u00d5HJALA BEER",
+    "raw_item_index": 30,
+    "original_item": {
+      "name": "P\u00f5hjala Laager 0,44L",
+      "description": "4.7% Lager - A crisp easy drinking lager brewed for every occasion.",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "pohjala laager 0,44L",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 14604,
+    "source_cuisine": "bbq",
+    "restaurant": "One Sixty Estland",
+    "restaurant_id": 14597,
+    "category_source": "ONE SIXTY BAR SNACKS",
+    "raw_item_index": 1,
+    "original_item": {
+      "name": "Corn ribs & peri-peri mayo",
+      "description": "Corn Ribs with Sriracha Mayonnaise",
+      "price": 7.5
+    },
+    "messy_item": {
+      "name": "corn ribs & peri-peri mayo",
+      "description": "spicy corn",
+      "price": 7.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14658,
+    "source_cuisine": "bbq",
+    "restaurant": "One Sixty Estland",
+    "restaurant_id": 14597,
+    "category_source": "SMOKE MASTER'S POWERS",
+    "raw_item_index": 17,
+    "original_item": {
+      "name": "Charcoal-grilled \"Dirty\" burger with bacon",
+      "description": "Charcoal grilled \"Dirty\" burger with smoked bacon, brioche, onion and cheddar cheese, topped with sauce",
+      "price": 17.5
+    },
+    "messy_item": {
+      "name": "Charcoal-grilled 'Dirty' burger w/ bacon",
+      "description": "Burger with bacon & cheddar",
+      "price": 17.5
+    },
+    "normalized_category": "burger",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 14685,
+    "source_cuisine": "bbq",
+    "restaurant": "One Sixty Estland",
+    "restaurant_id": 14597,
+    "category_source": "ASIDE",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Coleslaw",
+      "description": "American coleslaw salad.",
+      "price": 5.5
+    },
+    "messy_item": {
+      "name": "coleslaw...",
+      "description": "",
+      "price": 5.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 14705,
+    "source_cuisine": "bbq",
+    "restaurant": "One Sixty Estland",
+    "restaurant_id": 14597,
+    "category_source": "DRINKS",
+    "raw_item_index": 31,
+    "original_item": {
+      "name": "Aqua Panna Still Water 0.75l",
+      "description": "",
+      "price": 4.5
+    },
+    "messy_item": {
+      "name": "aqua Panna Still Water 0.75l",
+      "description": "water",
+      "price": 4.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 14729,
+    "source_cuisine": "bbq",
+    "restaurant": "CAPTAIN ROOSTERS",
+    "restaurant_id": 14713,
+    "category_source": "SNACKS",
+    "raw_item_index": 1,
+    "original_item": {
+      "name": "Red Hot Poppers 4 pcs",
+      "description": "Delicious and crispy Red Hot Poppers 4 pieces with dipping sauce",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Red Hot Poppers 4 pcs.",
+      "description": "",
+      "price": 5.9
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 14785,
+    "source_cuisine": "bbq",
+    "restaurant": "CAPTAIN ROOSTERS",
+    "restaurant_id": 14713,
+    "category_source": "SNACKS",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "Waffle Fries Small",
+      "description": "Golden crispy \"waffle\" fries with dipping sauce",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Waffle Fries Sm",
+      "description": "Golden crispy waffle fries",
+      "price": 5.9
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 15206,
+    "source_cuisine": "bbq",
+    "restaurant": "CAPTAIN ROOSTERS",
+    "restaurant_id": 14713,
+    "category_source": "EXTRA SAUCES AND DIPPS",
+    "raw_item_index": 26,
+    "original_item": {
+      "name": "Sriracha-Mayonnaise Dip",
+      "description": "Spicy Sriracha with creamy mayonnaise",
+      "price": 1.5
+    },
+    "messy_item": {
+      "name": "srirachamayonnaise dip",
+      "description": "spicy mayo",
+      "price": 1.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 15217,
+    "source_cuisine": "bbq",
+    "restaurant": "CAPTAIN ROOSTERS",
+    "restaurant_id": 14713,
+    "category_source": "DRINKS",
+    "raw_item_index": 33,
+    "original_item": {
+      "name": "Sprite 330 ml",
+      "description": "",
+      "price": 3.9
+    },
+    "messy_item": {
+      "name": "sprt 330ml",
+      "description": "",
+      "price": 3.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 15321,
+    "source_cuisine": "bbq",
+    "restaurant": "Chef's Food Grill Osmussaare",
+    "restaurant_id": 15255,
+    "category_source": "DAILY OFFER",
+    "raw_item_index": 9,
+    "original_item": {
+      "name": "Chicken soup + sour cream (discount)",
+      "description": "Enjoy the comforting taste of chicken soup, a rich and flavorful blend of fresh ingredients and spices, enhanced by creamy sour cream.",
+      "price": 6.2
+    },
+    "messy_item": {
+      "name": "Chicken soup + sour cream",
+      "description": "hot soup",
+      "price": 6.2
+    },
+    "normalized_category": "soup",
+    "applied_corruptions": [
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 15549,
+    "source_cuisine": "bbq",
+    "restaurant": "Chef's Food Grill Osmussaare",
+    "restaurant_id": 15255,
+    "category_source": "HACHAPURI",
+    "raw_item_index": 60,
+    "original_item": {
+      "name": "Khachapur Megrelski",
+      "description": "Crafts",
+      "price": 15.0
+    },
+    "messy_item": {
+      "name": "Khachapuri Megrelski",
+      "description": "",
+      "price": 15.0
+    },
+    "normalized_category": "bakery",
+    "applied_corruptions": [
+      "dropped_description",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 15640,
+    "source_cuisine": "bbq",
+    "restaurant": "Chef's Food Grill Osmussaare",
+    "restaurant_id": 15255,
+    "category_source": "ADDITIVES",
+    "raw_item_index": 88,
+    "original_item": {
+      "name": "Fresh salad with feta",
+      "description": "Mix salad, tomato, cucumber, paprika, feta cheese sauce",
+      "price": 6.0
+    },
+    "messy_item": {
+      "name": "Fresh Salad w/ Feta",
+      "description": "salad",
+      "price": 6.0
+    },
+    "normalized_category": "salad",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 15691,
+    "source_cuisine": "bbq",
+    "restaurant": "Chef's Food Grill Osmussaare",
+    "restaurant_id": 15255,
+    "category_source": "MARINADE",
+    "raw_item_index": 105,
+    "original_item": {
+      "name": "Shashlik lamb curry",
+      "description": "This special dish starts with tender lamb meat, usually cut from the back or rib area, and seasoned with a mixture of aromatic spices and herbs.",
+      "price": 32.0
+    },
+    "messy_item": {
+      "name": "Shashlik Lamb Curry",
+      "description": "tender lamb meat",
+      "price": 32.0
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 16043,
+    "source_cuisine": "japanese",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 15761,
+    "category_source": "Main dish",
+    "raw_item_index": 21,
+    "original_item": {
+      "name": "PORK Shogayaki pork",
+      "description": "Tender sliced pork in fragrant ginger sauce, served with rice, green onion, and sesame seeds. Tender sliced pork in fragrant ginger sauce, served with rice, green onion, and sesame seeds.",
+      "price": 13.9
+    },
+    "messy_item": {
+      "name": "PORK Shogayaki",
+      "description": "Tender sliced pork in fragrant ginger sauce, w/ rice & green onion.",
+      "price": 13.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 16203,
+    "source_cuisine": "japanese",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 15761,
+    "category_source": "SUSHI SET",
+    "raw_item_index": 33,
+    "original_item": {
+      "name": "CRISPY SET 12pcs",
+      "description": "Crispy salmon maki 4 pcs, crispy spicy tuna maki 4 pcs, crispy california maki 4 pcs ",
+      "price": 20.6
+    },
+    "messy_item": {
+      "name": "CRISPY SET 12 pc",
+      "description": "Crispy salmon maki 4 pcs, crispy spicy tuna maki 4 pcs, crispy calif. maki 4 pcs",
+      "price": 20.6
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 16307,
+    "source_cuisine": "japanese",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 15761,
+    "category_source": "CRISPY SUSHI ROLLS",
+    "raw_item_index": 47,
+    "original_item": {
+      "name": "Crispy crab maki 8 pcs",
+      "description": "Crab meat, avocado, cream cheese, tobiko, topped with teriyaki sauce and spicy mayonnaise.",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "Crispy crab maki (8 pcs)",
+      "description": "",
+      "price": 12.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "dropped_description",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 16353,
+    "source_cuisine": "japanese",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 15761,
+    "category_source": "ONIGIRID",
+    "raw_item_index": 54,
+    "original_item": {
+      "name": "Onigiri spicy salmon",
+      "description": "Rice, nori, salmon, spicy sauce",
+      "price": 4.9
+    },
+    "messy_item": {
+      "name": "onigiri spiky salmon",
+      "description": "Rice, nori, salmon, spicy sauce.",
+      "price": 4.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "typo",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 16716,
+    "source_cuisine": "japanese",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 16450,
+    "category_source": "\ud83d\udd25TOKUMARU SPECIAL OFFERS",
+    "raw_item_index": 13,
+    "original_item": {
+      "name": "Kasugai Roasted Green Wasabi Peas (67 g)",
+      "description": "A spicy and delicious Japanese snack that goes perfectly with Kirin beer, for example.",
+      "price": 1.75
+    },
+    "messy_item": {
+      "name": "Kasugai Roasted Green Wasabi Peas",
+      "description": "A spicy and delicious Japanese snack...",
+      "price": 1.75
+    },
+    "normalized_category": "snack",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 17739,
+    "source_cuisine": "japanese",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 16450,
+    "category_source": "\ud83c\udf63 MAKI SUSHI",
+    "raw_item_index": 54,
+    "original_item": {
+      "name": "Tekka-maki (8 pcs)",
+      "description": "Small sushi roll with fresh tuna and cucumber",
+      "price": 7.3
+    },
+    "messy_item": {
+      "name": "TEKKA - maki 8pcs",
+      "description": "Small sushi roll with fresh tuna and cucumber",
+      "price": 7.3
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "spacing_noise",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 17899,
+    "source_cuisine": "japanese",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 16450,
+    "category_source": "\ud83c\udf63 MAKI SUSHI",
+    "raw_item_index": 61,
+    "original_item": {
+      "name": "Eel janigiri (2 pcs)",
+      "description": "Baked eel on a rice ball",
+      "price": 7.0
+    },
+    "messy_item": {
+      "name": "Eel janigri 2pcs",
+      "description": "Baked eel on rice",
+      "price": 7.0
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "typo",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 18179,
+    "source_cuisine": "japanese",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 16450,
+    "category_source": "\ud83c\udf63 TEMPURA Maki",
+    "raw_item_index": 74,
+    "original_item": {
+      "name": "Tempuramaki with chicken (8 pcs)",
+      "description": "Breaded and deep-fried sushi roll in tempura flour with chicken, avocado, cucumber and green salad, curry mayonnaise and sweet soy sauce",
+      "price": 13.0
+    },
+    "messy_item": {
+      "name": "Tempuramaki w/ chicken 8 pcs",
+      "description": "Breaded & deep-fried sushi roll in tempura flour w/ chicken, avocado, cucumber.",
+      "price": 13.0
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 19003,
+    "source_cuisine": "japanese",
+    "restaurant": "Kagerou Ramen House",
+    "restaurant_id": 18494,
+    "category_source": "RAMEN",
+    "raw_item_index": 26,
+    "original_item": {
+      "name": "Ramen with chicken",
+      "description": "Broth, edamame, corn, daikon, green onion, egg, chicken",
+      "price": 17.9
+    },
+    "messy_item": {
+      "name": "Ramen w/ CHICKEN",
+      "description": "Broth, edamame, corn, daikon, green onion, egg, chickun",
+      "price": 17.9
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 20502,
+    "source_cuisine": "japanese",
+    "restaurant": "Kagerou Ramen House",
+    "restaurant_id": 18494,
+    "category_source": "DRINKS",
+    "raw_item_index": 103,
+    "original_item": {
+      "name": "Fanta 0.33 l",
+      "description": "jar, can",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "fanta 0,33l",
+      "description": "can",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "spacing_noise",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 20504,
+    "source_cuisine": "japanese",
+    "restaurant": "Kagerou Ramen House",
+    "restaurant_id": 18494,
+    "category_source": "DRINKS",
+    "raw_item_index": 105,
+    "original_item": {
+      "name": "Sprite 0.33 l",
+      "description": "jar, can",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "Sprite (0.33 l)",
+      "description": "can/jar",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 20511,
+    "source_cuisine": "japanese",
+    "restaurant": "Kagerou Ramen House",
+    "restaurant_id": 18494,
+    "category_source": "BEER",
+    "raw_item_index": 110,
+    "original_item": {
+      "name": "Staropramen",
+      "description": "",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Staropramen Beer",
+      "description": "",
+      "price": 5.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo"
+    ]
+  },
+  {
+    "item_id": 20537,
+    "source_cuisine": "japanese",
+    "restaurant": "Sushiart",
+    "restaurant_id": 20535,
+    "category_source": "CUTLERY",
+    "raw_item_index": 0,
+    "original_item": {
+      "name": "Chopsticks",
+      "description": "",
+      "price": 0.0
+    },
+    "messy_item": {
+      "name": "Chopstickz",
+      "description": "",
+      "price": 0.0
+    },
+    "normalized_category": "unknown",
+    "applied_corruptions": [
+      "typo"
+    ]
+  },
+  {
+    "item_id": 20550,
+    "source_cuisine": "japanese",
+    "restaurant": "Sushiart",
+    "restaurant_id": 20535,
+    "category_source": "Special Combo \ud83c\udf71\ud83c\udf63",
+    "raw_item_index": 12,
+    "original_item": {
+      "name": "#7 Special Combo (32pcs)",
+      "description": "Baked salmon roll 8pcs Crab tempura 8pcs Ebi maki 8pcs King prawn hosomaki 8pcs",
+      "price": 38.67
+    },
+    "messy_item": {
+      "name": "#7 Special Combo 32pcs",
+      "description": "Baked salmon roll 8pcs | Crab tempura 8pcs | Ebi maki 8pcs",
+      "price": 38.67
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 22999,
+    "source_cuisine": "japanese",
+    "restaurant": "Sushiart",
+    "restaurant_id": 20535,
+    "category_source": "KITS",
+    "raw_item_index": 135,
+    "original_item": {
+      "name": "143.Burned assorted Kitana (20pcs)",
+      "description": "burnt salmon and snow crab rolls, 4 burnt salmon nigiri",
+      "price": 31.5
+    },
+    "messy_item": {
+      "name": "143. Burned assorted Kitana 20pcs",
+      "description": "burnt salmon / snow crab rolls, 4 burnt salmon nigiri",
+      "price": 31.5
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 23197,
+    "source_cuisine": "japanese",
+    "restaurant": "Sushiart",
+    "restaurant_id": 20535,
+    "category_source": "ALCOHOLIC DRINKS",
+    "raw_item_index": 155,
+    "original_item": {
+      "name": "White wine 0,75 l",
+      "description": "",
+      "price": 25.0
+    },
+    "messy_item": {
+      "name": "White wine 0.75l",
+      "description": "none",
+      "price": 25.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 23321,
+    "source_cuisine": "japanese",
+    "restaurant": "\u00c4RKEL KATUSEBAAR",
+    "restaurant_id": 23198,
+    "category_source": "BIG SETS",
+    "raw_item_index": 7,
+    "original_item": {
+      "name": "Party set 50pc",
+      "description": "CRISPY PRAWN ROLL 10 pcs\nCrispy prawn, avocado, teriyaki sauce, sesame seeds, sushi rice, nori\n\nPHILADELPHIA TWIST 10 pcs\nGently baked salmon, cream cheese, cucumber, avocado, teriyaki sauce, chives, orange pepper, nori, sushi rice\n\nCRISPY CHICKEN TEMPURA ROLL10 pieces\nCream cheese, baked herb-teriyaki chicken thigh, pickled carrot, chili mayo, roasted onion, sesame seeds\n\nCRUMB & SALMON TEMPURA ROLL 10 pcs\nBaked salmon, cream cheese, frillice, leek, leek mayo, teriyaki, fried onion, nori dust\n\nSPICY CALIFORNIA 10 pcs\nSpicy snow crab, cream\ncheese, cucumber, frillice, chili mayo, masago, sesame seeds, sushi rice, nori",
+      "price": 65.0
+    },
+    "messy_item": {
+      "name": "Party set 50 pcs",
+      "description": "Various rolls included.",
+      "price": 65.0
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 23612,
+    "source_cuisine": "japanese",
+    "restaurant": "\u00c4RKEL KATUSEBAAR",
+    "restaurant_id": 23198,
+    "category_source": "URAMAKI",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Crispy prawn roll 10tk",
+      "description": "Crispy prawn, avocado, teriyaki sauce, sesame seeds, sushi rice, nori",
+      "price": 12.5
+    },
+    "messy_item": {
+      "name": "CRISPY prawn roll 10tk",
+      "description": "Crispy prawn, avo, teriyaki sauce, sesame, sushi rice, nori",
+      "price": 12.5
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 23677,
+    "source_cuisine": "japanese",
+    "restaurant": "\u00c4RKEL KATUSEBAAR",
+    "restaurant_id": 23198,
+    "category_source": "BOWL",
+    "raw_item_index": 28,
+    "original_item": {
+      "name": "Japanese bowl with shrimps",
+      "description": "Delicately marinated shrimps, sushi rice, edamame bean, cucumber, radish,\ncherry tomatoes, lime, lemon, soy sauce, green onion, sesame seeds, masago",
+      "price": 8.9
+    },
+    "messy_item": {
+      "name": "Japanese bowl w/ shrimps",
+      "description": "Marinated shrimps, sushi rice, edamame, cucumber, radish.",
+      "price": 8.9
+    },
+    "normalized_category": "rice_dish",
+    "applied_corruptions": [
+      "abbreviation",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 23932,
+    "source_cuisine": "japanese",
+    "restaurant": "\u00c4RKEL KATUSEBAAR",
+    "restaurant_id": 23198,
+    "category_source": "GRILLED MAKI",
+    "raw_item_index": 43,
+    "original_item": {
+      "name": "Sriracha & salmon 8tk",
+      "description": "Topping: baked salmon, spicy mayo,\nsriracha sauce, teriyaki sauce, fried onion\n\nRoll: sushi rice, nori leaf, cream cheese, carrot salad,\nfrillice",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "Sriracha  &  salmon  8tk",
+      "description": "Baked salmon, spicy mayo, sriracha, teriyaki, fried onion.",
+      "price": 12.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "spacing_noise",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 24201,
+    "source_cuisine": "pizza",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 24027,
+    "category_source": "STARTERS",
+    "raw_item_index": 9,
+    "original_item": {
+      "name": "Garlic Bread - Cheese",
+      "description": "Garlic bread with rosemary and mozzarella",
+      "price": 7.15
+    },
+    "messy_item": {
+      "name": "Garlic Brd. - Chse.",
+      "description": "Garlic bread w. rosemary & mozzarella",
+      "price": 7.15
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "abbreviation",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 24340,
+    "source_cuisine": "pizza",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 24027,
+    "category_source": "PASTAS",
+    "raw_item_index": 14,
+    "original_item": {
+      "name": "Spicy Salame Pasta",
+      "description": "Spicy Italian sausage, onion, cherry tomato, rocket, sun-dried tomatoes, capers in tomato and cream sauce.",
+      "price": 13.75
+    },
+    "messy_item": {
+      "name": "spicy salame pasta",
+      "description": "Spicy Italian sausage, onion, cherry tomato, rocket, sun-dried tomatoes, capers in tomato and cream sauce.",
+      "price": 13.75
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 24882,
+    "source_cuisine": "pizza",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 24027,
+    "category_source": "PIZZAS",
+    "raw_item_index": 29,
+    "original_item": {
+      "name": "Pizza Salame",
+      "description": "Italian salami, Vapiano pizza sauce and mozzarella.",
+      "price": 12.65
+    },
+    "messy_item": {
+      "name": "pizza Salame",
+      "description": "Italian salami, Vapiano sauce & mozzarella",
+      "price": 12.65
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 25803,
+    "source_cuisine": "pizza",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 24027,
+    "category_source": "WINES",
+    "raw_item_index": 91,
+    "original_item": {
+      "name": "Cesari Essere Merlot Trevenezie IGT 75cl",
+      "description": "Cesari Essere Merlot Trevenezie IGT is a soft and harmonious Italian red wine with aromas of ripe plums and blueberries. The taste is characterized by silky tannins and light spicy notes.",
+      "price": 22.9
+    },
+    "messy_item": {
+      "name": "cesari Essere Merlot Trevenezie IGT 75cl",
+      "description": "soft and harmonious Italian red wine",
+      "price": 22.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 25976,
+    "source_cuisine": "pizza",
+    "restaurant": "Jahu Pizza Volta",
+    "restaurant_id": 25807,
+    "category_source": "\u2b50FoodApp SPECIAL OFFERS",
+    "raw_item_index": 4,
+    "original_item": {
+      "name": "Milan + Margherita + Loaded Naples",
+      "description": "San Marzano tomato, fresh basil, fiori di latte, salami milano San Marzano tomato, parmesan, fior di latte cheese, fresh basil, extra virgin olive oil San Marzano tomato, fior di latte cheese, fresh basil, napoli picante salami",
+      "price": 39.0
+    },
+    "messy_item": {
+      "name": "Milan + Margherita + Loaded Naps",
+      "description": "san marzano tomato fresh basil fiori di latte salami milano",
+      "price": 39.0
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 26654,
+    "source_cuisine": "pizza",
+    "restaurant": "Jahu Pizza Volta",
+    "restaurant_id": 25807,
+    "category_source": "PITSA",
+    "raw_item_index": 26,
+    "original_item": {
+      "name": "Pizza Rocket Shrimp",
+      "description": "San Marzano tomat, fior di latte, chili garlic prawns, arugula, parmesan cheese, lime zest, EVOO",
+      "price": 17.0
+    },
+    "messy_item": {
+      "name": "Pizza Rocket Shrmp",
+      "description": "San Marzano tomat, fior di latte, chili garlic prawns...",
+      "price": 17.0
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "typo",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 26682,
+    "source_cuisine": "pizza",
+    "restaurant": "Jahu Pizza Volta",
+    "restaurant_id": 25807,
+    "category_source": "PITSA",
+    "raw_item_index": 27,
+    "original_item": {
+      "name": "Pizza Artichoke",
+      "description": "Fior di latte, grilled artiohoke, prosciutto cotto (cooked ham), pesto sauce, pine nuts\n",
+      "price": 19.0
+    },
+    "messy_item": {
+      "name": "PIZZA ARTICHOKE",
+      "description": "Fior di latte, grilled artiohoke, prosciutto cotto...",
+      "price": 19.0
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 26710,
+    "source_cuisine": "pizza",
+    "restaurant": "Jahu Pizza Volta",
+    "restaurant_id": 25807,
+    "category_source": "PITSA",
+    "raw_item_index": 28,
+    "original_item": {
+      "name": "Pizza Veggierama",
+      "description": "San Marzano tomato, fior di latte, fresh basil, fresh garlic, grilled zucchini, cherry tomatoes, kalamata olives, red onion, feta cheese, oregano, EVOO",
+      "price": 16.0
+    },
+    "messy_item": {
+      "name": "Pizza  Veggierama",
+      "description": "San Marzano tomato, fior di latte, fresh basil...",
+      "price": 16.0
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 27175,
+    "source_cuisine": "pizza",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 26916,
+    "category_source": "CUTLERY",
+    "raw_item_index": 14,
+    "original_item": {
+      "name": "Cutlery",
+      "description": "Knife, fork, spoon",
+      "price": 0.3
+    },
+    "messy_item": {
+      "name": "Cutlery...",
+      "description": "",
+      "price": 0.3
+    },
+    "normalized_category": "unknown",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 27201,
+    "source_cuisine": "pizza",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 26916,
+    "category_source": "APPETIZERS",
+    "raw_item_index": 23,
+    "original_item": {
+      "name": "Kebab",
+      "description": "Beef kebab in sweetchill sauce with french fries, salad and garlic sauce",
+      "price": 11.8
+    },
+    "messy_item": {
+      "name": "kebab",
+      "description": "Beef kebab sweetchill french fries salad garlic sauce",
+      "price": 11.8
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 28548,
+    "source_cuisine": "pizza",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 26916,
+    "category_source": "SOFT DRINKS ",
+    "raw_item_index": 77,
+    "original_item": {
+      "name": "Coca-Cola 0,5L",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "coca-cola 0,5L",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 28556,
+    "source_cuisine": "pizza",
+    "restaurant": "Pizza Americana",
+    "restaurant_id": 26916,
+    "category_source": "SOFT DRINKS ",
+    "raw_item_index": 85,
+    "original_item": {
+      "name": "ENERGY DRINK RED BULL 0,473L",
+      "description": "",
+      "price": 5.2
+    },
+    "messy_item": {
+      "name": "eNERGY DRINK RED BULL 0,473L",
+      "description": "",
+      "price": 5.2
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 29153,
+    "source_cuisine": "pizza",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 28586,
+    "category_source": "Special offers",
+    "raw_item_index": 5,
+    "original_item": {
+      "name": "3=4 Combo of sauces",
+      "description": "It's cheaper together!",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "3=4 combo of sauces",
+      "description": "Cheaper together!",
+      "price": 3.5
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 29966,
+    "source_cuisine": "pizza",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 28586,
+    "category_source": "Pizza",
+    "raw_item_index": 27,
+    "original_item": {
+      "name": "Chicken Bombony",
+      "description": "Ranch sauce, chicken popcorn, sweet pepper, red onion, grated Italian hard cheesee, cheddar cheese, mozzarella cheese, sweet and sour sauce\nIngredients: Dough 25, Ranch sauce, Chicken Popcorn, Paprika, Red onion, Grated Italian hard cheese, Cheddar cheese, Mozzarella cheese, Sweet and sour sauce",
+      "price": 12.3
+    },
+    "messy_item": {
+      "name": "chicken Bombony",
+      "description": "Ranch sauce, chicken popcorn, sweet pepper, red onion",
+      "price": 12.3
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 30311,
+    "source_cuisine": "pizza",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 28586,
+    "category_source": "For kids",
+    "raw_item_index": 68,
+    "original_item": {
+      "name": "Pepperoni",
+      "description": "Extra pepperoni, extra mozzarella cheese, pizza sauce\nIngredients: Dough 25, Mozzarella cheese, Pizza-sauce, Pepperoni",
+      "price": 12.3
+    },
+    "messy_item": {
+      "name": "Pepproni",
+      "description": "Extra pepperoni, extra mozzarella cheese, pizza sauce",
+      "price": 12.3
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "typo"
+    ]
+  },
+  {
+    "item_id": 30468,
+    "source_cuisine": "pizza",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 28586,
+    "category_source": "Drinks",
+    "raw_item_index": 114,
+    "original_item": {
+      "name": "Coca-cola bottle",
+      "description": "Coca-cola bottle",
+      "price": 2.7
+    },
+    "messy_item": {
+      "name": "coca-cola botle",
+      "description": "coca-cola bottle",
+      "price": 2.7
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 30948,
+    "source_cuisine": "pizza",
+    "restaurant": "Domino's Pizza Tammsaare",
+    "restaurant_id": 30541,
+    "category_source": "OFFERS",
+    "raw_item_index": 12,
+    "original_item": {
+      "name": "\u2b50\ufe0f2x12.95\u20ac L offer",
+      "description": "2x L-sized pizzas for \u20ac12.95 each.",
+      "price": 25.9
+    },
+    "messy_item": {
+      "name": "2x12.95\u20ac L offer",
+      "description": "2x L-sized pizzas for \u20ac12.95 each.",
+      "price": 25.9
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 31897,
+    "source_cuisine": "pizza",
+    "restaurant": "Domino's Pizza Tammsaare",
+    "restaurant_id": 30541,
+    "category_source": "LACE",
+    "raw_item_index": 31,
+    "original_item": {
+      "name": "Tuscany",
+      "description": "Cream sauce, mozzarella, feta, chicken, tomatoes",
+      "price": 10.25
+    },
+    "messy_item": {
+      "name": "tuscany",
+      "description": "Cream sauce mozerella feta chicken tomatoes",
+      "price": 10.25
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 33995,
+    "source_cuisine": "pizza",
+    "restaurant": "Domino's Pizza Tammsaare",
+    "restaurant_id": 30541,
+    "category_source": "DRINKS",
+    "raw_item_index": 86,
+    "original_item": {
+      "name": "Red Bull White Peach Edition 250ml",
+      "description": "",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "Red Bull White Peach Ed. 250ml",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 34002,
+    "source_cuisine": "pizza",
+    "restaurant": "Domino's Pizza Tammsaare",
+    "restaurant_id": 30541,
+    "category_source": "DRINKS",
+    "raw_item_index": 93,
+    "original_item": {
+      "name": "Fuzetea lemon 500 ml",
+      "description": "",
+      "price": 3.0
+    },
+    "messy_item": {
+      "name": "fuzetea lemon 500 ml",
+      "description": "",
+      "price": 3.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 34809,
+    "source_cuisine": "italian",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 34011,
+    "category_source": "PIZZAS",
+    "raw_item_index": 27,
+    "original_item": {
+      "name": "Pizza Pepperoni",
+      "description": "With pepperoni (spicy sausage), mozzarella cheese and Vapiano tomato sauce.",
+      "price": 12.65
+    },
+    "messy_item": {
+      "name": "pizza peproni!!",
+      "description": "With pepperoni (spicy sausage), mozzarella cheese and Vapiano tomato sauce.",
+      "price": 12.65
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "typo",
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 35310,
+    "source_cuisine": "italian",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 34011,
+    "category_source": "LASAGNE",
+    "raw_item_index": 43,
+    "original_item": {
+      "name": "Lasagne Bolognese",
+      "description": "Our classic lasagna with Bolognese sauce.",
+      "price": 14.19
+    },
+    "messy_item": {
+      "name": "lasagne Bolognese",
+      "description": "clsic lasagna w/ Bolognese.",
+      "price": 14.19
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 35694,
+    "source_cuisine": "italian",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 34011,
+    "category_source": "FOR KIDS",
+    "raw_item_index": 58,
+    "original_item": {
+      "name": "Pizza Mozzarella for kids",
+      "description": "Rabbit-shaped pizza with mozzarella cheese",
+      "price": 7.59
+    },
+    "messy_item": {
+      "name": "pizza Mozzarella for kids",
+      "description": "",
+      "price": 7.59
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 35768,
+    "source_cuisine": "italian",
+    "restaurant": "Vapiano Foorum",
+    "restaurant_id": 34011,
+    "category_source": "DRINKS",
+    "raw_item_index": 74,
+    "original_item": {
+      "name": "Coca-Cola Zero 250 ml",
+      "description": "",
+      "price": 2.9
+    },
+    "messy_item": {
+      "name": "coca cola zero 250ml",
+      "description": "",
+      "price": 2.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 37021,
+    "source_cuisine": "italian",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 35791,
+    "category_source": "Pizza",
+    "raw_item_index": 20,
+    "original_item": {
+      "name": "Cheesy Chicken",
+      "description": "Pizza sauce, cheese sauce, tomatoes, chicken, cheddar cheese, Italian hard cheese, mozzarella, garlic\nIngredients: Dough 25, Cheese Sauce, Mozzarella cheese, Cheddar cheese, Grated Italian hard cheese, Chicken, Tomatoes, Garlic, Pizza-sauce",
+      "price": 12.3
+    },
+    "messy_item": {
+      "name": "cheesy Chicken",
+      "description": "Pizza sauce, cheese sauce, tomatoes, chicken...",
+      "price": 12.3
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 37075,
+    "source_cuisine": "italian",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 35791,
+    "category_source": "Pizza",
+    "raw_item_index": 22,
+    "original_item": {
+      "name": "4 Seasons",
+      "description": "Mozzarella cheese, pepperoni, ham, feta cheese, tomatoes, champignons, pizza sauce, oregano\nIngredients: Dough 25, Ham, Mozzarella cheese, Tomatoes, Pizza-sauce, Oregano, Champignons, Pepperoni, Soft cheese",
+      "price": 11.2
+    },
+    "messy_item": {
+      "name": "4 seasons",
+      "description": "Mozzarella, pepperoni, ham, feta, tomatoes, champignons, oregano",
+      "price": 11.2
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 37506,
+    "source_cuisine": "italian",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 35791,
+    "category_source": "Snacks",
+    "raw_item_index": 61,
+    "original_item": {
+      "name": "Chicken-Sausages Ciabatta  1 pc",
+      "description": "Ciabatta, chilli sauce, hunter's sausages, chicken, tomatoes, mozzarella cheese\nIngredients: Chili sauce, Hunter's sausages, Chicken, Tomatoes, Mozzarella cheese",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Chicken-Sausages Ciabatta 1 pc",
+      "description": "Ciabatta, chilli, sausage, chicken, tomatoes, mozzarella",
+      "price": 5.9
+    },
+    "normalized_category": "sandwich",
+    "applied_corruptions": [
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 37665,
+    "source_cuisine": "italian",
+    "restaurant": "Dodo Pizza Kesklinn",
+    "restaurant_id": 35791,
+    "category_source": "Drinks",
+    "raw_item_index": 109,
+    "original_item": {
+      "name": "Strawberry matcha drink 0.4 L",
+      "description": "Ice, strawberry puree, matcha concentrate, milk\nIngredients: Strawberry puree, Ice, Milk",
+      "price": 5.0
+    },
+    "messy_item": {
+      "name": "Strawberry matcha drnk 0.4 L",
+      "description": "Ice, strawberry puree, matcha concentrate, milk",
+      "price": 5.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "typo",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 39521,
+    "source_cuisine": "italian",
+    "restaurant": "LaBocca Golden Gate",
+    "restaurant_id": 37746,
+    "category_source": "Pizza / Meat ",
+    "raw_item_index": 33,
+    "original_item": {
+      "name": "BBQ Pollo",
+      "description": "tomato sauce, BBQ sauce, mozzarella, chicken fillet, paprika, borettane onion, arugula",
+      "price": 18.6
+    },
+    "messy_item": {
+      "name": "bBQ Pollo",
+      "description": "tom. sauce, BBQ, mozz., chicken, paprika, onion, arugula",
+      "price": 18.6
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 39777,
+    "source_cuisine": "italian",
+    "restaurant": "LaBocca Golden Gate",
+    "restaurant_id": 37746,
+    "category_source": "Pizza / Seafood",
+    "raw_item_index": 38,
+    "original_item": {
+      "name": "Tuna",
+      "description": "tomato sauce, mozzarella, tuna, red onion, parsley",
+      "price": 18.6
+    },
+    "messy_item": {
+      "name": "tuna pizza",
+      "description": "tomato sauce, mozzarella, tuna, red onion, parsley",
+      "price": 18.6
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "typo",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 39951,
+    "source_cuisine": "italian",
+    "restaurant": "LaBocca Golden Gate",
+    "restaurant_id": 37746,
+    "category_source": "Pasta / Vegetarian",
+    "raw_item_index": 41,
+    "original_item": {
+      "name": "Spaghetti Pomodoro e Basilico",
+      "description": "tomato sauce, garlic, tomato salsa, grana padano, basil",
+      "price": 10.9
+    },
+    "messy_item": {
+      "name": "spaghetti Pomodoro e Basilico",
+      "description": "",
+      "price": 10.9
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 40257,
+    "source_cuisine": "italian",
+    "restaurant": "LaBocca Golden Gate",
+    "restaurant_id": 37746,
+    "category_source": "Pasta / Meat ",
+    "raw_item_index": 46,
+    "original_item": {
+      "name": "Penne con Pollo",
+      "description": "chicken fillet, cream sauce, sun-dried tomato, spinach, grana padano",
+      "price": 15.3
+    },
+    "messy_item": {
+      "name": "penne con Pollo",
+      "description": "chicken fillet cream sauce sun-dried tomato spinach grana padano",
+      "price": 15.3
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 41503,
+    "source_cuisine": "italian",
+    "restaurant": "Kajakas Pizza",
+    "restaurant_id": 41488,
+    "category_source": "LUNCH OFFERS",
+    "raw_item_index": 3,
+    "original_item": {
+      "name": "Steak",
+      "description": "+372 53771990",
+      "price": 8.9
+    },
+    "messy_item": {
+      "name": "steak",
+      "description": "",
+      "price": 8.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 41914,
+    "source_cuisine": "italian",
+    "restaurant": "Kajakas Pizza",
+    "restaurant_id": 41488,
+    "category_source": "PIZZA",
+    "raw_item_index": 30,
+    "original_item": {
+      "name": "BURR",
+      "description": "burrata, mild tomato, oregano, mortadella, rocket, basil pesto",
+      "price": 16.9
+    },
+    "messy_item": {
+      "name": "BURR...",
+      "description": "burrata, mild tomato, oregano, mortadella, rocket, basil pesto",
+      "price": 16.9
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 41953,
+    "source_cuisine": "italian",
+    "restaurant": "Kajakas Pizza",
+    "restaurant_id": 41488,
+    "category_source": "PIZZA",
+    "raw_item_index": 33,
+    "original_item": {
+      "name": "SALAME MILANO",
+      "description": "salami milano, mild tomato, fior di latte, garlic oil, capers, red onion",
+      "price": 14.5
+    },
+    "messy_item": {
+      "name": "salame milano",
+      "description": "salami milano, mild tomato, fior di latte, garlic oil, capers, red onion",
+      "price": 14.5
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 42055,
+    "source_cuisine": "italian",
+    "restaurant": "Kajakas Pizza",
+    "restaurant_id": 41488,
+    "category_source": "DESSERT",
+    "raw_item_index": 39,
+    "original_item": {
+      "name": "Tiramisu",
+      "description": "",
+      "price": 6.9
+    },
+    "messy_item": {
+      "name": "tiramisu",
+      "description": "sweet Italian dessert",
+      "price": 6.9
+    },
+    "normalized_category": "dessert",
+    "applied_corruptions": [
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 42116,
+    "source_cuisine": "italian",
+    "restaurant": "Kolm Tilli Tallinn",
+    "restaurant_id": 42082,
+    "category_source": "\ud83e\ude75 FoodApp+ N\u00c4DALATE ERIDIILID",
+    "raw_item_index": 1,
+    "original_item": {
+      "name": "Pepperoni",
+      "description": "tomato sauce / basil / mozzarella / spicy salami",
+      "price": 15.2
+    },
+    "messy_item": {
+      "name": "pepperoni",
+      "description": "tomato / basil / moz / spicy salami",
+      "price": 15.2
+    },
+    "normalized_category": "pizza",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 42559,
+    "source_cuisine": "italian",
+    "restaurant": "Kolm Tilli Tallinn",
+    "restaurant_id": 42082,
+    "category_source": "\ud83c\udf5d PASTA",
+    "raw_item_index": 17,
+    "original_item": {
+      "name": "Lemon shrimp",
+      "description": "shrimp/ onion/ garlic/ grated lemon zest/ whipped cream/ spinach",
+      "price": 14.4
+    },
+    "messy_item": {
+      "name": "lemon shrimp",
+      "description": "shrimp onion garlic lemon zest cream spinach",
+      "price": 14.4
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 42586,
+    "source_cuisine": "italian",
+    "restaurant": "Kolm Tilli Tallinn",
+    "restaurant_id": 42082,
+    "category_source": "\ud83c\udf5d PASTA",
+    "raw_item_index": 18,
+    "original_item": {
+      "name": "Pesto pasta",
+      "description": "basil pesto / pumpkin seeds / garlic / onion / cherry tomatoes / Grana Padano",
+      "price": 13.5
+    },
+    "messy_item": {
+      "name": "pesto pasta",
+      "description": "",
+      "price": 13.5
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 42906,
+    "source_cuisine": "italian",
+    "restaurant": "Kolm Tilli Tallinn",
+    "restaurant_id": 42082,
+    "category_source": "\ud83e\udd64 SOFT DRINKS",
+    "raw_item_index": 32,
+    "original_item": {
+      "name": "Coca-Cola",
+      "description": "Jar 0.33L",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "coca-cola",
+      "description": "Jar 0.33L",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 43008,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Aroma",
+    "restaurant_id": 42911,
+    "category_source": "POPULAR",
+    "raw_item_index": 28,
+    "original_item": {
+      "name": "109. Vegetable Biryani *",
+      "description": "Rice with vegetables, ginger, garlic and Indian spices",
+      "price": 8.2
+    },
+    "messy_item": {
+      "name": "109. Veg. Biryani *",
+      "description": "Rice w/ veg, ginger, garlic & spices",
+      "price": 8.2
+    },
+    "normalized_category": "rice_dish",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 43122,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Aroma",
+    "restaurant_id": 42911,
+    "category_source": "SEAFOOD",
+    "raw_item_index": 62,
+    "original_item": {
+      "name": "32. Sweet and sour fish",
+      "description": "Fried pieces of salmon fillet with vegetables and pineapple in a rich, thick sweet and sour sauce.",
+      "price": 15.2
+    },
+    "messy_item": {
+      "name": "32. Swt & sour fish",
+      "description": "Salmon fillet w/ veggies & pineapple in thick sauce",
+      "price": 15.2
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 43320,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Aroma",
+    "restaurant_id": 42911,
+    "category_source": "INDIAN VEGETARIAN DISHES",
+    "raw_item_index": 121,
+    "original_item": {
+      "name": "111. Aloo-gobhi *",
+      "description": "Potatoes and cauliflower cooked with bell pepper",
+      "price": 11.9
+    },
+    "messy_item": {
+      "name": "111. Aloo-gobhi",
+      "description": "Potatoes & cauliflower cooked w/ bell pepper",
+      "price": 11.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 43528,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Aroma",
+    "restaurant_id": 42911,
+    "category_source": "SOFT DRINKS",
+    "raw_item_index": 169,
+    "original_item": {
+      "name": "144. Aura water 0,5 l",
+      "description": "Sparkling",
+      "price": 3.2
+    },
+    "messy_item": {
+      "name": "144. Aura water 0,5l",
+      "description": "",
+      "price": 3.2
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise",
+      "dropped_description"
+    ]
+  },
+  {
+    "item_id": 43666,
+    "source_cuisine": "asian",
+    "restaurant": "My Asian Foods",
+    "restaurant_id": 43553,
+    "category_source": "PEAROAD",
+    "raw_item_index": 20,
+    "original_item": {
+      "name": "Aloo chana",
+      "description": "A rich and healthy dish consisting of soft potatoes and chickpeas stewed in a mixture of onions, tomatoes and traditional Indian spices",
+      "price": 8.0
+    },
+    "messy_item": {
+      "name": "aloo chna",
+      "description": "rich and healthy dish of soft potatoes & chickpeas",
+      "price": 8.0
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "typo",
+      "inconsistent_casing",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 43716,
+    "source_cuisine": "asian",
+    "restaurant": "My Asian Foods",
+    "restaurant_id": 43553,
+    "category_source": "PEAROAD",
+    "raw_item_index": 25,
+    "original_item": {
+      "name": "Honey prawn",
+      "description": "Crispy breaded shrimp, coated in a shiny honey glaze and seasoned with sesame, offer the perfect balance between sweetness and crunch.",
+      "price": 12.5
+    },
+    "messy_item": {
+      "name": "Honey prawn!",
+      "description": "Crispy breaded shrimp in honey glaze.",
+      "price": 12.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 43736,
+    "source_cuisine": "asian",
+    "restaurant": "My Asian Foods",
+    "restaurant_id": 43553,
+    "category_source": "PEAROAD",
+    "raw_item_index": 27,
+    "original_item": {
+      "name": "Lamb curry",
+      "description": "Pieces of lamb slowly cooked in a rich, aromatic sauce with traditional spices, tomatoes and herbs",
+      "price": 11.0
+    },
+    "messy_item": {
+      "name": "lamb curry",
+      "description": "slowly cooked lamb",
+      "price": 11.0
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 43836,
+    "source_cuisine": "asian",
+    "restaurant": "My Asian Foods",
+    "restaurant_id": 43553,
+    "category_source": "SOFT DRINKS",
+    "raw_item_index": 50,
+    "original_item": {
+      "name": "Aura apple juice 330 ml",
+      "description": "",
+      "price": 2.8
+    },
+    "messy_item": {
+      "name": "Aura apple juice 330ml",
+      "description": "refreshing drink",
+      "price": 2.8
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "spacing_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 45341,
+    "source_cuisine": "asian",
+    "restaurant": "Royal Asian",
+    "restaurant_id": 43858,
+    "category_source": "INDIAN VEGETABLES",
+    "raw_item_index": 66,
+    "original_item": {
+      "name": "96) Paneer Mattar Masala *(with rice)",
+      "description": "Our own paneer cooked in creamy sauce with green peas, butter, and spices",
+      "price": 13.9
+    },
+    "messy_item": {
+      "name": "96) Paneer Mattar Masala*",
+      "description": "paneer in creamy sauce w/ peas & butter",
+      "price": 13.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 46279,
+    "source_cuisine": "asian",
+    "restaurant": "Royal Asian",
+    "restaurant_id": 43858,
+    "category_source": "CHOP SUEY",
+    "raw_item_index": 119,
+    "original_item": {
+      "name": "125) Oyster Chopsey",
+      "description": "Crispy fried noodles topped by sauce mixed with vegetables",
+      "price": 7.0
+    },
+    "messy_item": {
+      "name": "125) oyster Chopsey",
+      "description": "Crispy fried ndls with veggies",
+      "price": 7.0
+    },
+    "normalized_category": "noodles",
+    "applied_corruptions": [
+      "abbreviation",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 46470,
+    "source_cuisine": "asian",
+    "restaurant": "Royal Asian",
+    "restaurant_id": 43858,
+    "category_source": "SEAFOOD",
+    "raw_item_index": 129,
+    "original_item": {
+      "name": "115) Butter Fish (with rice) *",
+      "description": "Marinated fried fish cooked in creamy sauce with butter and spices",
+      "price": 12.5
+    },
+    "messy_item": {
+      "name": "115) Butter Fish*",
+      "description": "Fried fish in creamy butter sauce",
+      "price": 12.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "dropped_description",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 46618,
+    "source_cuisine": "asian",
+    "restaurant": "Royal Asian",
+    "restaurant_id": 43858,
+    "category_source": "SOFT DRINKS",
+    "raw_item_index": 141,
+    "original_item": {
+      "name": "Coca-Cola Zero 0.25 l",
+      "description": "",
+      "price": 3.5
+    },
+    "messy_item": {
+      "name": "coca-cola zero 0.25l",
+      "description": "",
+      "price": 3.5
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 46675,
+    "source_cuisine": "asian",
+    "restaurant": "Cho Oyu Asian Restaurant",
+    "restaurant_id": 46640,
+    "category_source": "CHILDREN 'S MENU",
+    "raw_item_index": 28,
+    "original_item": {
+      "name": "31. French fries and chicken wings",
+      "description": "",
+      "price": 7.5
+    },
+    "messy_item": {
+      "name": "31. French fries & chicken wings",
+      "description": "",
+      "price": 7.5
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 46751,
+    "source_cuisine": "asian",
+    "restaurant": "Cho Oyu Asian Restaurant",
+    "restaurant_id": 46640,
+    "category_source": "CHINESE COOKED DUCK MEAT",
+    "raw_item_index": 92,
+    "original_item": {
+      "name": "94. Singapore Duck",
+      "description": "Battered fried duck broccoli, nuts, and leek in Singapore sauce",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "94. singapore Duck",
+      "description": "fried duck broccoli nuts leek",
+      "price": 12.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 46784,
+    "source_cuisine": "asian",
+    "restaurant": "Cho Oyu Asian Restaurant",
+    "restaurant_id": 46640,
+    "category_source": "INDIAN FOOD VEGETABLES",
+    "raw_item_index": 118,
+    "original_item": {
+      "name": "120. Matar Mushrooms with curry",
+      "description": "Peas, Mushrooms in Indian sauce (tomato, onion, Indian spices)",
+      "price": 7.9
+    },
+    "messy_item": {
+      "name": "120. Matar Mushrooms",
+      "description": "Peas, Mushrooms in Indian sauce",
+      "price": 7.9
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 46793,
+    "source_cuisine": "asian",
+    "restaurant": "Cho Oyu Asian Restaurant",
+    "restaurant_id": 46640,
+    "category_source": "CHO OYU DESSERTS",
+    "raw_item_index": 126,
+    "original_item": {
+      "name": "128. Fried pineapple with ice cream",
+      "description": "",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "128. Fried pineapply ice cream",
+      "description": "sweet treat",
+      "price": 5.9
+    },
+    "normalized_category": "dessert",
+    "applied_corruptions": [
+      "typo",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 46905,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Wok",
+    "restaurant_id": 46824,
+    "category_source": "APPETIZERS",
+    "raw_item_index": 24,
+    "original_item": {
+      "name": "Drums of Heaven*",
+      "description": "Deep-fried marinated chicken wings with ginger, garlic, onion and paprika.",
+      "price": 9.2
+    },
+    "messy_item": {
+      "name": "Drums of Heaven",
+      "description": "Deep-fried chicken wings.",
+      "price": 9.2
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 46973,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Wok",
+    "restaurant_id": 46824,
+    "category_source": "SOUPS",
+    "raw_item_index": 43,
+    "original_item": {
+      "name": "Tomato Soup*",
+      "description": "Tomato soup with chicken and egg.",
+      "price": 7.2
+    },
+    "messy_item": {
+      "name": "Tomato Soup",
+      "description": "Chicken & egg soup.",
+      "price": 7.2
+    },
+    "normalized_category": "soup",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "abbreviation"
+    ]
+  },
+  {
+    "item_id": 47155,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Wok",
+    "restaurant_id": 46824,
+    "category_source": "Lamb Dishes",
+    "raw_item_index": 76,
+    "original_item": {
+      "name": "Lamb Curry*",
+      "description": "Lamb cooked with Indian spices in tomato-onion sauce.",
+      "price": 14.99
+    },
+    "messy_item": {
+      "name": "Lamb Curry",
+      "description": "Spiced lamb.",
+      "price": 14.99
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 47271,
+    "source_cuisine": "asian",
+    "restaurant": "Asian Wok",
+    "restaurant_id": 46824,
+    "category_source": "Seafood dishes",
+    "raw_item_index": 96,
+    "original_item": {
+      "name": "Sweet & Sour Prawn",
+      "description": "Crispy giant prawns and vegetables in a sweet and sour sauce.",
+      "price": 15.8
+    },
+    "messy_item": {
+      "name": "Sweet & Sour Prwn",
+      "description": "Prawns & veg.",
+      "price": 15.8
+    },
+    "normalized_category": "main_course",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 48501,
+    "source_cuisine": "sushi",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 47523,
+    "category_source": "TEMPURA",
+    "raw_item_index": 60,
+    "original_item": {
+      "name": "Salmon tempura (10pcs.)",
+      "description": "Salmon, leek, cream cheese with teriyaki sauce",
+      "price": 14.2
+    },
+    "messy_item": {
+      "name": "Salmon tempura (10pc)",
+      "description": "Salmon, leek, cream chse with teriyaki",
+      "price": 14.2
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 48816,
+    "source_cuisine": "sushi",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 47523,
+    "category_source": "SETS",
+    "raw_item_index": 81,
+    "original_item": {
+      "name": "Baked salmon nigiri set (6pcs)",
+      "description": "",
+      "price": 16.7
+    },
+    "messy_item": {
+      "name": "Baked salmon nigri set 6pcs",
+      "description": "",
+      "price": 16.7
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "spacing_noise",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 49016,
+    "source_cuisine": "sushi",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 47523,
+    "category_source": "BEER/CIDER",
+    "raw_item_index": 110,
+    "original_item": {
+      "name": "Kirin Ichiban 0,33l",
+      "description": "Attention! Alcohol may be hazardous to health if consumed to excess. Not for sale to persons under the age of 18 years. 5%vol",
+      "price": 5.2
+    },
+    "messy_item": {
+      "name": "Kirin_Ichiban_0,33l",
+      "description": "",
+      "price": 5.2
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "dropped_description",
+      "spacing_noise"
+    ]
+  },
+  {
+    "item_id": 49024,
+    "source_cuisine": "sushi",
+    "restaurant": "Sushi Plaza Maakri",
+    "restaurant_id": 47523,
+    "category_source": "ROSE WINE",
+    "raw_item_index": 116,
+    "original_item": {
+      "name": "Ramon Bilbao Rosato",
+      "description": "",
+      "price": 32.0
+    },
+    "messy_item": {
+      "name": "ramon bilbao rosato.",
+      "description": "",
+      "price": 32.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 49430,
+    "source_cuisine": "sushi",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 49025,
+    "category_source": "\ud83c\udf64 JAPANESE APPETIZERS",
+    "raw_item_index": 19,
+    "original_item": {
+      "name": "Choregi seafood salad",
+      "description": "Lightly spicy green salad with king prawns, fresh salmon, edamame, cucumber, radish and sprouts, seasoned with choregi sauce",
+      "price": 9.4
+    },
+    "messy_item": {
+      "name": "Choregi seafood salad!",
+      "description": "Lightly spicy grn salad with prawns and salmon...",
+      "price": 9.4
+    },
+    "normalized_category": "salad",
+    "applied_corruptions": [
+      "garbled_description",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 49626,
+    "source_cuisine": "sushi",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 49025,
+    "category_source": "\ud83c\udf64 JAPANESE APPETIZERS",
+    "raw_item_index": 29,
+    "original_item": {
+      "name": "Panko shrimp",
+      "description": "Panko-breaded and deep-fried king prawns with kimchi-garlic mayonnaise and green onions",
+      "price": 6.3
+    },
+    "messy_item": {
+      "name": "Panko shr!mp",
+      "description": "Panko-breaded & deep-fried king prawns w/ kimchi-garlic mayo",
+      "price": 6.3
+    },
+    "normalized_category": "appetizer",
+    "applied_corruptions": [
+      "abbreviation",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 50383,
+    "source_cuisine": "sushi",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 49025,
+    "category_source": "\ud83c\udf63 MAKI SUSHI",
+    "raw_item_index": 57,
+    "original_item": {
+      "name": "Salmon nigiri (2 pcs)",
+      "description": "Fresh salmon on a rice ball",
+      "price": 6.3
+    },
+    "messy_item": {
+      "name": "salmon nigiri (2 pcs)",
+      "description": "Fresh salmn on rice",
+      "price": 6.3
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 51060,
+    "source_cuisine": "sushi",
+    "restaurant": "Tokumaru Solaris",
+    "restaurant_id": 49025,
+    "category_source": "\ud83c\uddef\ud83c\uddf5 TOKUMARU JAPANESE CORNER",
+    "raw_item_index": 133,
+    "original_item": {
+      "name": "Japanese Style Red Bean Mochi (6 pcs/ 210 g)",
+      "description": "Japanese rice cake with red bean filling",
+      "price": 3.68
+    },
+    "messy_item": {
+      "name": "Japanese Style Red Bean Mochi 6 pcs",
+      "description": "rice cake w/ red bean",
+      "price": 3.68
+    },
+    "normalized_category": "dessert",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 51309,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "STARTERS",
+    "raw_item_index": 15,
+    "original_item": {
+      "name": "Goma-wakame salad (V)",
+      "description": "Wakame deep seaweed, lettuce, seaweed salad",
+      "price": 5.9
+    },
+    "messy_item": {
+      "name": "Goma-wakame salad v",
+      "description": "Wakame deep seaweed, lettuce...",
+      "price": 5.9
+    },
+    "normalized_category": "salad",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "garbled_description",
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 51535,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "SUSHI SET",
+    "raw_item_index": 35,
+    "original_item": {
+      "name": "OFFICE SET 12TK",
+      "description": "A balanced selection of Philadelphia, Salmon, and California Maki.",
+      "price": 18.0
+    },
+    "messy_item": {
+      "name": "oFFICE SET 12TK",
+      "description": "",
+      "price": 18.0
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "dropped_description",
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 51615,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "CRISPY SUSHI ROLLS",
+    "raw_item_index": 47,
+    "original_item": {
+      "name": "Crispy crab maki 8 pcs",
+      "description": "Crab meat, avocado, cream cheese, tobiko, topped with teriyaki sauce and spicy mayonnaise.",
+      "price": 12.9
+    },
+    "messy_item": {
+      "name": "Crispy crab maki 8pcs",
+      "description": "Crab meat, avokado, cream cheese, tobiko",
+      "price": 12.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "spacing_noise",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 51716,
+    "source_cuisine": "sushi",
+    "restaurant": "Japanese Food Yui Kalamaja",
+    "restaurant_id": 51069,
+    "category_source": "WINE",
+    "raw_item_index": 83,
+    "original_item": {
+      "name": "LES PETITES ARCADES (MERLOT) 25cl",
+      "description": "Ed",
+      "price": 8.9
+    },
+    "messy_item": {
+      "name": "lES PETITES ARCADES (MERLOT) 25cl",
+      "description": "Ed",
+      "price": 8.9
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 52225,
+    "source_cuisine": "sushi",
+    "restaurant": "Amijami Sushi Kesklinn",
+    "restaurant_id": 51758,
+    "category_source": " MAKI 5 PCS",
+    "raw_item_index": 33,
+    "original_item": {
+      "name": "320. Avatar maki 5 pcs",
+      "description": "Salmon, cucumber, avocado, cream cheese, eel, sesame, unagi sauce, 5 pcs",
+      "price": 8.9
+    },
+    "messy_item": {
+      "name": "Avatar maki 5 pcs",
+      "description": "Salmon, cucumber, avocado, cream cheese",
+      "price": 8.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 52616,
+    "source_cuisine": "sushi",
+    "restaurant": "Amijami Sushi Kesklinn",
+    "restaurant_id": 51758,
+    "category_source": "MAKI 8 PCS",
+    "raw_item_index": 55,
+    "original_item": {
+      "name": "95. Alaska maki 8 pcs",
+      "description": "Salmon, cucumber, avocado, flying fish roe, 8 pcs.",
+      "price": 12.8
+    },
+    "messy_item": {
+      "name": "Alaska maki 8 pcs.",
+      "description": "Salmon, cucumber, avocado, flying fish roe.",
+      "price": 12.8
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "punctuation_noise"
+    ]
+  },
+  {
+    "item_id": 52704,
+    "source_cuisine": "sushi",
+    "restaurant": "Amijami Sushi Kesklinn",
+    "restaurant_id": 51758,
+    "category_source": "MAKI 8 PCS",
+    "raw_item_index": 59,
+    "original_item": {
+      "name": "64. Spicy Salmon maki 8 pcs",
+      "description": "Salmon, cucumber, spicy sauce, sesame seeds, 8 pcs",
+      "price": 12.2
+    },
+    "messy_item": {
+      "name": "Spicy Salmon maki 8 pcs",
+      "description": "Salm, cucmb, spicy sauce",
+      "price": 12.2
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 53904,
+    "source_cuisine": "sushi",
+    "restaurant": "Amijami Sushi Kesklinn",
+    "restaurant_id": 51758,
+    "category_source": "WINE  Red, white and sparkling wines \u2013 perfect with sushi or for light enjoyment. (18+, contains alcohol)",
+    "raw_item_index": 165,
+    "original_item": {
+      "name": "Yellow Tail Pinot Grigio (18,7cl)",
+      "description": "Pinot Grigio, Australia. A light and refreshing white wine. The bouquet shows pear, citrus and delicate floral notes. Dry on the palate with soft acidity and a clean, fresh finish. Perfect with sushi, fish and light dishes.\nContains alcohol. 18+",
+      "price": 7.0
+    },
+    "messy_item": {
+      "name": "Yellow Tail Pinot Grigio 18,7cl",
+      "description": "White wine. Pear, citrus, floral notes.",
+      "price": 7.0
+    },
+    "normalized_category": "beverage",
+    "applied_corruptions": [
+      "punctuation_noise",
+      "garbled_description"
+    ]
+  },
+  {
+    "item_id": 54178,
+    "source_cuisine": "sushi",
+    "restaurant": "MySushi Viru",
+    "restaurant_id": 53915,
+    "category_source": "EXTRAS",
+    "raw_item_index": 29,
+    "original_item": {
+      "name": "8026. Cashew sauce",
+      "description": "",
+      "price": 0.9
+    },
+    "messy_item": {
+      "name": "8026. cashew sauce",
+      "description": "",
+      "price": 0.9
+    },
+    "normalized_category": "side",
+    "applied_corruptions": [
+      "inconsistent_casing"
+    ]
+  },
+  {
+    "item_id": 54264,
+    "source_cuisine": "sushi",
+    "restaurant": "MySushi Viru",
+    "restaurant_id": 53915,
+    "category_source": "HOSOMAKI",
+    "raw_item_index": 49,
+    "original_item": {
+      "name": "52. Hoso salmon maki",
+      "description": "8 pcs, salmon",
+      "price": 7.9
+    },
+    "messy_item": {
+      "name": "Hoso salmon maki",
+      "description": "8pc, salmn",
+      "price": 7.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "abbreviation",
+      "garbled_description",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 54273,
+    "source_cuisine": "sushi",
+    "restaurant": "MySushi Viru",
+    "restaurant_id": 53915,
+    "category_source": "HOSOMAKI",
+    "raw_item_index": 50,
+    "original_item": {
+      "name": "50. Cucumber maki",
+      "description": "8 pcs, cucumber, sesame",
+      "price": 4.5
+    },
+    "messy_item": {
+      "name": "cucumbr maki",
+      "description": "8 pcs, cucumber",
+      "price": 4.5
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "inconsistent_casing",
+      "typo"
+    ]
+  },
+  {
+    "item_id": 54738,
+    "source_cuisine": "sushi",
+    "restaurant": "MySushi Viru",
+    "restaurant_id": 53915,
+    "category_source": "TEMPURA MAKI",
+    "raw_item_index": 92,
+    "original_item": {
+      "name": "202. Chicken tempura",
+      "description": "8 pcs, Estonian cheese, chicken, cucumber, yakiniku sauce",
+      "price": 10.9
+    },
+    "messy_item": {
+      "name": "Chicken tempura",
+      "description": "8 pcs, cheese, chicken, cucumber",
+      "price": 10.9
+    },
+    "normalized_category": "sushi",
+    "applied_corruptions": [
+      "garbled_description"
+    ]
+  }
+]
