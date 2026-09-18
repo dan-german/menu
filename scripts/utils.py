@@ -22,6 +22,7 @@ EVAL_TOTAL_ITEMS = 200
 EVAL_SPOTCHECK_ITEMS = 20
 MESSY_SET_PATH = ROOT / "eval" / "messy_set.json"
 EVAL_SPOTCHECK_PATH = ROOT / "eval" / "spotcheck_sample.json"
+GEMINI_CLEANUP_RESULTS_PATH = ROOT / "eval" / "results" / "gemini_cleanup.json"
 
 CATEGORY_TAXONOMY = (
     "appetizer",
