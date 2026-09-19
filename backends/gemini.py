@@ -29,9 +29,12 @@ class GeminiBackend:
     def __init__(self, model: str = DEFAULT_GEMINI_MODEL) -> None:
         self.model = model
 
-    def clean(self, item: dict[str, Any]) -> Cleanup:
+    def clean(
+        self, item: dict[str, Any], instructions: str | None = None
+    ) -> Cleanup:
         value = self.generate_json(
-            prompt=build_cleanup_prompt(item), schema=CLEANUP_RESPONSE_SCHEMA
+            prompt=build_cleanup_prompt(item, instructions),
+            schema=CLEANUP_RESPONSE_SCHEMA,
         )
         return validate_cleanup(value)
 

@@ -31,10 +31,14 @@ class OllamaBackend:
         self.model = model
         self.base_url = base_url.rstrip("/")
 
-    def clean(self, item: dict[str, Any]) -> Cleanup:
+    def clean(
+        self, item: dict[str, Any], instructions: str | None = None
+    ) -> Cleanup:
         body = {
             "model": self.model,
-            "messages": [{"role": "user", "content": build_cleanup_prompt(item)}],
+            "messages": [
+                {"role": "user", "content": build_cleanup_prompt(item, instructions)}
+            ],
             "stream": False,
             "think": False,
             "format": CLEANUP_RESPONSE_SCHEMA,

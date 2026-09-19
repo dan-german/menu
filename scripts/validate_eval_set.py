@@ -65,15 +65,13 @@ def validate_eval_set(
 
         original = item["original_item"]
         messy = item["messy_item"]
-        if not isinstance(messy, dict) or set(messy) != {"name", "description", "price"}:
-            errors.append(f"{label}: messy_item must contain name, description, and price")
+        if not isinstance(messy, dict) or set(messy) != {"name", "description"}:
+            errors.append(f"{label}: messy_item must contain name and description")
             continue
         if not isinstance(messy["name"], str) or not messy["name"].strip():
             errors.append(f"{label}: messy name must be a non-empty string")
         if not isinstance(messy["description"], str):
             errors.append(f"{label}: messy description must be a string")
-        if messy["price"] != original["price"]:
-            errors.append(f"{label}: messy price must preserve the original numeric price")
         if messy["name"] != original["name"] or messy["description"] != original["description"]:
             changed += 1
         else:

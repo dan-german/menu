@@ -18,6 +18,28 @@ CLEANUP_RESPONSE_SCHEMA = {
 
 Cleanup = dict[str, str]
 
+DEFAULT_CLEANUP_INSTRUCTIONS = """You are a careful restaurant menu copy editor.
+
+Rewrite the provided menu item as polished, natural English.
+
+NAME
+- Correct capitalization, punctuation, abbreviations, and obvious food-related typos.
+- Preserve the dish identity, quantities, sizes, and set composition.
+- Make the smallest correction necessary.
+- Do not replace correctly spelled food terms.
+- Use the restaurant and category to resolve ambiguous text.
+- Expand pc, pcs, and tk as pieces when they represent an item count.
+
+DESCRIPTION
+- Write one concise, complete sentence suitable for a restaurant menu.
+- Preserve every useful fact supplied by the input.
+- Turn terse ingredient lists into natural prose.
+- Do not invent ingredients, accompaniments, preparation methods, origins, or marketing claims.
+- When the description is empty, state only what the name, quantity, and category establish.
+- Ignore meaningless description fragments rather than repeating them.
+
+Change pcs to pieces."""
+
 
 class CleanupBackend(Protocol):
     """Backend interface used by the cleanup runner."""
@@ -25,17 +47,23 @@ class CleanupBackend(Protocol):
     name: str
     model: str
 
-    def clean(self, item: dict[str, Any]) -> Cleanup: ...
+    def clean(
+        self, item: dict[str, Any], instructions: str | None = None
+    ) -> Cleanup: ...
 
 
-def build_cleanup_prompt(item: dict[str, Any]) -> str:
-    return ( 
-        "Clean this. "
-        "Correct spelling & casing. "
-        "Concisely elaborate short descriptions (1 sentence)."
-        "No information like price. "
-        "No subjective language. \n"
-        f"{json.dumps(item, ensure_ascii=True)}"
+def build_cleanup_prompt(
+    item: dict[str, Any], instructions: str | None = None
+) -> str:
+    selected_instructions = instructions or DEFAULT_CLEANUP_INSTRUCTIONS
+    output_contract = (
+        'Return exactly one JSON object with exactly these string fields: '
+        '{"normalized_name":"...","normalized_description":"..."}. '
+        "Do not return Markdown or any other fields."
+    )
+    return (
+        f"{selected_instructions.strip()}\n\n{output_contract}\n\n"
+        f"Menu item:\n{json.dumps(item, ensure_ascii=True)}"
     )
 
 

@@ -35,6 +35,7 @@ CORRUPTION_TYPES = (
     "garbled_description",
     "punctuation_noise",
     "spacing_noise",
+    "wrong grammar"
 )
 
 LABEL_RESPONSE_SCHEMA = {
@@ -80,7 +81,6 @@ def flatten_items(menus: dict[str, list[dict[str, Any]]]) -> list[dict[str, Any]
                             "original_item": {
                                 "name": source_item["name"],
                                 "description": source_item.get("description") or "",
-                                "price": source_item["price"],
                             },
                         }
                     )
@@ -129,9 +129,8 @@ Return exactly one object for every input item, in the same order.
 Messy-input rules:
 - Preserve the dish identity. Do not translate it or replace it with another dish.
 - Apply 1-3 realistic corruptions from: {list(CORRUPTION_TYPES)}.
-- messy_name must differ from the original name. Prefer plausible typos, casing, spacing,
+- messy_name and messy_description must differ from the original name. Prefer plausible typos, casing, spacing,
   punctuation, or common abbreviations; keep it recognizable.
-- messy_description may be shortened, garbled, inconsistently cased, or empty.
 - applied_corruptions must list only transformations actually applied.
 
 Category rules:
@@ -186,7 +185,6 @@ def assemble_item(source: dict[str, Any], label: dict[str, Any]) -> dict[str, An
         "messy_item": {
             "name": messy_name,
             "description": label["messy_description"],
-            "price": source["original_item"]["price"],
         },
         "normalized_category": label["category"],
         "applied_corruptions": corruptions,

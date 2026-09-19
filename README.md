@@ -51,3 +51,23 @@ python3 scripts/cleanup.py --backend gemini batch --limit 2
 
 The legacy `scripts/cleanup_with_gemini.py` entry point remains available and uses
 Gemini by default.
+
+## Local comparison UI
+
+Start the local cleanup bridge from the project root:
+
+```sh
+python3 scripts/serve_ui.py
+```
+
+In another terminal, start the frontend:
+
+```sh
+cd frontend
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:5173`. The UI sends each selected restaurant item to the
+existing Gemini and Ollama cleanup backends. Both services must be configured as
+described above when both model columns are selected.

@@ -7,7 +7,9 @@ descriptions, then compares Gemini with self-hosted open-weight models on output
 quality, latency, reliability, and operating requirements.
 
 The first implementation uses Gemini only. Local inference and the shared model
-interface are introduced after the cleanup workflow works end to end.
+interface are introduced after the cleanup workflow works end to end. Milestone 6
+may be implemented before Milestone 5 is complete so the comparison app can be used
+to inspect results and finish the evaluation.
 
 **Cleanup output:**
 
@@ -26,7 +28,7 @@ from cleanup and are not represented in the current prompts, schemas, or interfa
 ### 1. Curate reference menus
 
 Curate clean restaurant menus to serve as canonical reference material. Store item
-names, descriptions, and prices in `data/raw/menus.json`, with quality counts in
+names and descriptions in `data/raw/menus.json`, with quality counts in
 `data/raw/summary.json`. Every ID is globally unique.
 
 ### 2. Messy menu generation (eval set)
@@ -53,14 +55,22 @@ every backend the same cleanup input and two-field output contract.
 
 Evaluate Gemini and local models on cleanup quality, latency, reliability, and local
 hardware requirements. Keep runs reproducible and make failures inspectable without
-discarding successful item results.
+discarding successful item results. Use the comparison app from Milestone 6 as the
+interactive inspection surface when completing this evaluation.
 
 ### 6. Comparison app
 
-Add a small API and Vue.js frontend for running cleanup and inspecting Gemini and
-local-model outputs side by side. Show aggregate evaluation results and allow users
-to select the models included in a comparison. Keep the app small: no authentication,
-multi-user support, or database persistence.
+Build a locally served Vue.js frontend for running cleanup and inspecting Gemini and
+local-model outputs side by side. Let the user choose a restaurant from
+`eval/messy_set.json`, load and preview all of its messy menu items, select the models
+to compare, and start the complete restaurant cleanup with a single `Cleanup` action.
+Process model lanes concurrently and stream item-level status and results as each
+model works through the menu. Show per-model success, error, and latency summaries.
+Start with Gemini and Ollama and keep the interface ready for up to four models. Keep
+the app small: no token streaming, authentication, multi-user support, database
+persistence, custom menu input, or arbitrary item selection. Develop the frontend
+workflow first with local fixture data, then add the minimal loopback-only API as the
+last implementation step. Do not deploy or expose the app or API publicly.
 
 ### 7. Recommendations
 
@@ -73,6 +83,8 @@ cleanup contract in anticipation of it.
 - `scripts/` - dataset utilities and the Gemini cleanup runner
 - `eval/` - the evaluation set and reproducible model results
 - `backends/` - added with the first self-hosted model
-- `api/` and `frontend/` - added with the comparison app
+- `frontend/` - locally served comparison UI, implemented first
+- `api/` - minimal local backend bridge, implemented after the UI workflow
+- `milestone_6_plan.md` - detailed comparison app behavior and implementation plan
 - `results.md` - comparison results and error analysis
 - `README.md` - project framing and run instructions

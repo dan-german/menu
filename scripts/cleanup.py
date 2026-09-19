@@ -83,7 +83,6 @@ def _item_command(args: argparse.Namespace, backend: CleanupBackend) -> int:
     item = {
         "name": args.name,
         "description": args.description,
-        "price": args.price,
     }
     print(json.dumps(backend.clean(item), indent=2, ensure_ascii=True))
     return 0
@@ -113,7 +112,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     item = commands.add_parser("item", help="clean one menu item")
     item.add_argument("--name", required=True)
     item.add_argument("--description", default="")
-    item.add_argument("--price", type=float)
     item.set_defaults(handler=_item_command)
 
     batch = commands.add_parser("batch", help="clean an evaluation-set batch")
